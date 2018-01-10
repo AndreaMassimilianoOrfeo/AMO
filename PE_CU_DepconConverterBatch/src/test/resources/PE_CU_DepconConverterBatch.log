@@ -1,0 +1,2828 @@
+2018-01-10 17:26:22 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 17:26:22 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 17:26:22 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@18ada729, org.springframework.test.context.support.DirtiesContextTestExecutionListener@30b98167, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62deaa2e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@876e4b8]
+2018-01-10 17:26:22 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@527308ce: startup date [Wed Jan 10 17:26:22 CET 2018]; root of context hierarchy
+2018-01-10 17:26:22 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 17:26:22 INFO  JFileHelperTest:40 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 17:26:22 INFO  JFileHelperTest:40 - ********************************************************************
+
+ DG1555          08913626
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4VNCCLN72C49H926LVINCIGUERRA                        CAROLINA
+ DG5F09/03/1972SAN GIOVANNI ROTONDO                    FG
+ DG6ROMA                                    RMH501
+ DF1    14.527,72
+ DF2                          306
+ DF3                  1.325,00
+ DF4       251,32        55,35        75,39        39,22
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     3.341,38       687,09
+ OND20
+ DFE
+ DFF     1.329,29
+ DFG
+ DGG     2.016,38
+ DFH1       804,82
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        42,67                     10,28
+ TO1
+ TO2
+ TO3       290,17       104,91
+ PAG2
+ BRC555C37C08913626ST 0020 0140 1V
+$CUD2$
+ DC1
+ DC2X  LSTFNC99T20D643J10  050
+ DC3X  LSTMNL05B02H501G10   50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555014017003902016    17.573,90     5.742,02    12.872,29
+ DP5       785,23         0,00         0,00    17.573,90        61,51    16.405,90        19,62
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08913626ST 0020 0140 1V
+$5X1
+97420690584
+VNCCLN72C49H926L
+VINCIGUERRA                         CAROLINA                             F
+09/03/1972 SAN GIOVANNI ROTONDO            FG
+
+2018-01-10 17:26:22 INFO  JFileHelperTest:40 - ********************************************************************
+
+ DG1555          08920783
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4PRNMRC65B23G388BPERONACI                           MARCO
+ DG5M23/02/1965PAVIA                                   PV
+ DG6ROMA                                    RMH501
+ DF1                 91.527,14
+ DF2                          365
+ DF3                 34.684,42
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    32.526,67
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1    10.911,63                  4.146,42
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC555C37C08920783ST 0020 0169 2C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555016917001902016   114.417,51    37.985,86         0,00
+ DP5         0,00    48.596,85     4.665,33   115.003,34       399,52         0,00         0,00
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Obbligo di presentazione della dichiarazione dei redditi
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08920783ST 0020 0169 2C
+$5X1
+97420690584
+PRNMRC65B23G388B
+PERONACI                            MARCO                                M
+23/02/1965 PAVIA                           PV
+
+2018-01-10 17:26:22 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@527308ce: startup date [Wed Jan 10 17:26:22 CET 2018]; root of context hierarchy
+2018-01-10 17:31:23 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 17:31:23 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 17:31:23 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@30b98167, org.springframework.test.context.support.DirtiesContextTestExecutionListener@62deaa2e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@876e4b8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@35a1f05f]
+2018-01-10 17:31:23 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@7e4736ab: startup date [Wed Jan 10 17:31:23 CET 2018]; root of context hierarchy
+2018-01-10 17:31:23 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 17:31:23 INFO  JFileHelperTest:40 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 17:31:23 INFO  JFileHelperTest:40 - ********************************************************************
+
+ DG1555          08913626
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4VNCCLN72C49H926LVINCIGUERRA                        CAROLINA
+ DG5F09/03/1972SAN GIOVANNI ROTONDO                    FG
+ DG6ROMA                                    RMH501
+ DF1    14.527,72
+ DF2                          306
+ DF3                  1.325,00
+ DF4       251,32        55,35        75,39        39,22
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     3.341,38       687,09
+ OND20
+ DFE
+ DFF     1.329,29
+ DFG
+ DGG     2.016,38
+ DFH1       804,82
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        42,67                     10,28
+ TO1
+ TO2
+ TO3       290,17       104,91
+ PAG2
+ BRC555C37C08913626ST 0020 0140 1V
+$CUD2$
+ DC1
+ DC2X  LSTFNC99T20D643J10  050
+ DC3X  LSTMNL05B02H501G10   50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555014017003902016    17.573,90     5.742,02    12.872,29
+ DP5       785,23         0,00         0,00    17.573,90        61,51    16.405,90        19,62
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08913626ST 0020 0140 1V
+$5X1
+97420690584
+VNCCLN72C49H926L
+VINCIGUERRA                         CAROLINA                             F
+09/03/1972 SAN GIOVANNI ROTONDO            FG
+
+2018-01-10 17:31:23 INFO  JFileHelperTest:40 - ********************************************************************
+
+ DG1555          08920783
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4PRNMRC65B23G388BPERONACI                           MARCO
+ DG5M23/02/1965PAVIA                                   PV
+ DG6ROMA                                    RMH501
+ DF1                 91.527,14
+ DF2                          365
+ DF3                 34.684,42
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    32.526,67
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1    10.911,63                  4.146,42
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC555C37C08920783ST 0020 0169 2C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555016917001902016   114.417,51    37.985,86         0,00
+ DP5         0,00    48.596,85     4.665,33   115.003,34       399,52         0,00         0,00
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Obbligo di presentazione della dichiarazione dei redditi
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08920783ST 0020 0169 2C
+$5X1
+97420690584
+PRNMRC65B23G388B
+PERONACI                            MARCO                                M
+23/02/1965 PAVIA                           PV
+
+2018-01-10 17:31:23 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@7e4736ab: startup date [Wed Jan 10 17:31:23 CET 2018]; root of context hierarchy
+2018-01-10 17:33:16 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 17:33:16 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 17:33:16 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@36fcd774, org.springframework.test.context.support.DirtiesContextTestExecutionListener@11a51ce0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6f0abf2c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2a8d1aa8]
+2018-01-10 17:33:17 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@d5c4abf: startup date [Wed Jan 10 17:33:17 CET 2018]; root of context hierarchy
+2018-01-10 17:33:17 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 17:33:17 INFO  JFileHelperTest:40 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 17:33:17 INFO  JFileHelperTest:40 - ********************************************************************
+
+ DG1555          08913626
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4VNCCLN72C49H926LVINCIGUERRA                        CAROLINA
+ DG5F09/03/1972SAN GIOVANNI ROTONDO                    FG
+ DG6ROMA                                    RMH501
+ DF1    14.527,72
+ DF2                          306
+ DF3                  1.325,00
+ DF4       251,32        55,35        75,39        39,22
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     3.341,38       687,09
+ OND20
+ DFE
+ DFF     1.329,29
+ DFG
+ DGG     2.016,38
+ DFH1       804,82
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        42,67                     10,28
+ TO1
+ TO2
+ TO3       290,17       104,91
+ PAG2
+ BRC555C37C08913626ST 0020 0140 1V
+$CUD2$
+ DC1
+ DC2X  LSTFNC99T20D643J10  050
+ DC3X  LSTMNL05B02H501G10   50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555014017003902016    17.573,90     5.742,02    12.872,29
+ DP5       785,23         0,00         0,00    17.573,90        61,51    16.405,90        19,62
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08913626ST 0020 0140 1V
+$5X1
+97420690584
+VNCCLN72C49H926L
+VINCIGUERRA                         CAROLINA                             F
+09/03/1972 SAN GIOVANNI ROTONDO            FG
+
+2018-01-10 17:33:17 INFO  JFileHelperTest:40 - ********************************************************************
+
+ DG1555          08920783
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4PRNMRC65B23G388BPERONACI                           MARCO
+ DG5M23/02/1965PAVIA                                   PV
+ DG6ROMA                                    RMH501
+ DF1                 91.527,14
+ DF2                          365
+ DF3                 34.684,42
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    32.526,67
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1    10.911,63                  4.146,42
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC555C37C08920783ST 0020 0169 2C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555016917001902016   114.417,51    37.985,86         0,00
+ DP5         0,00    48.596,85     4.665,33   115.003,34       399,52         0,00         0,00
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Obbligo di presentazione della dichiarazione dei redditi
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08920783ST 0020 0169 2C
+$5X1
+97420690584
+PRNMRC65B23G388B
+PERONACI                            MARCO                                M
+23/02/1965 PAVIA                           PV
+
+2018-01-10 17:33:17 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@d5c4abf: startup date [Wed Jan 10 17:33:17 CET 2018]; root of context hierarchy
+2018-01-10 18:23:41 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:23:41 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:23:41 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@b4dadde, org.springframework.test.context.support.DirtiesContextTestExecutionListener@18d1cf9e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@76959acc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57e603e6]
+2018-01-10 18:23:41 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@39401e69: startup date [Wed Jan 10 18:23:41 CET 2018]; root of context hierarchy
+2018-01-10 18:23:41 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:24:36 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:24:36 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:24:36 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@18d1cf9e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@76959acc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@57e603e6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3e0a1e1f]
+2018-01-10 18:24:36 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@208c9cdc: startup date [Wed Jan 10 18:24:36 CET 2018]; root of context hierarchy
+2018-01-10 18:24:37 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:24:44 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:24:45 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:24:45 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@b4dadde, org.springframework.test.context.support.DirtiesContextTestExecutionListener@18d1cf9e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@76959acc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57e603e6]
+2018-01-10 18:24:45 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@39401e69: startup date [Wed Jan 10 18:24:45 CET 2018]; root of context hierarchy
+2018-01-10 18:24:45 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:25:06 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:25:06 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08913626
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4VNCCLN72C49H926LVINCIGUERRA                        CAROLINA
+ DG5F09/03/1972SAN GIOVANNI ROTONDO                    FG
+ DG6ROMA                                    RMH501
+ DF1    14.527,72
+ DF2                          306
+ DF3                  1.325,00
+ DF4       251,32        55,35        75,39        39,22
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     3.341,38       687,09
+ OND20
+ DFE
+ DFF     1.329,29
+ DFG
+ DGG     2.016,38
+ DFH1       804,82
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        42,67                     10,28
+ TO1
+ TO2
+ TO3       290,17       104,91
+ PAG2
+ BRC555C37C08913626ST 0020 0140 1V
+$CUD2$
+ DC1
+ DC2X  LSTFNC99T20D643J10  050
+ DC3X  LSTMNL05B02H501G10   50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555014017003902016    17.573,90     5.742,02    12.872,29
+ DP5       785,23         0,00         0,00    17.573,90        61,51    16.405,90        19,62
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08913626ST 0020 0140 1V
+$5X1
+97420690584
+VNCCLN72C49H926L
+VINCIGUERRA                         CAROLINA                             F
+09/03/1972 SAN GIOVANNI ROTONDO            FG
+
+2018-01-10 18:25:06 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08920783
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4PRNMRC65B23G388BPERONACI                           MARCO
+ DG5M23/02/1965PAVIA                                   PV
+ DG6ROMA                                    RMH501
+ DF1                 91.527,14
+ DF2                          365
+ DF3                 34.684,42
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    32.526,67
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1    10.911,63                  4.146,42
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC555C37C08920783ST 0020 0169 2C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555016917001902016   114.417,51    37.985,86         0,00
+ DP5         0,00    48.596,85     4.665,33   115.003,34       399,52         0,00         0,00
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Obbligo di presentazione della dichiarazione dei redditi
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08920783ST 0020 0169 2C
+$5X1
+97420690584
+PRNMRC65B23G388B
+PERONACI                            MARCO                                M
+23/02/1965 PAVIA                           PV
+
+2018-01-10 18:25:06 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@208c9cdc: startup date [Wed Jan 10 18:24:36 CET 2018]; root of context hierarchy
+2018-01-10 18:25:12 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:25:12 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08913626
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4VNCCLN72C49H926LVINCIGUERRA                        CAROLINA
+ DG5F09/03/1972SAN GIOVANNI ROTONDO                    FG
+ DG6ROMA                                    RMH501
+ DF1    14.527,72
+ DF2                          306
+ DF3                  1.325,00
+ DF4       251,32        55,35        75,39        39,22
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     3.341,38       687,09
+ OND20
+ DFE
+ DFF     1.329,29
+ DFG
+ DGG     2.016,38
+ DFH1       804,82
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        42,67                     10,28
+ TO1
+ TO2
+ TO3       290,17       104,91
+ PAG2
+ BRC555C37C08913626ST 0020 0140 1V
+$CUD2$
+ DC1
+ DC2X  LSTFNC99T20D643J10  050
+ DC3X  LSTMNL05B02H501G10   50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555014017003902016    17.573,90     5.742,02    12.872,29
+ DP5       785,23         0,00         0,00    17.573,90        61,51    16.405,90        19,62
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08913626ST 0020 0140 1V
+$5X1
+97420690584
+VNCCLN72C49H926L
+VINCIGUERRA                         CAROLINA                             F
+09/03/1972 SAN GIOVANNI ROTONDO            FG
+
+2018-01-10 18:25:12 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08920783
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4PRNMRC65B23G388BPERONACI                           MARCO
+ DG5M23/02/1965PAVIA                                   PV
+ DG6ROMA                                    RMH501
+ DF1                 91.527,14
+ DF2                          365
+ DF3                 34.684,42
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    32.526,67
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1    10.911,63                  4.146,42
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC555C37C08920783ST 0020 0169 2C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555016917001902016   114.417,51    37.985,86         0,00
+ DP5         0,00    48.596,85     4.665,33   115.003,34       399,52         0,00         0,00
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Obbligo di presentazione della dichiarazione dei redditi
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08920783ST 0020 0169 2C
+$5X1
+97420690584
+PRNMRC65B23G388B
+PERONACI                            MARCO                                M
+23/02/1965 PAVIA                           PV
+
+2018-01-10 18:25:13 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@39401e69: startup date [Wed Jan 10 18:24:45 CET 2018]; root of context hierarchy
+2018-01-10 18:25:49 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:25:49 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:25:49 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@11a51ce0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f0abf2c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a8d1aa8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@15d1216b]
+2018-01-10 18:25:49 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@d5c4abf: startup date [Wed Jan 10 18:25:49 CET 2018]; root of context hierarchy
+2018-01-10 18:25:49 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:25:49 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:25:49 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08913626
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4VNCCLN72C49H926LVINCIGUERRA                        CAROLINA
+ DG5F09/03/1972SAN GIOVANNI ROTONDO                    FG
+ DG6ROMA                                    RMH501
+ DF1    14.527,72
+ DF2                          306
+ DF3                  1.325,00
+ DF4       251,32        55,35        75,39        39,22
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     3.341,38       687,09
+ OND20
+ DFE
+ DFF     1.329,29
+ DFG
+ DGG     2.016,38
+ DFH1       804,82
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        42,67                     10,28
+ TO1
+ TO2
+ TO3       290,17       104,91
+ PAG2
+ BRC555C37C08913626ST 0020 0140 1V
+$CUD2$
+ DC1
+ DC2X  LSTFNC99T20D643J10  050
+ DC3X  LSTMNL05B02H501G10   50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555014017003902016    17.573,90     5.742,02    12.872,29
+ DP5       785,23         0,00         0,00    17.573,90        61,51    16.405,90        19,62
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08913626ST 0020 0140 1V
+$5X1
+97420690584
+VNCCLN72C49H926L
+VINCIGUERRA                         CAROLINA                             F
+09/03/1972 SAN GIOVANNI ROTONDO            FG
+
+2018-01-10 18:25:49 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08920783
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4PRNMRC65B23G388BPERONACI                           MARCO
+ DG5M23/02/1965PAVIA                                   PV
+ DG6ROMA                                    RMH501
+ DF1                 91.527,14
+ DF2                          365
+ DF3                 34.684,42
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    32.526,67
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1    10.911,63                  4.146,42
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC555C37C08920783ST 0020 0169 2C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555016917001902016   114.417,51    37.985,86         0,00
+ DP5         0,00    48.596,85     4.665,33   115.003,34       399,52         0,00         0,00
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Obbligo di presentazione della dichiarazione dei redditi
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08920783ST 0020 0169 2C
+$5X1
+97420690584
+PRNMRC65B23G388B
+PERONACI                            MARCO                                M
+23/02/1965 PAVIA                           PV
+
+2018-01-10 18:25:49 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@d5c4abf: startup date [Wed Jan 10 18:25:49 CET 2018]; root of context hierarchy
+2018-01-10 18:31:32 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:31:32 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:31:32 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7031086c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@232023ff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@131b4c5d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@65327777]
+2018-01-10 18:31:32 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@101fcae3: startup date [Wed Jan 10 18:31:32 CET 2018]; root of context hierarchy
+2018-01-10 18:31:32 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:31:32 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:31:32 FATAL JFileHelperTest:51 - 2
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at it.gov.mef.cuconverter.util.DepconCUfUtil.getPaginaCud(DepconCUfUtil.java:24)
+	at org.coury.jfilehelpers.JFileHelperTest.parseCuTest(JFileHelperTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:73)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:224)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2018-01-10 18:31:32 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@101fcae3: startup date [Wed Jan 10 18:31:32 CET 2018]; root of context hierarchy
+2018-01-10 18:32:03 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:32:03 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:32:03 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@39d9f91c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1571baf0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5da7ed8f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3bdd7752]
+2018-01-10 18:32:03 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@6fb66469: startup date [Wed Jan 10 18:32:03 CET 2018]; root of context hierarchy
+2018-01-10 18:32:03 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:32:31 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:33:13 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:33:13 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:33:14 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4a891e7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7031086c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@232023ff, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@131b4c5d]
+2018-01-10 18:33:14 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@67b0eb2c: startup date [Wed Jan 10 18:33:14 CET 2018]; root of context hierarchy
+2018-01-10 18:33:14 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:33:14 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:33:14 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@67b0eb2c: startup date [Wed Jan 10 18:33:14 CET 2018]; root of context hierarchy
+2018-01-10 18:33:23 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:33:23 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:33:23 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@39d9f91c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1571baf0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5da7ed8f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3bdd7752]
+2018-01-10 18:33:23 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@6fb66469: startup date [Wed Jan 10 18:33:23 CET 2018]; root of context hierarchy
+2018-01-10 18:33:23 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:33:27 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:34:15 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@6fb66469: startup date [Wed Jan 10 18:33:23 CET 2018]; root of context hierarchy
+2018-01-10 18:35:07 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:35:07 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:35:07 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@dc35b98, org.springframework.test.context.support.DirtiesContextTestExecutionListener@14b25f37, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a891e7e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7031086c]
+2018-01-10 18:35:07 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@53f9b62f: startup date [Wed Jan 10 18:35:07 CET 2018]; root of context hierarchy
+2018-01-10 18:35:07 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:35:07 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:35:07 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@53f9b62f: startup date [Wed Jan 10 18:35:07 CET 2018]; root of context hierarchy
+2018-01-10 18:35:15 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:35:15 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:35:15 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@39d9f91c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1571baf0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5da7ed8f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3bdd7752]
+2018-01-10 18:35:15 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@2f7a62cb: startup date [Wed Jan 10 18:35:15 CET 2018]; root of context hierarchy
+2018-01-10 18:35:15 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:35:15 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:35:41 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:35:41 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:35:41 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@14b25f37, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4a891e7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7031086c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@232023ff]
+2018-01-10 18:35:41 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@2f27f2bb: startup date [Wed Jan 10 18:35:41 CET 2018]; root of context hierarchy
+2018-01-10 18:35:41 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:35:42 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:35:42 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@2f27f2bb: startup date [Wed Jan 10 18:35:41 CET 2018]; root of context hierarchy
+2018-01-10 18:36:07 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:36:07 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:36:07 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@dc35b98, org.springframework.test.context.support.DirtiesContextTestExecutionListener@14b25f37, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a891e7e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7031086c]
+2018-01-10 18:36:07 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@2f27f2bb: startup date [Wed Jan 10 18:36:07 CET 2018]; root of context hierarchy
+2018-01-10 18:36:07 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:36:07 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:36:07 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@2f27f2bb: startup date [Wed Jan 10 18:36:07 CET 2018]; root of context hierarchy
+2018-01-10 18:36:15 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:36:15 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:36:15 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1571baf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5da7ed8f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3bdd7752, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@48c4c732]
+2018-01-10 18:36:15 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@2f7a62cb: startup date [Wed Jan 10 18:36:15 CET 2018]; root of context hierarchy
+2018-01-10 18:36:16 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:36:16 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:38:15 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:38:15 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:38:15 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bdd7752, org.springframework.test.context.support.DirtiesContextTestExecutionListener@48c4c732, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6ef1c8f0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@43bf3d77]
+2018-01-10 18:38:15 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@3889c1ee: startup date [Wed Jan 10 18:38:15 CET 2018]; root of context hierarchy
+2018-01-10 18:38:16 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:38:16 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:38:35 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:38:36 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:38:36 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bdd7752, org.springframework.test.context.support.DirtiesContextTestExecutionListener@48c4c732, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6ef1c8f0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@43bf3d77]
+2018-01-10 18:38:36 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@3889c1ee: startup date [Wed Jan 10 18:38:36 CET 2018]; root of context hierarchy
+2018-01-10 18:38:36 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:38:36 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:38:47 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08913626
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4VNCCLN72C49H926LVINCIGUERRA                        CAROLINA
+ DG5F09/03/1972SAN GIOVANNI ROTONDO                    FG
+ DG6ROMA                                    RMH501
+ DF1    14.527,72
+ DF2                          306
+ DF3                  1.325,00
+ DF4       251,32        55,35        75,39        39,22
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     3.341,38       687,09
+ OND20
+ DFE
+ DFF     1.329,29
+ DFG
+ DGG     2.016,38
+ DFH1       804,82
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        42,67                     10,28
+ TO1
+ TO2
+ TO3       290,17       104,91
+ PAG2
+ BRC555C37C08913626ST 0020 0140 1V
+$CUD2$
+ DC1
+ DC2X  LSTFNC99T20D643J10  050
+ DC3X  LSTMNL05B02H501G10   50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555014017003902016    17.573,90     5.742,02    12.872,29
+ DP5       785,23         0,00         0,00    17.573,90        61,51    16.405,90        19,62
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08913626ST 0020 0140 1V
+$5X1
+97420690584
+VNCCLN72C49H926L
+VINCIGUERRA                         CAROLINA                             F
+09/03/1972 SAN GIOVANNI ROTONDO            FG
+
+2018-01-10 18:38:52 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08920783
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4PRNMRC65B23G388BPERONACI                           MARCO
+ DG5M23/02/1965PAVIA                                   PV
+ DG6ROMA                                    RMH501
+ DF1                 91.527,14
+ DF2                          365
+ DF3                 34.684,42
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    32.526,67
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1    10.911,63                  4.146,42
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC555C37C08920783ST 0020 0169 2C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555016917001902016   114.417,51    37.985,86         0,00
+ DP5         0,00    48.596,85     4.665,33   115.003,34       399,52         0,00         0,00
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Obbligo di presentazione della dichiarazione dei redditi
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08920783ST 0020 0169 2C
+$5X1
+97420690584
+PRNMRC65B23G388B
+PERONACI                            MARCO                                M
+23/02/1965 PAVIA                           PV
+
+2018-01-10 18:38:52 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@3889c1ee: startup date [Wed Jan 10 18:38:36 CET 2018]; root of context hierarchy
+2018-01-10 18:40:47 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-10 18:40:47 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-10 18:40:47 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@14b25f37, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4a891e7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7031086c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@232023ff]
+2018-01-10 18:40:47 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@2f27f2bb: startup date [Wed Jan 10 18:40:47 CET 2018]; root of context hierarchy
+2018-01-10 18:40:47 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-10 18:40:47 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-10 18:40:47 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08913626
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4VNCCLN72C49H926LVINCIGUERRA                        CAROLINA
+ DG5F09/03/1972SAN GIOVANNI ROTONDO                    FG
+ DG6ROMA                                    RMH501
+ DF1    14.527,72
+ DF2                          306
+ DF3                  1.325,00
+ DF4       251,32        55,35        75,39        39,22
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     3.341,38       687,09
+ OND20
+ DFE
+ DFF     1.329,29
+ DFG
+ DGG     2.016,38
+ DFH1       804,82
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        42,67                     10,28
+ TO1
+ TO2
+ TO3       290,17       104,91
+ PAG2
+ BRC555C37C08913626ST 0020 0140 1V
+$CUD2$
+ DC1
+ DC2X  LSTFNC99T20D643J10  050
+ DC3X  LSTMNL05B02H501G10   50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555014017003902016    17.573,90     5.742,02    12.872,29
+ DP5       785,23         0,00         0,00    17.573,90        61,51    16.405,90        19,62
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08913626ST 0020 0140 1V
+$5X1
+97420690584
+VNCCLN72C49H926L
+VINCIGUERRA                         CAROLINA                             F
+09/03/1972 SAN GIOVANNI ROTONDO            FG
+
+2018-01-10 18:40:47 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08920783
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4PRNMRC65B23G388BPERONACI                           MARCO
+ DG5M23/02/1965PAVIA                                   PV
+ DG6ROMA                                    RMH501
+ DF1                 91.527,14
+ DF2                          365
+ DF3                 34.684,42
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    32.526,67
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1    10.911,63                  4.146,42
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC555C37C08920783ST 0020 0169 2C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555016917001902016   114.417,51    37.985,86         0,00
+ DP5         0,00    48.596,85     4.665,33   115.003,34       399,52         0,00         0,00
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Obbligo di presentazione della dichiarazione dei redditi
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08920783ST 0020 0169 2C
+$5X1
+97420690584
+PRNMRC65B23G388B
+PERONACI                            MARCO                                M
+23/02/1965 PAVIA                           PV
+
+2018-01-10 18:40:47 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@2f27f2bb: startup date [Wed Jan 10 18:40:47 CET 2018]; root of context hierarchy

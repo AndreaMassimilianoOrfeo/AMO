@@ -1,0 +1,3650 @@
+$CUD1$
+ DG1714          08434952
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4DLPCRL63R15A509MDEL PERO                           CARLO
+ DG5M15/10/1963AVELLINO                                AV
+ DG6LATINA                                  LTE472
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        38,88                     10,02
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC714B17C08434952ST 2020 0001 0C
+$CUD2$
+ DC1
+ DC2X  DLPVNT95B68A323S12  100
+ DC3X  DLPSMN97P64A323C12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000217003902016        42,80        14,13         0,00
+ DP5         0,00         0,00         0,00        42,80         0,15         0,00         0,00
+ DP6
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08434952ST 2020 0001 0C
+$5X1
+80202230589
+DLPCRL63R15A509M
+DEL PERO                            CARLO                                M
+15/10/1963 AVELLINO                        AV
+$CUD1$
+ DG1714          08548316
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4FGSMRC60D29H856OFIGUS                              MARCO
+ DG5M29/04/1960SAN GAVINO MONREALE                     VS
+ DG6SAN GAVINO MONREALE                     VSH856
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        26,97                      7,50
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC714B17C08548316ST 2020 0001 0C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000117003902016        29,68         9,79         0,00
+ DP5         0,00         0,00         0,00        29,68         0,10         0,00         0,00
+ DP6
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08548316ST 2020 0001 0C
+$5X1
+80202230589
+FGSMRC60D29H856O
+FIGUS                               MARCO                                M
+29/04/1960 SAN GAVINO MONREALE             VS
+$CUD1$
+ DG1714          08400993
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4LRONRC60L17F394SLORO                               ENRICO
+ DG5M17/07/1960MONTAGNANA                              PD
+ DG6ABBASANTA                               ORA007
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1         7,78                      2,24
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC714B17C08400993ST 2020 0001 0C
+$CUD2$
+ DC1X  MRRMCM66R58G113J12
+ DC2X  LROLSL98B45E004W12  100
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016         8,56         2,82         0,00
+ DP5         0,00         0,00         0,00         8,56         0,03         0,00         0,00
+ DP6
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08400993ST 2020 0001 0C
+$5X1
+80202230589
+LRONRC60L17F394S
+LORO                                ENRICO                               M
+17/07/1960 MONTAGNANA                      PD
+$CUD1$
+ DG1714          08410156
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4MSCPTR55P23A380DMASCIA                             PIETRO
+ DG5M23/09/1955ARDAULI                                 OR
+ DG6ABBASANTA                               ORA007
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       537,41                    153,48
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC714B17C08410156ST 2020 0001 0C
+$CUD2$
+ DC1X  DNEMHL62H65G113G12
+ DC2X  MSCSLV90L42E004C12  100
+ DC3X  MSCLNR02P48E004C12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016       591,54       195,22         0,00
+ DP5         0,00         0,00         0,00       591,54         2,07         0,00         0,00
+ DP6
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08410156ST 2020 0001 0C
+$5X1
+80202230589
+MSCPTR55P23A380D
+MASCIA                              PIETRO                               M
+23/09/1955 ARDAULI                         OR
+$CUD1$
+ DG1714          08869382
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4PRSGCM62R14F974CPIRAS                              GIACOMO
+ DG5M14/10/1962NUGHEDU SANTA VITTORIA                  OR
+ DG6NUGHEDU SANTA VITTORIA                  ORF974
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        16,38                      4,01
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC714B17C08869382ST 2020 0001 0C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000117003902016        18,03         5,95         0,00
+ DP5         0,00         0,00         0,00        18,03         0,06         0,00         0,00
+ DP6
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08869382ST 2020 0001 0C
+$5X1
+80202230589
+PRSGCM62R14F974C
+PIRAS                               GIACOMO                              M
+14/10/1962 NUGHEDU SANTA VITTORIA          OR
+$CUD1$
+ DG1714          08416649
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4PRCNTN55P14L122KPORCU                              ANTONIO
+ DG5M14/09/1955TERRALBA                                OR
+ DG6TERRALBA                                ORL122
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       686,33                    197,59
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC714B17C08416649ST 2020 0001 0C
+$CUD2$
+ DC1X  PLLNMR59L69E972A12
+ DC2X  PRCFLV88D66G113U12  100
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016       755,46       249,31         0,00
+ DP5         0,00         0,00         0,00       755,46         2,65         0,00         0,00
+ DP6
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08416649ST 2020 0001 0C
+$5X1
+80202230589
+PRCNTN55P14L122K
+PORCU                               ANTONIO                              M
+14/09/1955 TERRALBA                        OR
+$CUD1$
+ DG1714          08548302
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4PRCGNN59T10F979APORCU                              GIOVANNI
+ DG5M10/12/1959NUORO                                   NU
+ DG6OROTELLI                                NUG120
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        11,29                      3,06
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC714B17C08548302ST 2020 0001 0C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000117003902016        12,42         4,10         0,00
+ DP5         0,00         0,00         0,00        12,42         0,04         0,00         0,00
+ DP6
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08548302ST 2020 0001 0C
+$5X1
+80202230589
+PRCGNN59T10F979A
+PORCU                               GIOVANNI                             M
+10/12/1959 NUORO                           NU
+$CUD1$
+ DG1714          08549335
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4SNNDLU58L15F867CSANNA                              DUILIO
+ DG5M15/07/1958NEONELI                                 OR
+ DG6NEONELI                                 ORF867
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        24,85                      6,18
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC714B17C08549335ST 2020 0001 0C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000117003902016        27,36         9,03         0,00
+ DP5         0,00         0,00         0,00        27,36         0,10         0,00         0,00
+ DP6
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08549335ST 2020 0001 0C
+$5X1
+80202230589
+SNNDLU58L15F867C
+SANNA                               DUILIO                               M
+15/07/1958 NEONELI                         OR
+$CUD1$
+ DG1714          08358352
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4VCCFNN61H27F050PVACCA                              FERNANDO
+ DG5M27/06/1961MASULLAS                                OR
+ DG6MASULLAS                                ORF050
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       357,73                     97,87
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC714B17C08358352ST 2020 0001 0C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016       393,76       129,94         0,00
+ DP5         0,00         0,00         0,00       393,76         1,38         0,00         0,00
+ DP6
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08358352ST 2020 0001 0C
+$5X1
+80202230589
+VCCFNN61H27F050P
+VACCA                               FERNANDO                             M
+27/06/1961 MASULLAS                        OR
+$CUD1$
+ DG1714          08369684
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CMNDNC63L24F839NCOMUNALE                           DOMENICO
+ DG5M24/07/1963NAPOLI                                  NA
+ DG6ZEDDIANI                                ORM153
+ DF1    74.517,72
+ DF2                          365
+ DF3                 25.222,27
+ DF4       916,56
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    25.222,27
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.069,79                    354,64
+ TO1
+ TO2
+ TO3       897,35
+ PAG2
+ BRC714B17C08369684ST 2020 0002 0V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000217003902016    86.635,07    28.939,80    35.044,49
+ DP5     3.364,27         0,00         0,00    86.635,07       303,26         0,00         0,00
+ DP6
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08369684ST 2020 0002 0V
+$5X1
+80202230589
+CMNDNC63L24F839N
+COMUNALE                            DOMENICO                             M
+24/07/1963 NAPOLI                          NA
+$CUD1$
+ DG1714          08445469
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4PGZNTN59S26F979VPIGOZZI                            ANTONIO
+ DG5M26/11/1959NUORO                                   NU
+ DG6NUORO                                   NUF979
+ DF1    71.549,91
+ DF2                          365
+ DF3                 23.888,23
+ DF4       880,06       118,30       320,32       131,59
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    24.005,46       117,23
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG       117,23
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       217,01                     70,72
+ TO1
+ TO2
+ TO3       807,43       286,37
+ PAG2
+ BRC714B17C08445469ST 2020 0002 0V
+$CUD2$
+ DC1
+ DC2X  PGZGTN98A22F979A12  050
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000217003902016    94.610,34    31.644,52    49.270,74
+ DP5     4.730,01         0,00         0,00    94.610,34       331,21         0,00         0,00
+ DP6
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08445469ST 2020 0002 0V
+$5X1
+80202230589
+PGZNTN59S26F979V
+PIGOZZI                             ANTONIO                              M
+26/11/1959 NUORO                           NU
+$CUD1$
+ DG1714          08379458
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4DDSGNN73S25Z112JADDIS                              GIOVANNI
+ DG5M25/11/1973GERMANIA                                EE
+ DG6GHILARZA                                ORE004
+ DF1    33.781,54
+ DF2                          365
+ DF3                  6.362,16
+ DF4       415,51
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.156,99     2.026,32
+ OND20
+ DFE
+ DFF       768,51
+ DFG
+ DGG     2.794,83
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.019,27                    267,97
+ TO1
+ TO2
+ TO3       401,04
+ PAG2
+ BRC714B17C08379458ST 2020 0003 0V
+$CUD2$
+ DC1X  BBIMNC73L65E004H12
+ DC2X  DDSNDR02D70B068A12  100
+ DC3X  DDSGLI03M67B068I12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    42.343,49    13.973,05    18.370,57
+ DP5     1.763,71         0,00         0,00    42.343,49       148,08         0,00         0,00
+ DP6
+ AN0reddito esente =     960,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08379458ST 2020 0003 0V
+$5X1
+80202230589
+DDSGNN73S25Z112J
+ADDIS                               GIOVANNI                             M
+25/11/1973 GERMANIA                        EE
+$CUD1$
+ DG1714          08368906
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CDAFTF64H10H725GCADAU                              FAUSTO FRANCO
+ DG5M10/06/1964SALUGGIA                                VC
+ DG6OLLASTRA                                ORG043
+ DF1    33.778,58
+ DF2                          365
+ DF3                  8.081,16
+ DF4       415,47        19,86        47,69        20,27
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.155,86       306,09
+ OND20
+ DFE
+ DFF       768,61
+ DFG
+ DGG     1.074,70
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       840,14                    226,33
+ TO1
+ TO2
+ TO3       407,07        46,14
+ PAG2
+ BRC714B17C08368906ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  CDAMRN93S19G113K12  050
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    42.273,71    13.949,99    20.433,39
+ DP5     1.961,74         0,00         0,00    42.273,71       147,87         0,00         0,00
+ DP6
+ AN0reddito esente =   1.011,89
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08368906ST 2020 0003 0V
+$5X1
+80202230589
+CDAFTF64H10H725G
+CADAU                               FAUSTO FRANCO                        M
+10/06/1964 SALUGGIA                        VC
+$CUD1$
+ DG1714          08368128
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CDNCST78A09G113SCADONI                             CRISTIAN
+ DG5M09/01/1978ORISTANO                                OR
+ DG6SANTA GIUSTA                            ORI205
+ DF1    30.616,06
+ DF2                          365
+ DF3                  5.505,00
+ DF4       376,57
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     7.954,10     1.565,87
+ OND20
+ DFE
+ DFF       883,23
+ DFG
+ DGG     2.449,10
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       754,47                    192,31
+ TO1
+ TO2
+ TO3       376,48
+ PAG2
+ BRC714B17C08368128ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  CDNLRA11H43G113M12  100
+ DC3X  CDNMHL14L57G113I1212100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    38.497,23    12.704,05    18.068,97
+ DP5     1.734,46         0,00         0,00    38.497,23       134,68         0,00         0,00
+ DP6
+ AN0reddito esente =     993,69
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08368128ST 2020 0003 0V
+$5X1
+80202230589
+CDNCST78A09G113S
+CADONI                              CRISTIAN                             M
+09/01/1978 ORISTANO                        OR
+$CUD1$
+ DG1714          08373865
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CRBSVT61A31F934XCARBONI                            SALVATORE
+ DG5M31/01/1961NORBELLO                                OR
+ DG6NORBELLO                                ORF934
+ DF1    33.220,73
+ DF2                          365
+ DF3                  8.155,03
+ DF4       408,61
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.943,88
+ OND20
+ DFE
+ DFF       788,85
+ DFG
+ DGG       788,85
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       883,65                    235,49
+ TO1
+ TO2
+ TO3       402,31
+ PAG2
+ BRC714B17C08373865ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    41.710,82    13.764,39    20.428,98
+ DP5     1.961,31         0,00         0,00    41.710,82       145,98         0,00         0,00
+ DP6
+ AN0reddito esente =     960,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08373865ST 2020 0003 0V
+$5X1
+80202230589
+CRBSVT61A31F934X
+CARBONI                             SALVATORE                            M
+31/01/1961 NORBELLO                        OR
+$CUD1$
+ DG1714          08375320
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CRTNGL63S22A097JCARTA                              ANGELO
+ DG5M22/11/1963AIDOMAGGIORE                            OR
+ DG6AIDOMAGGIORE                            ORA097
+ DF1    31.743,91
+ DF2                          365
+ DF3                  6.830,34
+ DF4       390,45
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.382,69       710,00
+ OND20
+ DFE
+ DFF       842,35
+ DFG
+ DGG     1.552,35
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       874,89                    230,53
+ TO1
+ TO2
+ TO3       390,15
+ PAG2
+ BRC714B17C08375320ST 2020 0003 0V
+$CUD2$
+ DC1X  BREJTW68B44Z116S12
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    40.075,64    13.224,81    20.428,98
+ DP5     1.961,31         0,00         0,00    40.075,64       140,25         0,00         0,00
+ DP6
+ AN0reddito esente =     960,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08375320ST 2020 0003 0V
+$5X1
+80202230589
+CRTNGL63S22A097J
+CARTA                               ANGELO                               M
+22/11/1963 AIDOMAGGIORE                    OR
+$CUD1$
+ DG1714          08376987
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CRTNTN73D13G642LCARTA                              ANTONIO
+ DG5M13/04/1973PIEVE DI CADORE                         BL
+ DG6ABBASANTA                               ORA007
+ DF1    32.945,74
+ DF2                          365
+ DF3                  7.375,17
+ DF4       405,23
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.839,38       665,38
+ OND20
+ DFE
+ DFF       798,83
+ DFG
+ DGG     1.464,21
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.115,60                    297,42
+ TO1
+ TO2
+ TO3       403,07
+ PAG2
+ BRC714B17C08376987ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  CRTDNL08P23H118O12  050
+ DC3X  CRTLNE10L46H118R12   50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    41.459,13    13.681,39    18.068,97
+ DP5     1.734,46         0,00         0,00    41.459,13       145,13         0,00         0,00
+ DP6
+ AN0reddito esente =   1.048,29
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08376987ST 2020 0003 0V
+$5X1
+80202230589
+CRTNTN73D13G642L
+CARTA                               ANTONIO                              M
+13/04/1973 PIEVE DI CADORE                 BL
+$CUD1$
+ DG1714          08377261
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CRTQRC60S09A097HCARTA                              QUIRICO
+ DG5M09/11/1960AIDOMAGGIORE                            OR
+ DG6AIDOMAGGIORE                            ORA097
+ DF1    31.264,05
+ DF2                          365
+ DF3                  6.630,58
+ DF4       384,54
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.200,34       710,00
+ OND20
+ DFE
+ DFF       859,76
+ DFG
+ DGG     1.569,76
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       746,57                    196,35
+ TO1
+ TO2
+ TO3       388,09
+ PAG2
+ BRC714B17C08377261ST 2020 0003 0V
+$CUD2$
+ DC1X  CLMNMR65L52L013G12
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    39.415,00    13.006,70    20.466,94
+ DP5     1.964,95         0,00         0,00    39.415,00       137,86         0,00         0,00
+ DP6
+ AN0reddito esente =     960,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08377261ST 2020 0003 0V
+$5X1
+80202230589
+CRTQRC60S09A097H
+CARTA                               QUIRICO                              M
+09/11/1960 AIDOMAGGIORE                    OR
+$CUD1$
+ DG1714          08353896
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CRTRNT67D27G384OCARTA                              RENATO
+ DG5M27/04/1967PAULILATINO                             OR
+ DG6PAULILATINO                             ORG384
+ DF1    29.930,84
+ DF2                          365
+ DF3                  6.785,74
+ DF4       368,14
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     7.693,72
+ OND20
+ DFE
+ DFF       907,98
+ DFG
+ DGG       907,98
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.072,58                    272,33
+ TO1
+ TO2
+ TO3       365,78
+ PAG2
+ BRC714B17C08353896ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480006070959713002417003902016    38.181,40    12.599,70    18.446,81
+ DP5     1.771,00         0,00         0,00    38.181,40       133,40         0,00         0,00
+ DP6
+ AN0reddito esente =   1.337,95
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08353896ST 2020 0003 0V
+$5X1
+80202230589
+CRTRNT67D27G384O
+CARTA                               RENATO                               M
+27/04/1967 PAULILATINO                     OR
+$CUD1$
+ DG1714          08368865
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CHSDGI65A18L231GCHESSA                             DIEGO
+ DG5M18/01/1965TORPE'                                  NU
+ DG6ABBASANTA                               ORA007
+ DF1    36.911,18
+ DF2                          365
+ DF3                  7.738,73
+ DF4       454,00
+ DF5
+ DF6
+ DF7        21,00
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    10.346,25     1.952,36
+ OND20
+ DFE
+ DFF       655,16
+ DFG
+ DGG     2.607,52
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.249,15                    336,15
+ TO1
+ TO2
+ TO3       432,89
+ PAG2
+ BRC714B17C08368865ST 2020 0003 0V
+$CUD2$
+ DC1X  MDDGRL70R69A007T12
+ DC2X  CHSMNC99M62G113B12  100
+ DC3X  CHSVNT04H41G113U12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    41.726,62    13.769,55    19.814,74
+ DP5     1.902,29         0,00         0,00    41.726,62       146,02         0,00         0,00
+ DP6
+ AN0reddito esente =     993,69
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08368865ST 2020 0003 0V
+$5X1
+80202230589
+CHSDGI65A18L231G
+CHESSA                              DIEGO                                M
+18/01/1965 TORPE'                          NU
+$CUD1$
+ DG1714          08367968
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CCCNNN75P06F934GCOCCO                              ANTONINO MARCO
+ DG5M06/09/1975NORBELLO                                OR
+ DG6ABBASANTA                               ORA007ORISTANO                                ORG113
+ DF1    31.759,40
+ DF2                          365
+ DF3                  6.914,49
+ DF4       390,64                                  38,11
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.388,57       632,32
+ OND20
+ DFE
+ DFF       841,76
+ DFG
+ DGG     1.474,08
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.122,57                    294,67
+ TO1
+ TO2
+ TO3       397,50
+ PAG2
+ BRC714B17C08367968ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  CCCMNL01S28F839I12  100
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    40.160,91    13.253,02    18.068,97
+ DP5     1.734,46         0,00         0,00    40.160,91       140,52         0,00         0,00
+ DP6
+ AN0reddito esente =   1.011,89
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08367968ST 2020 0003 0V
+$5X1
+80202230589
+CCCNNN75P06F934G
+COCCO                               ANTONINO MARCO                       M
+06/09/1975 NORBELLO                        OR
+$CUD1$
+ DG1714          08366952
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CCCYBR80B20G113LCOCCO                              YMBRE
+ DG5M20/02/1980ORISTANO                                OR
+ DG6MACOMER                                 NUE788
+ DF1    31.349,61
+ DF2                          365
+ DF3                  6.017,72
+ DF4       385,60        61,08       155,20        64,88
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.232,85     1.358,50
+ OND20
+ DFE
+ DFF       856,63
+ DFG
+ DGG     2.215,13
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.174,67                    294,84
+ TO1
+ TO2
+ TO3       364,54       147,38
+ PAG2
+ BRC714B17C08366952ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  CCCSFO08H43F979S12  100
+ DC3X  CCCMTL12S06F979C12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    35.788,61    11.810,12    16.813,69
+ DP5     1.613,95         0,00         0,00    35.788,61       125,26         0,00         0,00
+ DP6
+ AN0reddito esente =   1.030,09
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08366952ST 2020 0003 0V
+$5X1
+80202230589
+CCCYBR80B20G113L
+COCCO                               YMBRE                                M
+20/02/1980 ORISTANO                        OR
+$CUD1$
+ DG1714          08376748
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4CSSGZN68C24I730PCOSSU                              GRAZIANO
+ DG5M24/03/1968SILANUS                                 NU
+ DG6SILANUS                                 NUI730
+ DF1    34.563,90
+ DF2                          365
+ DF3                  8.109,83
+ DF4       425,13
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.454,28       604,30
+ OND20
+ DFE
+ DFF       740,15
+ DFG
+ DGG     1.344,45
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.216,74                    327,91
+ TO1
+ TO2
+ TO3       419,26
+ PAG2
+ BRC714B17C08376748ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  CSSRCE02M41F979K12  100
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    39.788,35    13.129,83    19.054,58
+ DP5     1.829,38         0,00         0,00    39.788,35       139,17         0,00         0,00
+ DP6
+ AN0reddito esente =     993,69
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08376748ST 2020 0003 0V
+$5X1
+80202230589
+CSSGZN68C24I730P
+COSSU                               GRAZIANO                             M
+24/03/1968 SILANUS                         NU
+$CUD1$
+ DG1714          08385613
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4DVNRCR70A09A662WDE VENUTO                          RICCARDO
+ DG5M09/01/1970BARI                                    BA
+ DG6ABBASANTA                               ORA007
+ DF1    37.998,87
+ DF2                          365
+ DF3                  8.210,27
+ DF4       467,38
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    10.759,57     1.933,55
+ OND20
+ DFE
+ DFF       615,75
+ DFG
+ DGG     2.549,30
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.306,71                    359,35
+ TO1
+ TO2
+ TO3       451,48
+ PAG2
+ BRC714B17C08385613ST 2020 0003 0V
+$CUD2$
+ DC1X  PNNMNL75D49I452E12
+ DC2X  DVNGSI07T12F979A12  100
+ DC3X  DVNPRL09L57G203G12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    42.571,14    14.048,41    18.068,97
+ DP5     1.734,46         0,00         0,00    42.571,14       149,00         0,00         0,00
+ DP6
+ AN0reddito esente =   1.061,07
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08385613ST 2020 0003 0V
+$5X1
+80202230589
+DVNRCR70A09A662W
+DE VENUTO                           RICCARDO                             M
+09/01/1970 BARI                            BA
+$CUD1$
+ DG1714          08382875
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4DMRNGL64L10E517WDEMURTAS                           ANGELO
+ DG5M10/07/1964LEI                                     NU
+ DG6LEI                                     NUE517
+ DF1    37.297,79
+ DF2                          365
+ DF3                  8.596,27
+ DF4       458,76
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    10.493,16     1.255,71
+ OND20
+ DFE
+ DFF       641,18
+ DFG
+ DGG     1.896,89
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.123,56                    306,85
+ TO1
+ TO2
+ TO3       433,21
+ PAG2
+ BRC714B17C08382875ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  DMRMGV92T65F979D12  100
+ DC3X  DMRLSS96R69F979C12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    41.834,01    13.804,83    19.739,79
+ DP5     1.895,16         0,00         0,00    41.834,01       146,36         0,00         0,00
+ DP6
+ AN0reddito esente =   1.048,29
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08382875ST 2020 0003 0V
+$5X1
+80202230589
+DMRNGL64L10E517W
+DEMURTAS                            ANGELO                               M
+10/07/1964 LEI                             NU
+$CUD1$
+ DG1714          08384868
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4DRESST67A01E004PDERIU                              SEBASTIANO
+ DG5M01/01/1967GHILARZA                                OR
+ DG6GHILARZA                                ORE004
+ DF1    34.644,80
+ DF2                          365
+ DF3                  6.551,35
+ DF4       426,13
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.485,02     2.196,45
+ OND20
+ DFE
+ DFF       737,22
+ DFG
+ DGG     2.933,67
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       962,88                    257,95
+ TO1
+ TO2
+ TO3       416,60
+ PAG2
+ BRC714B17C08384868ST 2020 0003 0V
+$CUD2$
+ DC1X  CCCLSN75D59G113N12
+ DC2X  DRELSN10B17H501D12  100
+ DC3X  DRESML15H13F979I1212100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    39.688,24    13.096,87    19.767,15
+ DP5     1.897,74         0,00         0,00    39.688,24       138,70         0,00         0,00
+ DP6
+ AN0reddito esente =     996,40
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08384868ST 2020 0003 0V
+$5X1
+80202230589
+DRESST67A01E004P
+DERIU                               SEBASTIANO                           M
+01/01/1967 GHILARZA                        OR
+$CUD1$
+ DG1714          08382276
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4DNINTN64H26A359JDIANA                              ANTONIO
+ DG5M26/06/1964ARBUS                                   VS
+ DG6ARBUS                                   VSA359
+ DF1    35.712,55
+ DF2                          365
+ DF3                  8.502,18
+ DF4       439,26        10,20        25,51        10,71
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.890,77       690,00
+ OND20
+ DFE
+ DFF       698,59
+ DFG
+ DGG     1.388,59
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       942,39                    251,90
+ TO1
+ TO2
+ TO3       418,34        24,61
+ PAG2
+ BRC714B17C08382276ST 2020 0003 0V
+$CUD2$
+ DC1X  SCCSDR64P42A359V12
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    44.438,75    14.664,52    19.751,17
+ DP5     1.896,18         0,00         0,00    44.438,75       155,45         0,00         0,00
+ DP6
+ AN0reddito esente =   1.066,49
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08382276ST 2020 0003 0V
+$5X1
+80202230589
+DNINTN64H26A359J
+DIANA                               ANTONIO                              M
+26/06/1964 ARBUS                           VS
+$CUD1$
+ DG1714          08348430
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4FRRMGS64D56L219LFERRAVANTE                         MARIA GIUSEPPINA
+ DG5F16/04/1964TORINO                                  TO
+ DG6CABRAS                                  ORB314
+ DF1    39.375,73
+ DF2                          365
+ DF3                 10.716,91
+ DF4       484,32        46,03       111,47        47,25
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    11.282,78
+ OND20
+ DFE
+ DFF       565,87
+ DFG
+ DGG       565,87
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       771,27                    216,42
+ TO1
+ TO2
+ TO3       471,77       153,42
+ PAG2
+ BRC714B17C08348430ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    49.060,63    16.189,94    23.170,82
+ DP5     2.224,69         0,00         0,00    49.060,63       171,51         0,00         0,00
+ DP6
+ AN0reddito esente =     996,40
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08348430ST 2020 0003 0V
+$5X1
+80202230589
+FRRMGS64D56L219L
+FERRAVANTE                          MARIA GIUSEPPINA                     F
+16/04/1964 TORINO                          TO
+$CUD1$
+ DG1714          08427671
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4SLIGST62M01E336NISOLA                              AUGUSTO
+ DG5M01/08/1962ISILI                                   CA
+ DG6ISILI                                   CAE336
+ DF1    33.126,20
+ DF2                          365
+ DF3                  7.806,31
+ DF4       407,45        79,64       185,36        79,50
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.907,96       309,37
+ OND20
+ DFE
+ DFF       792,28
+ DFG
+ DGG     1.101,65
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       874,89                    235,26
+ TO1
+ TO2
+ TO3       408,14       206,00
+ PAG2
+ BRC714B17C08427671ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  SLISRA91R61B354W12  050
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    41.507,75    13.697,28    19.708,91
+ DP5     1.892,15         0,00         0,00    41.507,75       145,12         0,00         0,00
+ DP6
+ AN0reddito esente =   1.030,09
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08427671ST 2020 0003 0V
+$5X1
+80202230589
+SLIGST62M01E336N
+ISOLA                               AUGUSTO                              M
+01/08/1962 ISILI                           CA
+$CUD1$
+ DG1714          08400064
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4LCHFRZ67A04G113DLICHERI                            FABRIZIO
+ DG5M04/01/1967ORISTANO                                OR
+ DG6ABBASANTA                               ORA007
+ DF1    37.851,44
+ DF2                          365
+ DF3                 10.082,42
+ DF4       465,57
+ DF5
+ DF6        76,00
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    10.703,55
+ OND20
+ DFE
+ DFF       621,13
+ DFG
+ DGG       621,13
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.143,95                    310,93
+ TO1
+ TO2
+ TO3       432,56
+ PAG2
+ BRC714B17C08400064ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    42.700,17    14.090,77    19.616,96
+ DP5     1.883,41         0,00         0,00    42.700,17       149,29         0,00         0,00
+ DP6
+ AN0reddito esente =     960,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08400064ST 2020 0003 0V
+$5X1
+80202230589
+LCHFRZ67A04G113D
+LICHERI                             FABRIZIO                             M
+04/01/1967 ORISTANO                        OR
+$CUD1$
+ DG1714          08403381
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4MCSMHL73M20I851PMACIS                              MICHELE
+ DG5M20/08/1973SORGONO                                 NU
+ DG6SORGONO                                 NUI851
+ DF1    31.050,81
+ DF2                          365
+ DF3                  5.178,19
+ DF4       381,92        18,77        43,33        18,63
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.119,31     2.073,63
+ OND20
+ DFE
+ DFF       867,49
+ DFG
+ DGG     2.941,12
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       903,51                    235,73
+ TO1
+ TO2
+ TO3       384,86        44,25
+ PAG2
+ BRC714B17C08403381ST 2020 0003 0V
+$CUD2$
+ DC1X  DMRJPH79C51Z110F12
+ DC2X  MCSMNL00T16L219O12  100
+ DC3X  MCSRRT06E29I851R12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    39.139,81    12.916,05    18.068,97
+ DP5     1.734,46         0,00         0,00    39.139,81       136,93         0,00         0,00
+ DP6
+ AN0reddito esente =   1.048,29
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08403381ST 2020 0003 0V
+$5X1
+80202230589
+MCSMHL73M20I851P
+MACIS                               MICHELE                              M
+20/08/1973 SORGONO                         NU
+$CUD1$
+ DG1714          08434726
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4MRCFDN59M17H501NMARCEDDU                           FERDINANDO
+ DG5M17/08/1959ROMA                                    RM
+ DG6SEDILO                                  ORI564
+ DF1    31.764,50
+ DF2                          365
+ DF3                  6.206,62
+ DF4       390,70
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.390,51     1.342,32
+ OND20
+ DFE
+ DFF       841,57
+ DFG
+ DGG     2.183,89
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.019,52                    271,29
+ TO1
+ TO2
+ TO3       395,55
+ PAG2
+ BRC714B17C08434726ST 2020 0003 0V
+$CUD2$
+ DC1X  CRVMTC61S61Z110R12
+ DC2X  MRCGRL96E01F979Z12  100
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    40.239,91    13.278,94    20.353,19
+ DP5     1.954,03         0,00         0,00    40.239,91       140,85         0,00         0,00
+ DP6
+ AN0reddito esente =     993,69
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08434726ST 2020 0003 0V
+$5X1
+80202230589
+MRCFDN59M17H501N
+MARCEDDU                            FERDINANDO                           M
+17/08/1959 ROMA                            RM
+$CUD1$
+ DG1714          08409027
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4MRNVCN61A22G382OMARONGIU                           VINCENZO
+ DG5M22/01/1961PAULI ARBAREI                           VS
+ DG6PAULI ARBAREI                           VSG382
+ DF1    33.353,20
+ DF2                          365
+ DF3                  7.500,16
+ DF4       410,24
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.994,22       710,00
+ OND20
+ DFE
+ DFF       784,06
+ DFG
+ DGG     1.494,06
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       874,89                    232,28
+ TO1
+ TO2
+ TO3       402,62
+ PAG2
+ BRC714B17C08409027ST 2020 0003 0V
+$CUD2$
+ DC1X  MNTRTT54T50Z133L12
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    41.767,45    13.783,08    19.751,17
+ DP5     1.896,18         0,00         0,00    41.767,45       146,05         0,00         0,00
+ DP6
+ AN0reddito esente =   1.011,89
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08409027ST 2020 0003 0V
+$5X1
+80202230589
+MRNVCN61A22G382O
+MARONGIU                            VINCENZO                             M
+22/01/1961 PAULI ARBAREI                   VS
+$CUD1$
+ DG1714          08411811
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4MSLGPP64B22G384QMASALA                             GIUSEPPE
+ DG5M22/02/1964PAULILATINO                             OR
+ DG6PAULILATINO                             ORG384
+ DF1    40.882,46
+ DF2                          365
+ DF3                  8.482,35
+ DF4       502,85
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    11.855,33     2.861,68
+ OND20
+ DFE
+ DFF       511,30
+ DFG
+ DGG     3.372,98
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     2.083,23                    587,47
+ TO1
+ TO2
+ TO3       472,50
+ PAG2
+ BRC714B17C08411811ST 2020 0003 0V
+$CUD2$
+ DC1X  PRSPLA66S43G384V12
+ DC2X XMSLRRT89E61E004L12  100
+ DC3X  MSLLSN08S17B354H12  100
+ DC4X  MSLNDR94T22E004H12  100
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    47.874,01    15.798,82    22.327,13
+ DP5     2.143,36         0,00         0,00    47.874,01       167,59         0,00         0,00
+ DP6
+ AN0reddito esente =     993,69
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08411811ST 2020 0003 0V
+$5X1
+80202230589
+MSLGPP64B22G384Q
+MASALA                              GIUSEPPE                             M
+22/02/1964 PAULILATINO                     OR
+$CUD1$
+ DG1714          08405359
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4MLSMCH71H09B068SMELIS                              MELCHIORRE EMANUELE
+ DG5M09/06/1971BOSA                                    OR
+ DG6MACOMER                                 NUE788
+ DF1    33.282,44
+ DF2                          365
+ DF3                  7.424,04
+ DF4       409,37        62,71       167,88        69,18
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.967,33       756,68
+ OND20
+ DFE
+ DFF       786,61
+ DFG
+ DGG     1.543,29
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.096,26                    285,02
+ TO1
+ TO2
+ TO3       373,53       144,96
+ PAG2
+ BRC714B17C08405359ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  MLSDVD10E11B068Q12  050
+ DC3X  MLSLSS14S57G113E1212 50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    37.255,47    12.293,94    18.134,71
+ DP5     1.741,04         0,00         0,00    37.255,47       130,22         0,00         0,00
+ DP6
+ AN0reddito esente =     993,69
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08405359ST 2020 0003 0V
+$5X1
+80202230589
+MLSMCH71H09B068S
+MELIS                               MELCHIORRE EMANUELE                  M
+09/06/1971 BOSA                            OR
+$CUD1$
+ DG1714          08410853
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4MSCMLE62R13A380GMISCALI                            EMILIO
+ DG5M13/10/1962ARDAULI                                 OR
+ DG6ARDAULI                                 ORA380
+ DF1    34.038,35
+ DF2                          365
+ DF3                  7.785,35
+ DF4       418,67
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.254,57       710,00
+ OND20
+ DFE
+ DFF       759,22
+ DFG
+ DGG     1.469,22
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       871,63                    236,65
+ TO1
+ TO2
+ TO3       419,80
+ PAG2
+ BRC714B17C08410853ST 2020 0003 0V
+$CUD2$
+ DC1X  CNNCML64D55E532I12
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    42.640,70    14.071,41    20.612,54
+ DP5     1.978,86         0,00         0,00    42.640,70       149,24         0,00         0,00
+ DP6
+ AN0reddito esente =   1.030,09
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08410853ST 2020 0003 0V
+$5X1
+80202230589
+MSCMLE62R13A380G
+MISCALI                             EMILIO                               M
+13/10/1962 ARDAULI                         OR
+$CUD1$
+ DG1714          08411007
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4MRTNTN62A12I730MMORITTU                            ANTONIO
+ DG5M12/01/1962SILANUS                                 NU
+ DG6BORTIGALI                               NUB062
+ DF1    32.722,11
+ DF2                          365
+ DF3                  6.612,70
+ DF4       402,48
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.754,40     1.334,75
+ OND20
+ DFE
+ DFF       806,95
+ DFG
+ DGG     2.141,70
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       961,84                    248,92
+ TO1
+ TO2
+ TO3       377,12
+ PAG2
+ BRC714B17C08411007ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  MRTVNT91C42F979R12  100
+ DC3X  MRTLNR96D59F979D12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    41.159,86    13.582,43    19.714,24
+ DP5     1.892,67         0,00         0,00    41.159,86       143,86         0,00         0,00
+ DP6
+ AN0reddito esente =     993,69
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08411007ST 2020 0003 0V
+$5X1
+80202230589
+MRTNTN62A12I730M
+MORITTU                             ANTONIO                              M
+12/01/1962 SILANUS                         NU
+$CUD1$
+ DG1714          08407836
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4MRGSFN75R06I851PMURGIA                             STEFANO
+ DG5M06/10/1975SORGONO                                 NU
+ DG6NEONELI                                 ORF867
+ DF1    34.326,32
+ DF2                          365
+ DF3                  7.308,14
+ DF4       422,21
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.364,00     1.307,01
+ OND20
+ DFE
+ DFF       748,85
+ DFG
+ DGG     2.055,86
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.379,41                    360,15
+ TO1
+ TO2
+ TO3       397,49
+ PAG2
+ BRC714B17C08407836ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  MRGGAI01P44G113T12  100
+ DC3X  MRGSAI04P64G113K12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    39.110,11    12.906,23    18.068,97
+ DP5     1.734,46         0,00         0,00    39.110,11       136,89         0,00         0,00
+ DP6
+ AN0reddito esente =     993,69
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08407836ST 2020 0003 0V
+$5X1
+80202230589
+MRGSFN75R06I851P
+MURGIA                              STEFANO                              M
+06/10/1975 SORGONO                         NU
+$CUD1$
+ DG1714          08409607
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4MRRMSM67P03I851NMURRU                              MASSIMO
+ DG5M03/09/1967SORGONO                                 NU
+ DG6ABBASANTA                               ORA007
+ DF1    33.533,80
+ DF2                          365
+ DF3                  6.254,64
+ DF4       412,46
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.062,84     2.030,69
+ OND20
+ DFE
+ DFF       777,51
+ DFG
+ DGG     2.808,20
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       937,61                    252,97
+ TO1
+ TO2
+ TO3       416,74
+ PAG2
+ BRC714B17C08409607ST 2020 0003 0V
+$CUD2$
+ DC1X  LXISRN69M55H856J12
+ DC2X  MRRMTT97P03H856Q12  100
+ DC3X  MRRMRC03B25H856A12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    42.044,26    13.874,46    19.788,34
+ DP5     1.899,82         0,00         0,00    42.044,26       147,10         0,00         0,00
+ DP6
+ AN0reddito esente =   1.066,49
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08409607ST 2020 0003 0V
+$5X1
+80202230589
+MRRMSM67P03I851N
+MURRU                               MASSIMO                              M
+03/09/1967 SORGONO                         NU
+$CUD1$
+ DG1714          08416050
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4PNTCST77R05I452FPINTORE                            CRISTIAN
+ DG5M05/10/1977SASSARI                                 SS
+ DG6MACOMER                                 NUE788
+ DF1    32.436,77
+ DF2                          365
+ DF3                  7.360,12
+ DF4       398,97        69,32       155,01        67,30
+ DF5
+ DF6
+ DF7
+ DF8       316,00       474,00
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.645,97       468,63
+ OND20
+ DFE
+ DFF       817,22
+ DFG
+ DGG     1.285,85
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.460,72                    385,78
+ TO1
+ TO2
+ TO3       410,17       168,89
+ PAG2
+ BRC714B17C08416050ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  PNTGVR16H69F979L 7 7100
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    41.278,70    13.621,89    18.068,97
+ DP5     1.734,46         0,00         0,00    41.278,70       144,48         0,00         0,00
+ DP6
+ AN0reddito esente =     978,20
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08416050ST 2020 0003 0V
+$5X1
+80202230589
+PNTCST77R05I452F
+PINTORE                             CRISTIAN                             M
+05/10/1977 SASSARI                         SS
+$CUD1$
+ DG1714          08413837
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4PGGMRC65T18G384APUGGIONI                           MARCO
+ DG5M18/12/1965PAULILATINO                             OR
+ DG6ABBASANTA                               ORA007
+ DF1    36.800,35
+ DF2                          365
+ DF3                  7.690,70
+ DF4       452,64
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    10.304,13     1.954,26
+ OND20
+ DFE
+ DFF       659,17
+ DFG
+ DGG     2.613,43
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.312,64                    358,09
+ TO1
+ TO2
+ TO3       432,73
+ PAG2
+ BRC714B17C08413837ST 2020 0003 0V
+$CUD2$
+ DC1X  RSLMNL65D54A007C12
+ DC2X  PGGDRD96R15E004X12  100
+ DC3X  PGGRCC00H48E441C12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    41.474,99    13.686,43    19.768,38
+ DP5     1.897,90         0,00         0,00    41.474,99       145,12         0,00         0,00
+ DP6
+ AN0reddito esente =     993,69
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08413837ST 2020 0003 0V
+$5X1
+80202230589
+PGGMRC65T18G384A
+PUGGIONI                            MARCO                                M
+18/12/1965 PAULILATINO                     OR
+$CUD1$
+ DG1714          08429442
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4SNNDVD64A21B062SSANNIA                             DAVIDE
+ DG5M21/01/1964BORTIGALI                               NU
+ DG6BORTIGALI                               NUB062
+ DF1    32.657,67
+ DF2                          365
+ DF3                  7.252,76
+ DF4       401,68
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.729,91       667,95
+ OND20
+ DFE
+ DFF       809,20
+ DFG
+ DGG     1.477,15
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       832,75                    219,68
+ TO1
+ TO2
+ TO3       394,43
+ PAG2
+ BRC714B17C08429442ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  SNNFRC96H18F979W12  050
+ DC3X  SNNVLI01E61F979T12   50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    40.964,39    13.518,11    19.788,34
+ DP5     1.899,82         0,00         0,00    40.964,39       143,31         0,00         0,00
+ DP6
+ AN0reddito esente =     996,40
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08429442ST 2020 0003 0V
+$5X1
+80202230589
+SNNDVD64A21B062S
+SANNIA                              DAVIDE                               M
+21/01/1964 BORTIGALI                       NU
+$CUD1$
+ DG1714          08359015
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4SCHPRN64L27B068GSECHI                              PIETRINO
+ DG5M27/07/1964BOSA                                    OR
+ DG6MACOMER                                 NUE788
+ DF1    31.926,00
+ DF2                          365
+ DF3                  6.906,18
+ DF4       392,68        65,64       154,91        66,17
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.451,88       710,00
+ OND20
+ DFE
+ DFF       835,70
+ DFG
+ DGG     1.545,70
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       661,14                    174,08
+ TO1
+ TO2
+ TO3       389,79       153,86
+ PAG2
+ BRC714B17C08359015ST 2020 0003 0V
+$CUD2$
+ DC1X  LGSSNT66S70E788M12
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    39.993,77    13.197,77    20.055,66
+ DP5     1.925,60         0,00         0,00    39.993,77       139,92         0,00         0,00
+ DP6
+ AN0reddito esente =     993,69
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08359015ST 2020 0003 0V
+$5X1
+80202230589
+SCHPRN64L27B068G
+SECHI                               PIETRINO                             M
+27/07/1964 BOSA                            OR
+$CUD1$
+ DG1714          08430465
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4SRRVNI74S12G113JSERRA                              IVAN
+ DG5M12/11/1974ORISTANO                                OR
+ DG6ABBASANTA                               ORA007
+ DF1    35.285,44
+ DF2                          365
+ DF3                  8.417,35
+ DF4       434,01
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.728,47       597,08
+ OND20
+ DFE
+ DFF       714,04
+ DFG
+ DGG     1.311,12
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.289,14                    345,23
+ TO1
+ TO2
+ TO3       426,18
+ PAG2
+ BRC714B17C08430465ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  SRRDNL98E27G113M12  100
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    40.076,63    13.225,21    18.068,97
+ DP5     1.734,46         0,00         0,00    40.076,63       140,22         0,00         0,00
+ DP6
+ AN0reddito esente =     993,69
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08430465ST 2020 0003 0V
+$5X1
+80202230589
+SRRVNI74S12G113J
+SERRA                               IVAN                                 M
+12/11/1974 ORISTANO                        OR
+$CUD1$
+ DG1714          08355671
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4TRTLGU72B28G482DTRITAPEPE                          LUIGI
+ DG5M28/02/1972PESCARA                                 PE
+ DG6ABBASANTA                               ORA007
+ DF1    34.139,78
+ DF2                          365
+ DF3                  8.537,61
+ DF4       419,91
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.293,12
+ OND20
+ DFE
+ DFF       755,51
+ DFG
+ DGG       755,51
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.078,69                    276,90
+ TO1
+ TO2
+ TO3       399,60
+ PAG2
+ BRC714B17C08355671ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    39.213,15    12.940,24    18.068,97
+ DP5     1.734,46         0,00         0,00    39.213,15       137,20         0,00         0,00
+ DP6
+ AN0reddito esente =     960,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08355671ST 2020 0003 0V
+$5X1
+80202230589
+TRTLGU72B28G482D
+TRITAPEPE                           LUIGI                                M
+28/02/1972 PESCARA                         PE
+$CUD1$
+ DG1714          08419344
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4RDSMRC71P28G225JURDIS                              MARCO
+ DG5M28/09/1971PADRIA                                  SS
+ DG6GHILARZA                                ORE004
+ DF1    34.910,51
+ DF2                          365
+ DF3                  8.858,36
+ DF4       429,39
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.585,99
+ OND20
+ DFE
+ DFF       727,63
+ DFG
+ DGG       727,63
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.260,03                    338,44
+ TO1
+ TO2
+ TO3       419,68
+ PAG2
+ BRC714B17C08419344ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    39.901,94    13.167,30    18.370,57
+ DP5     1.763,71         0,00         0,00    39.901,94       139,58         0,00         0,00
+ DP6
+ AN0reddito esente =   1.011,89
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08419344ST 2020 0003 0V
+$5X1
+80202230589
+RDSMRC71P28G225J
+URDIS                               MARCO                                M
+28/09/1971 PADRIA                          SS
+$CUD1$
+ DG1714          08433395
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4SUASDR60E15D968GUSAI                               ISIDORO
+ DG5M15/05/1960GENONI                                  OR
+ DG6GENONI                                  ORD968
+ DF1    13.615,88
+ DF2                          109
+ DF3                  2.766,71
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     3.131,65
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH1        76,68
+ DFI
+ DFL
+ DFM     2.037,48
+ DFN 1     2.037,48
+ CAM
+ DFO
+ DFP
+ TS1     1.038,20                    261,31
+ TO1
+ TO2
+ TO3       311,94
+ PAG2
+ BRC714B17C08433395ST 2020 0003 0C
+$CUD2$
+ DC1X  PRCMCR66D44B354S12
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    19.694,17     6.499,03     6.181,08
+ DP5       593,43         0,00         0,00    19.694,17        68,93         0,00         0,00
+ DP6
+ AN0Obbligo di presentazione della dichiarazione dei redditi
+ AN0Conguagli non effettuati
+ AN0reddito esente =     320,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08433395ST 2020 0003 0C
+$5X1
+80202230589
+SUASDR60E15D968G
+USAI                                ISIDORO                              M
+15/05/1960 GENONI                          OR
+$CUD1$
+ DG1714          08436205
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4ZDDDNC72L14L023IZEDDE                              DOMENICO
+ DG5M14/07/1972TADASUNI                                OR
+ DG6ABBASANTA                               ORA007
+ DF1    31.822,13
+ DF2                          365
+ DF3                  6.231,14
+ DF4       391,41
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.412,41     1.341,75
+ OND20
+ DFE
+ DFF       839,52
+ DFG
+ DGG     2.181,27
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1     1.234,01                    324,67
+ TO1
+ TO2
+ TO3       385,77
+ PAG2
+ BRC714B17C08436205ST 2020 0003 0V
+$CUD2$
+ DC1X  CRBNGL73D64G113N12
+ DC2X  ZDDPLA11T17F979J12  100
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    40.423,06    13.339,27    18.370,57
+ DP5     1.763,71         0,00         0,00    40.423,06       141,34         0,00         0,00
+ DP6
+ AN0reddito esente =   1.030,09
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08436205ST 2020 0003 0V
+$5X1
+80202230589
+ZDDDNC72L14L023I
+ZEDDE                               DOMENICO                             M
+14/07/1972 TADASUNI                        OR
+$CUD1$
+ DG1714          08356709
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4ZCCMRA75A05G113WZUCCA                              MARIO
+ DG5M05/01/1975ORISTANO                                OR
+ DG6NARBOLIA                                ORF840
+ DF1    29.364,96
+ DF2                          365
+ DF3                  5.157,47
+ DF4       361,18
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     7.478,68     1.392,70
+ OND20
+ DFE
+ DFF       928,51
+ DFG
+ DGG     2.321,21
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       953,42                    240,83
+ TO1
+ TO2
+ TO3       362,08
+ PAG2
+ BRC714B17C08356709ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2X  ZCCMNL07M54G113X12  100
+ DC3X  ZCCMHL09R60G113F12  100
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480005910957714000317003902016    37.339,02    12.321,82    18.068,97
+ DP5     1.734,46         0,00         0,00    37.339,02       130,59         0,00         0,00
+ DP6
+ AN0reddito esente =     960,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08356709ST 2020 0003 0V
+$5X1
+80202230589
+ZCCMRA75A05G113W
+ZUCCA                               MARIO                                M
+05/01/1975 ORISTANO                        OR
+$CUD1$
+ DG1714          08357310
+ DG2MIN. INTERNO DIPARTIMENTO P.S.                                       80202230589
+ DG3ROMA  (RM) 00184 PIAZZA DEL VIMINALE, 1
+ DG4ZCCRRT75M13F979UZUCCA                              ROBERTO
+ DG5M13/08/1975NUORO                                   NU
+ DG6ABBASANTA                               ORA007
+ DF1    32.862,76
+ DF2                          365
+ DF3                  8.006,09
+ DF4       404,21
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     8.807,85
+ OND20
+ DFE
+ DFF       801,76
+ DFG
+ DGG       801,76
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1       722,43                    183,93
+ TO1
+ TO2
+ TO3       367,26
+ PAG2
+ BRC714B17C08357310ST 2020 0003 0V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP480006070959713002017003902016    40.935,00    13.508,44    18.068,97
+ DP5     1.734,46         0,00         0,00    40.935,00       143,27         0,00         0,00
+ DP6
+ AN0reddito esente =   1.818,91
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI017/02/2017PAPA MARIO
+ BRC714B17C08357310ST 2020 0003 0V
+$5X1
+80202230589
+ZCCRRT75M13F979U
+ZUCCA                               ROBERTO                              M
+13/08/1975 NUORO                           NU
