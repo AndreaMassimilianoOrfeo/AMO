@@ -3398,3 +3398,300 @@ PERONACI                            MARCO                                M
 23/02/1965 PAVIA                           PV
 
 2018-01-11 10:36:30 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@10da21bf: startup date [Thu Jan 11 10:36:30 CET 2018]; root of context hierarchy
+2018-01-11 10:40:03 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 10:40:03 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 10:40:03 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7031086c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@232023ff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@131b4c5d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@65327777]
+2018-01-11 10:40:03 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@159f9744: startup date [Thu Jan 11 10:40:03 CET 2018]; root of context hierarchy
+2018-01-11 10:40:04 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 10:40:04 INFO  JFileHelperTest:38 - ******************* CUD ****************************************
+2018-01-11 10:40:04 INFO  JFileHelperTest:39 - ******************* PAGINA 1****************************************
+2018-01-11 10:40:04 INFO  JFileHelperTest:41 - 
+ DG1555          07654174 DG2MIN. DELL'INTERNO                                                    97420690584 DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6 DG4CRRCRL80R46F537FCORRADO                            CAROLA DG5F06/10/1980VIBO VALENTIA                           VV DG6ROMA                                    RMH501 DF1    33.818,58 DF2                          365 DF3                  8.403,92 DF4       585,06        73,49       230,87        91,31 DF5 DF6 DF7 DF8 DF9 DFA DFB DFC DFD     9.171,06 OND20 DFE DFF       767,14 DFG DGG       767,14 DFH2 DFI DFL DFM DFN CAM DFO DFP TS1        27,95                      7,38 TO1 TO2 TO3       470,89       156,72 PAG2 BRC555C37C07654174ST 0020 0011 1V
+2018-01-11 10:40:04 INFO  JFileHelperTest:42 - ******************* PAGINA 2****************************************
+2018-01-11 10:40:04 INFO  JFileHelperTest:44 - 
+ DC1 DC2 DC3 DC4 DC5 DC6 DC7 DC8 DC9 DCA TS2 TS3 TS4 DP1 DP2 DP3 DP497420690584555001117001902016    40.602,84    13.265,95         0,00 DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49 DP6 AN0Sostituisce il CUD precedente AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa AN0a seguito di variazione della C.U. AN0reddito esente =      10,00 AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali AN0retribuzioni riferite ad anni precedenti CL1 CL2 PG1 PG2 FI031/03/2017CALVANI PLAUTILLA BRC555C37C07654174ST 0020 0011 1V$5X197420690584CRRCRL80R46F537FCORRADO                             CAROLA                               F06/10/1980 VIBO VALENTIA                   VV
+2018-01-11 10:40:04 INFO  JFileHelperTest:38 - ******************* CUD ****************************************
+2018-01-11 10:40:04 INFO  JFileHelperTest:39 - ******************* PAGINA 1****************************************
+2018-01-11 10:40:04 INFO  JFileHelperTest:41 - 
+ DG1555          08913626 DG2MIN. DELL'INTERNO                                                    97420690584 DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6 DG4VNCCLN72C49H926LVINCIGUERRA                        CAROLINA DG5F09/03/1972SAN GIOVANNI ROTONDO                    FG DG6ROMA                                    RMH501 DF1    14.527,72 DF2                          306 DF3                  1.325,00 DF4       251,32        55,35        75,39        39,22 DF5 DF6 DF7 DF8 DF9 DFA DFB DFC DFD     3.341,38       687,09 OND20 DFE DFF     1.329,29 DFG DGG     2.016,38 DFH1       804,82 DFI DFL DFM DFN CAM DFO DFP TS1        42,67                     10,28 TO1 TO2 TO3       290,17       104,91 PAG2 BRC555C37C08913626ST 0020 0140 1V
+2018-01-11 10:40:04 INFO  JFileHelperTest:42 - ******************* PAGINA 2****************************************
+2018-01-11 10:40:04 INFO  JFileHelperTest:44 - 
+ DC1 DC2X  LSTFNC99T20D643J10  050 DC3X  LSTMNL05B02H501G10   50 DC4 DC5 DC6 DC7 DC8 DC9 DCA TS2 TS3 TS4 DP1 DP2 DP3 DP497420690584555014017003902016    17.573,90     5.742,02    12.872,29 DP5       785,23         0,00         0,00    17.573,90        61,51    16.405,90        19,62 DP6 AN0Sostituisce il CUD precedente AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa AN0a seguito di variazione della C.U. AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali AN0retribuzioni riferite ad anni precedenti CL1 CL2 PG1 PG2 FI031/03/2017CALVANI PLAUTILLA BRC555C37C08913626ST 0020 0140 1V$5X197420690584VNCCLN72C49H926LVINCIGUERRA                         CAROLINA                             F09/03/1972 SAN GIOVANNI ROTONDO            FG
+2018-01-11 10:40:04 INFO  JFileHelperTest:38 - ******************* CUD ****************************************
+2018-01-11 10:40:04 INFO  JFileHelperTest:39 - ******************* PAGINA 1****************************************
+2018-01-11 10:40:04 INFO  JFileHelperTest:41 - 
+ DG1555          08920783 DG2MIN. DELL'INTERNO                                                    97420690584 DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6 DG4PRNMRC65B23G388BPERONACI                           MARCO DG5M23/02/1965PAVIA                                   PV DG6ROMA                                    RMH501 DF1                 91.527,14 DF2                          365 DF3                 34.684,42 DF4 DF5 DF6 DF7 DF8 DF9 DFA DFB DFC DFD    32.526,67 OND20 DFE DFF DFG DGG DFH2 DFI DFL DFM DFN CAM DFO DFP TS1    10.911,63                  4.146,42 TO1 TO2 TO3 PAG2 BRC555C37C08920783ST 0020 0169 2C
+2018-01-11 10:40:04 INFO  JFileHelperTest:42 - ******************* PAGINA 2****************************************
+2018-01-11 10:40:04 INFO  JFileHelperTest:44 - 
+ DC1 DC2 DC3 DC4 DC5 DC6 DC7 DC8 DC9 DCA TS2 TS3 TS4 DP1 DP2 DP3 DP497420690584555016917001902016   114.417,51    37.985,86         0,00 DP5         0,00    48.596,85     4.665,33   115.003,34       399,52         0,00         0,00 DP6 AN0Sostituisce il CUD precedente AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa AN0a seguito di variazione della C.U. AN0Obbligo di presentazione della dichiarazione dei redditi AN0Conguagli non effettuati AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali AN0retribuzioni riferite ad anni precedenti CL1 CL2 PG1 PG2 FI031/03/2017CALVANI PLAUTILLA BRC555C37C08920783ST 0020 0169 2C$5X197420690584PRNMRC65B23G388BPERONACI                            MARCO                                M23/02/1965 PAVIA                           PV
+2018-01-11 10:40:04 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@159f9744: startup date [Thu Jan 11 10:40:03 CET 2018]; root of context hierarchy
+2018-01-11 10:59:17 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 10:59:17 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 10:59:17 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bdd7752, org.springframework.test.context.support.DirtiesContextTestExecutionListener@48c4c732, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6ef1c8f0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@43bf3d77]
+2018-01-11 10:59:17 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@14ed6010: startup date [Thu Jan 11 10:59:17 CET 2018]; root of context hierarchy
+2018-01-11 10:59:17 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 10:59:46 INFO  JFileHelperTest:38 - ******************* CUD ****************************************
+2018-01-11 10:59:46 INFO  JFileHelperTest:39 - ******************* PAGINA 1****************************************
+2018-01-11 11:00:05 INFO  JFileHelperTest:41 - 
+ DG1555          07654174
+2018-01-11 11:00:08 INFO  JFileHelperTest:42 - ******************* PAGINA 2****************************************
+2018-01-11 11:00:12 INFO  JFileHelperTest:44 - 
+ DC1
+2018-01-11 11:00:27 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@14ed6010: startup date [Thu Jan 11 10:59:17 CET 2018]; root of context hierarchy
+2018-01-11 11:03:03 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:03:03 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:03:03 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7031086c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@232023ff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@131b4c5d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@65327777]
+2018-01-11 11:03:03 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@3ec76887: startup date [Thu Jan 11 11:03:03 CET 2018]; root of context hierarchy
+2018-01-11 11:03:04 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:03:04 INFO  JFileHelperTest:38 - ******************* CUD ****************************************
+2018-01-11 11:03:04 INFO  JFileHelperTest:39 - ******************* PAGINA 1****************************************
+2018-01-11 11:03:04 INFO  JFileHelperTest:41 - 
+ DG1555          07654174
+2018-01-11 11:03:04 INFO  JFileHelperTest:42 - ******************* PAGINA 2****************************************
+2018-01-11 11:03:04 INFO  JFileHelperTest:44 - 
+ DC1
+2018-01-11 11:03:04 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@3ec76887: startup date [Thu Jan 11 11:03:03 CET 2018]; root of context hierarchy
+2018-01-11 11:03:23 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:03:24 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:03:24 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7031086c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@232023ff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@131b4c5d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@65327777]
+2018-01-11 11:03:24 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@3ec76887: startup date [Thu Jan 11 11:03:24 CET 2018]; root of context hierarchy
+2018-01-11 11:03:24 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:03:24 INFO  JFileHelperTest:38 - ******************* CUD ****************************************
+2018-01-11 11:03:24 INFO  JFileHelperTest:39 - ******************* PAGINA 1****************************************
+2018-01-11 11:03:24 INFO  JFileHelperTest:41 - 
+ DG1555          07654174
+2018-01-11 11:03:24 INFO  JFileHelperTest:42 - ******************* PAGINA 2****************************************
+2018-01-11 11:03:24 INFO  JFileHelperTest:44 - 
+ DC1
+2018-01-11 11:03:24 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@3ec76887: startup date [Thu Jan 11 11:03:24 CET 2018]; root of context hierarchy
+2018-01-11 11:22:58 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:22:58 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:22:58 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e77243d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1fec306b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b5ed12c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3df6c65c]
+2018-01-11 11:22:58 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@14ddf6a1: startup date [Thu Jan 11 11:22:58 CET 2018]; root of context hierarchy
+2018-01-11 11:22:59 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:23:06 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 11:23:06 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 11:23:06 INFO  JFileHelperTest:42 - 
+ DG1555          07654174
+2018-01-11 11:23:06 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 11:23:06 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 11:32:46 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:32:46 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:32:46 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1fec306b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b5ed12c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3df6c65c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1458e1cc]
+2018-01-11 11:32:46 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@786aceba: startup date [Thu Jan 11 11:32:46 CET 2018]; root of context hierarchy
+2018-01-11 11:32:46 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:32:54 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 11:32:55 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 11:32:56 INFO  JFileHelperTest:42 - 
+ DG1555          07654174
+2018-01-11 11:32:56 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 11:32:57 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 11:34:19 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:34:19 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:34:19 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@57502283, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e09f33d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6f4051d1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@67bba966]
+2018-01-11 11:34:19 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@47f35aaa: startup date [Thu Jan 11 11:34:19 CET 2018]; root of context hierarchy
+2018-01-11 11:34:20 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:34:24 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 11:34:24 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 11:34:24 INFO  JFileHelperTest:42 - 
+ DG1555          07654174
+2018-01-11 11:34:24 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 11:34:24 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 11:36:51 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:36:51 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:36:51 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2da8b2de, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e77243d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1fec306b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b5ed12c]
+2018-01-11 11:36:51 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@235b869: startup date [Thu Jan 11 11:36:51 CET 2018]; root of context hierarchy
+2018-01-11 11:36:51 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:36:58 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 11:36:58 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 11:36:58 INFO  JFileHelperTest:42 - 
+ DG1555          07654174
+2018-01-11 11:36:58 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 11:36:58 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 11:37:52 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:37:52 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:37:52 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1fec306b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b5ed12c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3df6c65c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1458e1cc]
+2018-01-11 11:37:52 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@786aceba: startup date [Thu Jan 11 11:37:52 CET 2018]; root of context hierarchy
+2018-01-11 11:37:52 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:37:58 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 11:37:58 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 11:37:58 INFO  JFileHelperTest:42 - 
+ DG1555          07654174
+2018-01-11 11:37:58 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 11:37:58 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 11:39:28 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:39:28 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:39:28 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e77243d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1fec306b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b5ed12c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3df6c65c]
+2018-01-11 11:39:28 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@14ddf6a1: startup date [Thu Jan 11 11:39:28 CET 2018]; root of context hierarchy
+2018-01-11 11:39:29 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:39:29 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 11:39:29 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 11:39:29 INFO  JFileHelperTest:42 - 
+ DG1714          08434952
+2018-01-11 11:39:29 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 11:39:29 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 11:40:38 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:40:38 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:40:38 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2da8b2de, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e77243d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1fec306b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b5ed12c]
+2018-01-11 11:40:38 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@235b869: startup date [Thu Jan 11 11:40:38 CET 2018]; root of context hierarchy
+2018-01-11 11:40:39 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:40:39 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 11:40:39 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 11:40:39 INFO  JFileHelperTest:42 - 
+ DG1714          08434952
+2018-01-11 11:40:39 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 11:40:39 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 11:40:39 FATAL JFileHelperTest:60 - Problems while reading field values from null object
+java.lang.RuntimeException: Problems while reading field values from null object
+	at org.coury.jfilehelpers.core.RecordInfo.strToRecord(RecordInfo.java:115)
+	at org.coury.jfilehelpers.engines.FileHelperEngine$1.next(FileHelperEngine.java:380)
+	at org.coury.jfilehelpers.engines.FileHelperEngine.readStream(FileHelperEngine.java:220)
+	at it.gov.mef.cuconverter.util.DepconCUfUtil.getCudPrimaPagina(DepconCUfUtil.java:41)
+	at org.coury.jfilehelpers.JFileHelperTest.parseCuTest(JFileHelperTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:73)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:224)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.lang.IllegalArgumentException: End Of Line found processing the field: sedeMae at line 0. (You need to mark it as @FieldOptional if you want to avoid this exception)
+	at org.coury.jfilehelpers.fields.FixedLengthField.extractFieldString(FixedLengthField.java:50)
+	at org.coury.jfilehelpers.fields.FieldBase.extractValue(FieldBase.java:94)
+	at org.coury.jfilehelpers.core.RecordInfo.strToRecord(RecordInfo.java:101)
+	... 33 more
+2018-01-11 11:40:39 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@235b869: startup date [Thu Jan 11 11:40:38 CET 2018]; root of context hierarchy
+2018-01-11 11:41:07 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:41:07 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:41:07 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2da8b2de, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e77243d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1fec306b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b5ed12c]
+2018-01-11 11:41:07 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@235b869: startup date [Thu Jan 11 11:41:07 CET 2018]; root of context hierarchy
+2018-01-11 11:41:07 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:41:07 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 11:41:07 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 11:41:07 INFO  JFileHelperTest:42 - 
+ DG1714          08434952
+2018-01-11 11:41:07 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 11:41:07 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 11:41:08 FATAL JFileHelperTest:60 - Problems while reading field values from null object
+java.lang.RuntimeException: Problems while reading field values from null object
+	at org.coury.jfilehelpers.core.RecordInfo.strToRecord(RecordInfo.java:115)
+	at org.coury.jfilehelpers.engines.FileHelperEngine$1.next(FileHelperEngine.java:380)
+	at org.coury.jfilehelpers.engines.FileHelperEngine.readStream(FileHelperEngine.java:220)
+	at it.gov.mef.cuconverter.util.DepconCUfUtil.getCudPrimaPagina(DepconCUfUtil.java:41)
+	at org.coury.jfilehelpers.JFileHelperTest.parseCuTest(JFileHelperTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:73)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:224)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.lang.IllegalArgumentException: End Of Line found processing the field: sedeMae at line 0. (You need to mark it as @FieldOptional if you want to avoid this exception)
+	at org.coury.jfilehelpers.fields.FixedLengthField.extractFieldString(FixedLengthField.java:50)
+	at org.coury.jfilehelpers.fields.FieldBase.extractValue(FieldBase.java:94)
+	at org.coury.jfilehelpers.core.RecordInfo.strToRecord(RecordInfo.java:101)
+	... 33 more
+2018-01-11 11:41:08 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@235b869: startup date [Thu Jan 11 11:41:07 CET 2018]; root of context hierarchy
+2018-01-11 11:41:54 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:41:54 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:41:54 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e77243d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1fec306b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b5ed12c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3df6c65c]
+2018-01-11 11:41:54 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@14ddf6a1: startup date [Thu Jan 11 11:41:54 CET 2018]; root of context hierarchy
+2018-01-11 11:41:55 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:41:55 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 11:41:55 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 11:41:55 INFO  JFileHelperTest:42 - 
+ DG1714          08434952
+2018-01-11 11:41:55 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 11:41:55 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 11:47:35 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@14ddf6a1: startup date [Thu Jan 11 11:41:54 CET 2018]; root of context hierarchy
+2018-01-11 11:50:44 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 11:50:44 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 11:50:44 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2da8b2de, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e77243d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1fec306b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b5ed12c]
+2018-01-11 11:50:44 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@235b869: startup date [Thu Jan 11 11:50:44 CET 2018]; root of context hierarchy
+2018-01-11 11:50:44 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 11:50:45 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 11:50:45 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 11:50:45 INFO  JFileHelperTest:42 - 
+ DG1714          08434952
+2018-01-11 11:50:45 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 11:50:45 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 12:03:50 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 12:03:50 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 12:03:50 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4a6bb386, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64d74895, org.springframework.test.context.transaction.TransactionalTestExecutionListener@71de61eb, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3eeec5b4]
+2018-01-11 12:03:50 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@1723a349: startup date [Thu Jan 11 12:03:50 CET 2018]; root of context hierarchy
+2018-01-11 12:03:51 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 12:03:51 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 12:03:51 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 12:03:51 INFO  JFileHelperTest:42 - 
+ DG1714          08434952
+2018-01-11 12:03:51 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 12:03:51 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 12:03:51 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@1723a349: startup date [Thu Jan 11 12:03:50 CET 2018]; root of context hierarchy
+2018-01-11 12:05:20 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 12:05:20 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 12:05:20 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3eeec5b4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2df5ccb3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64521357, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4873e835]
+2018-01-11 12:05:21 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@3995638a: startup date [Thu Jan 11 12:05:21 CET 2018]; root of context hierarchy
+2018-01-11 12:05:21 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 12:05:21 INFO  JFileHelperTest:39 - ******************* CUD ****************************************
+2018-01-11 12:05:21 INFO  JFileHelperTest:40 - ******************* PAGINA 1****************************************
+2018-01-11 12:05:21 INFO  JFileHelperTest:42 - 
+ DG1714          08434952
+2018-01-11 12:05:21 INFO  JFileHelperTest:43 - ******************* PAGINA 2****************************************
+2018-01-11 12:05:21 INFO  JFileHelperTest:45 - 
+ DC1
+2018-01-11 12:05:21 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@3995638a: startup date [Thu Jan 11 12:05:21 CET 2018]; root of context hierarchy

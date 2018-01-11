@@ -1,5 +1,11 @@
 package it.gov.mef.cuconverter.util;
 
+import java.io.StringReader;
+import java.util.List;
+
+import org.coury.jfilehelpers.engines.FileHelperEngine;
+
+import it.gov.mef.cuconverter.model.CudPrimaPagina;
 
 public class DepconCUfUtil {
 	
@@ -23,4 +29,23 @@ public class DepconCUfUtil {
 		
 		return pagineCud[numeroPagina-1].replaceAll("\\n", ""); 
 	}
+	
+	public static CudPrimaPagina getCudPrimaPagina(String primaPaginaCud) throws Exception {
+		
+		CudPrimaPagina pagina = new CudPrimaPagina();
+		
+		FileHelperEngine<CudPrimaPagina> engine = new FileHelperEngine<CudPrimaPagina>(CudPrimaPagina.class);
+		
+		StringReader stringReader = new StringReader(primaPaginaCud);
+		
+		List<CudPrimaPagina> lista = engine.readStream(stringReader, -1);
+		
+		if ( lista!=null )
+			pagina = lista.get(0);
+		
+		return pagina;
+			
+	}
+	
+	
 }
