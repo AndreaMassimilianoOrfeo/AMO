@@ -3155,3 +3155,246 @@ PERONACI                            MARCO                                M
 23/02/1965 PAVIA                           PV
 
 2018-01-11 10:29:34 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@25b0cc8c: startup date [Thu Jan 11 10:29:33 CET 2018]; root of context hierarchy
+2018-01-11 10:36:29 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-11 10:36:29 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-11 10:36:29 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2586d9a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7b839aa9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7d1f0c98, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1740f55]
+2018-01-11 10:36:30 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@10da21bf: startup date [Thu Jan 11 10:36:30 CET 2018]; root of context hierarchy
+2018-01-11 10:36:30 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-11 10:36:30 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          07654174
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4CRRCRL80R46F537FCORRADO                            CAROLA
+ DG5F06/10/1980VIBO VALENTIA                           VV
+ DG6ROMA                                    RMH501
+ DF1    33.818,58
+ DF2                          365
+ DF3                  8.403,92
+ DF4       585,06        73,49       230,87        91,31
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     9.171,06
+ OND20
+ DFE
+ DFF       767,14
+ DFG
+ DGG       767,14
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        27,95                      7,38
+ TO1
+ TO2
+ TO3       470,89       156,72
+ PAG2
+ BRC555C37C07654174ST 0020 0011 1V
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555001117001902016    40.602,84    13.265,95         0,00
+ DP5         0,00    29.166,69     1.741,52    40.602,84       142,06    38.005,21        45,49
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0reddito esente =      10,00
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C07654174ST 0020 0011 1V
+$5X1
+97420690584
+CRRCRL80R46F537F
+CORRADO                             CAROLA                               F
+06/10/1980 VIBO VALENTIA                   VV
+
+2018-01-11 10:36:30 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08913626
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4VNCCLN72C49H926LVINCIGUERRA                        CAROLINA
+ DG5F09/03/1972SAN GIOVANNI ROTONDO                    FG
+ DG6ROMA                                    RMH501
+ DF1    14.527,72
+ DF2                          306
+ DF3                  1.325,00
+ DF4       251,32        55,35        75,39        39,22
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD     3.341,38       687,09
+ OND20
+ DFE
+ DFF     1.329,29
+ DFG
+ DGG     2.016,38
+ DFH1       804,82
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1        42,67                     10,28
+ TO1
+ TO2
+ TO3       290,17       104,91
+ PAG2
+ BRC555C37C08913626ST 0020 0140 1V
+$CUD2$
+ DC1
+ DC2X  LSTFNC99T20D643J10  050
+ DC3X  LSTMNL05B02H501G10   50
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555014017003902016    17.573,90     5.742,02    12.872,29
+ DP5       785,23         0,00         0,00    17.573,90        61,51    16.405,90        19,62
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08913626ST 0020 0140 1V
+$5X1
+97420690584
+VNCCLN72C49H926L
+VINCIGUERRA                         CAROLINA                             F
+09/03/1972 SAN GIOVANNI ROTONDO            FG
+
+2018-01-11 10:36:30 INFO  JFileHelperTest:38 - ********************************************************************
+
+ DG1555          08920783
+ DG2MIN. DELL'INTERNO                                                    97420690584
+ DG3DIP. POL. PERS. AMM. CIV. E PER RIS. STRUM. E FIN. (RM) 00184 VIA CAVOUR, 6
+ DG4PRNMRC65B23G388BPERONACI                           MARCO
+ DG5M23/02/1965PAVIA                                   PV
+ DG6ROMA                                    RMH501
+ DF1                 91.527,14
+ DF2                          365
+ DF3                 34.684,42
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD    32.526,67
+ OND20
+ DFE
+ DFF
+ DFG
+ DGG
+ DFH2
+ DFI
+ DFL
+ DFM
+ DFN
+ CAM
+ DFO
+ DFP
+ TS1    10.911,63                  4.146,42
+ TO1
+ TO2
+ TO3
+ PAG2
+ BRC555C37C08920783ST 0020 0169 2C
+$CUD2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ TS2
+ TS3
+ TS4
+ DP1
+ DP2
+ DP3
+ DP497420690584555016917001902016   114.417,51    37.985,86         0,00
+ DP5         0,00    48.596,85     4.665,33   115.003,34       399,52         0,00         0,00
+ DP6
+ AN0Sostituisce il CUD precedente
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Obbligo di presentazione della dichiarazione dei redditi
+ AN0Conguagli non effettuati
+ AN0I dati prev.li ed assist.li di cui alla sez.2, se presenti, comprendono anche eventuali
+ AN0retribuzioni riferite ad anni precedenti
+ CL1
+ CL2
+ PG1
+ PG2
+ FI031/03/2017CALVANI PLAUTILLA
+ BRC555C37C08920783ST 0020 0169 2C
+$5X1
+97420690584
+PRNMRC65B23G388B
+PERONACI                            MARCO                                M
+23/02/1965 PAVIA                           PV
+
+2018-01-11 10:36:30 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@10da21bf: startup date [Thu Jan 11 10:36:30 CET 2018]; root of context hierarchy

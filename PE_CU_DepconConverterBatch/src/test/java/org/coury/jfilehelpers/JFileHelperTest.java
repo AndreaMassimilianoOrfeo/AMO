@@ -33,17 +33,17 @@ public class JFileHelperTest {
 			String depConFileContent = FileUtil.readFileByName(parseCuInputDir+fileCU);
 			Assert.assertTrue("il file depcon cu comincia per $CUD1$", depConFileContent.startsWith("$CUD1$"));
 			
-			String [] tokens = DepconCUfUtil.getListaCu(depConFileContent);
-			for (String token : tokens) {
-				logger.info("********************************************************************\n"+token);
+			String [] cuds = DepconCUfUtil.getListaCu(depConFileContent);
+			for (String cud : cuds) {
+				logger.info("********************************************************************\n"+cud);
 				
-				String primaPaginaCud = DepconCUfUtil.getPaginaCud(DepconCUfUtil.PRIMA_PAGINA, token);
-				String secondaPaginaCud = DepconCUfUtil.getPaginaCud(DepconCUfUtil.SECONDA_PAGINA, token);
+				String primaPaginaCud = DepconCUfUtil.getPaginaCud(DepconCUfUtil.PRIMA_PAGINA, cud);
+				String secondaPaginaCud = DepconCUfUtil.getPaginaCud(DepconCUfUtil.SECONDA_PAGINA, cud);
 				Assert.assertTrue("primaPaginaCud inizia con  DG1", primaPaginaCud.startsWith(" DG1"));
 				Assert.assertTrue("primaPaginaCud inizia con  DC1", secondaPaginaCud.startsWith(" DC1"));
 			}
 			
-			Assert.assertTrue("il file depcon contiene 3 cu", tokens.length == 3);
+			Assert.assertTrue("il file depcon contiene 3 cu", cuds.length == 3);
 			
 		} catch (Exception e) {
 			logger.fatal(e.getMessage(), e);
