@@ -21,9 +21,12 @@
 package org.coury.jfilehelpers.converters;
 
 import java.lang.reflect.Field;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 import org.coury.jfilehelpers.enums.ConverterKind;
 
@@ -36,6 +39,9 @@ public class ConvertHelpers {
 			
 		case Boolean:
 			return new ConvertHelpers().new BooleanConverter();
+			
+		case Currency:
+			return new ConvertHelpers().new CurrencyConverter(format) ;
 			
 //		case Byte:
 //			return new ConvertHelpers.ByteConverter();
@@ -121,6 +127,59 @@ public class ConvertHelpers {
 		@Override
 		public String fieldToString(Object from) {
 			return new SimpleDateFormat(format).format(from);
+		}
+	}
+	
+	public class CurrencyConverter extends ConverterBase {
+		String format;
+
+		
+		public CurrencyConverter(String format) {
+			if (format == null || format.length() < 1) {
+				throw new IllegalArgumentException("The format of the CurrencyConverter can be null or empty.");
+			}
+
+			try {
+				DecimalFormatSymbols unusualSymbols = new DecimalFormatSymbols(Locale.ITALIAN);
+				unusualSymbols.setDecimalSeparator(',');
+				unusualSymbols.setGroupingSeparator('.');
+				String cuPatterCurrency = "###,###.###";
+				DecimalFormat formatter = new DecimalFormat(cuPatterCurrency, unusualSymbols);
+				formatter.setGroupingSize(4);
+				formatter.parse("0,00");
+			}
+			catch (Exception e) {
+				throw new IllegalArgumentException("The format: '" + format + " is invalid for the CurrencyConverter.");
+			}
+			
+			this.format = format;
+		}
+
+		@Override
+		public Object stringToField(String from) {
+			if (from == null) {
+				from = "";
+			}
+			Number result = null;
+			try {
+				DecimalFormatSymbols unusualSymbols = new DecimalFormatSymbols(Locale.ITALIAN);
+				unusualSymbols.setDecimalSeparator(',');
+				unusualSymbols.setGroupingSeparator('.');
+				String cuPatterCurrency = "###,###.###";
+				DecimalFormat formatter = new DecimalFormat(cuPatterCurrency, unusualSymbols);
+				formatter.setGroupingSize(4);
+				result = formatter.parse(from);
+			}
+			catch (Exception e) {
+				throw new IllegalArgumentException(e.getMessage());
+			}
+			return result;
+		}
+
+		@Override
+		public String fieldToString(Object from) {
+			// TODO INSERIRE CONVERSIONE INVERSA SE SI INTENDE UTILIZZARLA
+			return "";
 		}
 	}
 

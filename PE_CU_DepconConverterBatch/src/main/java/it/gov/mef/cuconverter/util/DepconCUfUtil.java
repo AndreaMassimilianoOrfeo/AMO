@@ -6,6 +6,7 @@ import java.util.List;
 import org.coury.jfilehelpers.engines.FileHelperEngine;
 
 import it.gov.mef.cuconverter.model.CudPrimaPagina;
+import it.gov.mef.cuconverter.model.SimpleDelimiterRecord;
 
 public class DepconCUfUtil {
 	
@@ -45,6 +46,24 @@ public class DepconCUfUtil {
 		
 		return pagina;
 			
+	}
+	
+	public static SimpleDelimiterRecord getSimpleDelimiterRecord(String fileFlatContent) throws Exception {
+		
+		SimpleDelimiterRecord simpleDelimiterRecord = new SimpleDelimiterRecord();
+		
+		FileHelperEngine<SimpleDelimiterRecord> engine = new FileHelperEngine<>(SimpleDelimiterRecord.class);
+		
+		StringReader stringReader = new StringReader(fileFlatContent);
+		
+		List<SimpleDelimiterRecord> lista = engine.readStream(stringReader, -1);
+		
+		if ( lista!=null )
+			simpleDelimiterRecord = lista.get(0);
+		
+		return simpleDelimiterRecord;
+
+		
 	}
 	
 	
