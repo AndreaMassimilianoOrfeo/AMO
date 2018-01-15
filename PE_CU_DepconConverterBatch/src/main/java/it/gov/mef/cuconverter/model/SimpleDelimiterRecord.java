@@ -9,8 +9,8 @@ import org.coury.jfilehelpers.enums.ConverterKind;
 @DelimitedRecord("*")
 public class SimpleDelimiterRecord {
 	
-	@FieldConverter(converter=ConverterKind.Currency,format="###,###.###")
-	public Number importo ;
+	@FieldConverter(converter=ConverterKind.Currency,format="###,###.##")
+	public Double importo ;
 	
 	@FieldConverter(converter=ConverterKind.Date,format="yyyy-MM-dd")
 	public Date data; 

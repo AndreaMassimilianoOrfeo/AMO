@@ -2,6 +2,7 @@ package org.coury.jfilehelpers;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
+import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.Locale;
 
@@ -81,7 +82,9 @@ public class JFileHelperTest {
 			Assert.assertTrue("importo valorizzato", record.importo!=null);
 			Assert.assertTrue("data valorizzato", record.data!=null);
 			
-			logger.info("parseValidSimpleRecord importo:"+record.importo);
+			int retCompareImporti = Double.compare(record.importo.doubleValue(), new Double( 171.06 ).doubleValue());
+			logger.info("parseValidSimpleRecord retCompareImporti:"+retCompareImporti);
+			logger.info("parseValidSimpleRecord importo:"+record.importo.doubleValue());
 			logger.info("parseValidSimpleRecord data:"+record.data);
 			
 		} catch (Exception e) {
@@ -94,20 +97,28 @@ public class JFileHelperTest {
 	@Test
 	public void currencyConverterTest() throws ParseException
 	{
-		String currency = "38.221,53";
+		String currency = "" ;
 		
-		DecimalFormatSymbols unusualSymbols = new DecimalFormatSymbols(Locale.ITALIAN);
-		unusualSymbols.setDecimalSeparator(',');
-		unusualSymbols.setGroupingSeparator('.');
+		currency = "38.221,53";
+		logger.info("currencyConverterTest input["+currency+"] output["+localizedFormat(currency)+"]\n");
 		
-		String cuPatterCurrency = "###,###.###";
-		DecimalFormat formatter = new DecimalFormat(cuPatterCurrency, unusualSymbols);
-		formatter.setGroupingSize(4);
-
-		Number output = formatter.parse(currency);
-			
-		logger.info("currencyConverterTest output"+output);  
+		currency = "1.380.221,53";
+		logger.info("currencyConverterTest input["+currency+"] output["+localizedFormat(currency)+"]\n");
+		
+		currency = "11.380.221,53";
+		logger.info("currencyConverterTest input["+currency+"] output["+localizedFormat(currency)+"]");
 	}
+	
+	public Double localizedFormat(String value) throws ParseException {
+		NumberFormat nf = NumberFormat.getNumberInstance(Locale.ITALY);
+		DecimalFormat df = (DecimalFormat)nf;
+		df.applyPattern("###,###.00");
+		return (Double) df.parse(value);
+	}
+	
+
+
+	
 	
     
 }

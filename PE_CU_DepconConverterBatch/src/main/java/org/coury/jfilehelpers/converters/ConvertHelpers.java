@@ -32,6 +32,7 @@ import org.coury.jfilehelpers.enums.ConverterKind;
 
 public class ConvertHelpers {
 
+	@SuppressWarnings("incomplete-switch")
 	public static ConverterBase getConverter(ConverterKind converterKind, String format) {
 		switch (converterKind) {
 		case Date:
@@ -143,7 +144,7 @@ public class ConvertHelpers {
 				DecimalFormatSymbols unusualSymbols = new DecimalFormatSymbols(Locale.ITALIAN);
 				unusualSymbols.setDecimalSeparator(',');
 				unusualSymbols.setGroupingSeparator('.');
-				String cuPatterCurrency = "###,###.###";
+				String cuPatterCurrency = "###,###.##";
 				DecimalFormat formatter = new DecimalFormat(cuPatterCurrency, unusualSymbols);
 				formatter.setGroupingSize(4);
 				formatter.parse("0,00");
@@ -160,15 +161,15 @@ public class ConvertHelpers {
 			if (from == null) {
 				from = "";
 			}
-			Number result = null;
+			Double result = null;
 			try {
 				DecimalFormatSymbols unusualSymbols = new DecimalFormatSymbols(Locale.ITALIAN);
 				unusualSymbols.setDecimalSeparator(',');
 				unusualSymbols.setGroupingSeparator('.');
-				String cuPatterCurrency = "###,###.###";
+				String cuPatterCurrency = "###,###.##";
 				DecimalFormat formatter = new DecimalFormat(cuPatterCurrency, unusualSymbols);
 				formatter.setGroupingSize(4);
-				result = formatter.parse(from);
+				result = (Double) formatter.parse(from);
 			}
 			catch (Exception e) {
 				throw new IllegalArgumentException(e.getMessage());
