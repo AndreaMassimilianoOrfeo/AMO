@@ -22,7 +22,7 @@ package org.coury.jfilehelpers.converters;
 
 import java.lang.reflect.Field;
 import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
+import java.text.NumberFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -141,13 +141,10 @@ public class ConvertHelpers {
 			}
 
 			try {
-				DecimalFormatSymbols unusualSymbols = new DecimalFormatSymbols(Locale.ITALIAN);
-				unusualSymbols.setDecimalSeparator(',');
-				unusualSymbols.setGroupingSeparator('.');
-				String cuPatterCurrency = "###,###.##";
-				DecimalFormat formatter = new DecimalFormat(cuPatterCurrency, unusualSymbols);
-				formatter.setGroupingSize(4);
-				formatter.parse("0,00");
+				NumberFormat nf = NumberFormat.getNumberInstance(Locale.ITALY);
+				DecimalFormat df = (DecimalFormat)nf;
+				df.applyPattern("###,###.00");
+				df.parse("0,00");
 			}
 			catch (Exception e) {
 				throw new IllegalArgumentException("The format: '" + format + " is invalid for the CurrencyConverter.");
@@ -157,24 +154,25 @@ public class ConvertHelpers {
 		}
 
 		@Override
+		/**
+		 * a.orfeo
+		 * Si utilizza il converter solo per 'parsare' l'importo
+		 * al fine di validarlo , restituendo quindi la stringa originaria
+		 */
 		public Object stringToField(String from) {
 			if (from == null) {
 				from = "";
 			}
-			Double result = null;
 			try {
-				DecimalFormatSymbols unusualSymbols = new DecimalFormatSymbols(Locale.ITALIAN);
-				unusualSymbols.setDecimalSeparator(',');
-				unusualSymbols.setGroupingSeparator('.');
-				String cuPatterCurrency = "###,###.##";
-				DecimalFormat formatter = new DecimalFormat(cuPatterCurrency, unusualSymbols);
-				formatter.setGroupingSize(4);
-				result = (Double) formatter.parse(from);
+				NumberFormat nf = NumberFormat.getNumberInstance(Locale.ITALY);
+				DecimalFormat df = (DecimalFormat)nf;
+				df.applyPattern("###,###.00");
+				df.parse(from);
 			}
 			catch (Exception e) {
 				throw new IllegalArgumentException(e.getMessage());
 			}
-			return result;
+			return from;
 		}
 
 		@Override

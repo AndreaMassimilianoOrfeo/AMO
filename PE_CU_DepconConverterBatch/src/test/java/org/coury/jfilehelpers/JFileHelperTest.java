@@ -1,11 +1,5 @@
 package org.coury.jfilehelpers;
 
-import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
-import java.text.NumberFormat;
-import java.text.ParseException;
-import java.util.Locale;
-
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
@@ -82,9 +76,7 @@ public class JFileHelperTest {
 			Assert.assertTrue("importo valorizzato", record.importo!=null);
 			Assert.assertTrue("data valorizzato", record.data!=null);
 			
-			int retCompareImporti = Double.compare(record.importo.doubleValue(), new Double( 171.06 ).doubleValue());
-			logger.info("parseValidSimpleRecord retCompareImporti:"+retCompareImporti);
-			logger.info("parseValidSimpleRecord importo:"+record.importo.doubleValue());
+			logger.info("parseValidSimpleRecord importo:"+record.importo);
 			logger.info("parseValidSimpleRecord data:"+record.data);
 			
 		} catch (Exception e) {
@@ -94,7 +86,7 @@ public class JFileHelperTest {
 		
 	}
 	
-	@Test
+	/*@Test
 	public void currencyConverterTest() throws ParseException
 	{
 		String currency = "" ;
@@ -114,7 +106,7 @@ public class JFileHelperTest {
 		DecimalFormat df = (DecimalFormat)nf;
 		df.applyPattern("###,###.00");
 		return (Double) df.parse(value);
-	}
+	}*/
 	
 
 
