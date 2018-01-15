@@ -2,6 +2,7 @@ package org.coury.jfilehelpers;
 
 import org.apache.log4j.Logger;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,11 +26,11 @@ public class JFileHelperTest {
     @Autowired
     AppConfig appConfig;
 	
-	@Test
+	@Ignore
     public void parseCuTest()
     {
 		try {
-
+			
 			String fileCU = "BC3_cedol_cf_first_test.txt";
 			String parseCuInputDir = appConfig.getConfPropertiesVale("parseCuInputDir");
 			String depConFileContent = FileUtil.readFileByName(parseCuInputDir+fileCU);
