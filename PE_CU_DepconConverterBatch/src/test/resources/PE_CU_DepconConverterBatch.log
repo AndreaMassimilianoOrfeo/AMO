@@ -4278,3 +4278,18 @@ Caused by: java.lang.IllegalArgumentException: java.lang.Double cannot be cast t
 2018-01-15 12:07:25 INFO  JFileHelperTest:84 - parseValidSimpleRecord importo:9.171,06
 2018-01-15 12:07:25 INFO  JFileHelperTest:85 - parseValidSimpleRecord data:Sat Jan 13 00:00:00 CET 2018
 2018-01-15 12:07:25 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@51dcfac5: startup date [Mon Jan 15 12:07:24 CET 2018]; root of context hierarchy
+2018-01-15 12:23:18 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-01-15 12:23:19 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2018-01-15 12:23:19 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2cce3e17, org.springframework.test.context.support.DirtiesContextTestExecutionListener@184e6efc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@45586edb, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@30d60f6e]
+2018-01-15 12:23:19 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@6b1f05a1: startup date [Mon Jan 15 12:23:19 CET 2018]; root of context hierarchy
+2018-01-15 12:23:19 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+2018-01-15 12:23:19 INFO  JFileHelperTest:79 - parseValidSimpleRecord importo:9.171,06
+2018-01-15 12:23:19 INFO  JFileHelperTest:80 - parseValidSimpleRecord data:Sat Jan 13 00:00:00 CET 2018
+2018-01-15 12:23:19 INFO  JFileHelperTest:40 - ******************* CUD ****************************************
+2018-01-15 12:23:19 INFO  JFileHelperTest:41 - ******************* PAGINA 1****************************************
+2018-01-15 12:23:19 INFO  JFileHelperTest:43 - 
+ DG1714          08434952
+2018-01-15 12:23:19 INFO  JFileHelperTest:44 - ******************* PAGINA 2****************************************
+2018-01-15 12:23:19 INFO  JFileHelperTest:46 - 
+ DC1
+2018-01-15 12:23:19 INFO  GenericApplicationContext:862 - Closing org.springframework.context.support.GenericApplicationContext@6b1f05a1: startup date [Mon Jan 15 12:23:19 CET 2018]; root of context hierarchy
