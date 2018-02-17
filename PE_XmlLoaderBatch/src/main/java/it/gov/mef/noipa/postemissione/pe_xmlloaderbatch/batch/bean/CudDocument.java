@@ -6,16 +6,13 @@ public class CudDocument {
 
 	private boolean visibile;
 	private boolean archiviato;
-
 	private int idPostemissione;
-
 	private String idCentera;
-
 	private String pathFile;
 	private String nomeFile;
-
-	private String codTipologiaEmissione;
-	private String descTipologiaEmissione;
+	private String dataProduzione ;
+	private String sistemaProvenienza ;
+	private String progressivo ;
 
 	private CudType document;
 
@@ -25,15 +22,13 @@ public class CudDocument {
 
 	public CudDocument(boolean visibile, boolean archiviato,
 			int idPostemissione, String idCentera,
-			String nomeFileXml, String codTipologiaEmissione, String descTipologiaEmissione, CudType cud) {
+			String nomeFileXml, CudType cud) {
 		super();
 		this.visibile = visibile;
 		this.archiviato = archiviato;
 		this.idPostemissione = idPostemissione;
 		this.idCentera = idCentera;
 		this.nomeFile = nomeFileXml;
-		this.codTipologiaEmissione = codTipologiaEmissione;
-		this.descTipologiaEmissione = descTipologiaEmissione;
 		this.document = cud;
 	}
 
@@ -85,28 +80,36 @@ public class CudDocument {
 		this.visibile = visibile;
 	}
 
-	public String getCodTipologiaEmissione() {
-		return codTipologiaEmissione;
-	}
-
-	public void setCodTipologiaEmissione(String codTipologiaEmissione) {
-		this.codTipologiaEmissione = codTipologiaEmissione;
-	}
-
-	public String getDescTipologiaEmissione() {
-		return descTipologiaEmissione;
-	}
-
-	public void setDescTipologiaEmissione(String descTipologiaEmissione) {
-		this.descTipologiaEmissione = descTipologiaEmissione;
-	}
-
 	public CudType getDocument() {
 		return document;
 	}
 
 	public void setDocument(CudType document) {
 		this.document = document;
+	}
+
+	public String getDataProduzione() {
+		return dataProduzione;
+	}
+
+	public void setDataProduzione(String dataProduzione) {
+		this.dataProduzione = dataProduzione;
+	}
+
+	public String getSistemaProvenienza() {
+		return sistemaProvenienza;
+	}
+
+	public void setSistemaProvenienza(String sistemaProvenienza) {
+		this.sistemaProvenienza = sistemaProvenienza;
+	}
+
+	public String getProgressivo() {
+		return progressivo;
+	}
+
+	public void setProgressivo(String progressivo) {
+		this.progressivo = progressivo;
 	}
 
 }

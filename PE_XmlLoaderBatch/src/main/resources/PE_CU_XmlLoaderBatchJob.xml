@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans 
+  xmlns="http://www.springframework.org/schema/batch"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:beans="http://www.springframework.org/schema/beans"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/batch
+    classpath:/org/springframework/batch/core/configuration/xml/spring-batch-3.0.xsd
+    http://www.springframework.org/schema/beans
+    classpath:/org/springframework/beans/factory/xml/spring-beans-4.1.xsd 
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    
+    <context:component-scan base-package="it.gov.mef.noipa.postemissione" />
+    
+    <beans:import resource="PE_XmlLoaderBatchIO.xml"/>
+    <beans:import resource="PE_XmlLoaderBatchBeans.xml"/>
+    <beans:import resource="MemoryRepository.xml"/>
+    
+    
+    <job id="launcherBatchJob" >
+		<step id="Steplaunch">
+			<tasklet ref="batchLauncher" transaction-manager="noTransactionManager"/>
+		</step>	
+	</job>
+	 
+	 <job id="launcherBatchJobCedLoader" >
+		<step id="SteplaunchCedLoader">
+			<tasklet ref="batchLauncherCedLoader" transaction-manager="noTransactionManager"/>
+		</step>	
+	</job>
+    
+    <job id="PE_XmlLoaderBatchJob" xmlns="http://www.springframework.org/schema/batch" >        
+        <step id="businessStep" parent="businessStep:master" />
+        <listeners>
+        	<listener ref="jobListnerXmlLoader"/>
+        </listeners>
+    </job>
+    
+     <job id="PE_XmlCedolinoLoaderBatchJob" xmlns="http://www.springframework.org/schema/batch" >        
+        <step id="businessStepCedLoader" parent="businessStepCedLoader:master" />
+        <listeners>
+        	<listener ref="jobListnerXmlCedolinoLoader"/>
+        </listeners>
+    </job>
+    
+    <step id="concreteBusinessStep" xmlns="http://www.springframework.org/schema/batch">
+        <tasklet transaction-manager="jobRepository-transactionManager-Pemonitoraggio">
+            <chunk reader="readerCu" writer="writerCu" commit-interval="10001"/>
+        </tasklet>
+        <listeners>
+			<listener ref="stepListner"/>
+		</listeners>
+    </step>
+    
+      <step id="concreteBusinessStepCedLoader" xmlns="http://www.springframework.org/schema/batch">
+        <tasklet transaction-manager="jobRepository-transactionManager-Ucedolino">
+            <chunk reader="readerFile" writer="writerFileCedLoader" commit-interval="1"/>
+        </tasklet>
+        <listeners>
+			<listener ref="stepListnerCedLoader"/>
+		</listeners>
+    </step>
+    
+</beans:beans>

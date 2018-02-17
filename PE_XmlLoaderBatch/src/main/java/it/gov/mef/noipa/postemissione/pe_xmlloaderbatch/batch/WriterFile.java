@@ -260,7 +260,7 @@ public class WriterFile implements ItemWriter<Object> {
 				codTipologiaEmissione = getTipologiaEmissione(cud.getDatiGenerali().getBarcode());
 				descTipologiaEmissione = getDescTipologiaEmissione(codTipologiaEmissione);
 
-				cudDocument = new CudDocument(true, false, idPostemissione, "", nomeFile_origine, codTipologiaEmissione, descTipologiaEmissione, cud);
+				cudDocument = new CudDocument(true, false, idPostemissione, "", nomeFile_origine, cud);
 
 				idIndexCedolino = creaIndiceCud(
 						cud.getDatiGenerali().getIscrizione().getIscrizione(),

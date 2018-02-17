@@ -1,10 +1,5 @@
 package it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.servicefacade;
 
-import it.gov.mef.noipa.postemissione.elasticsearch.client.SearchClientServiceImpl;
-import it.gov.mef.noipa.postemissione.elasticsearch.model.cedolino.Ced;
-import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.CudDocument;
-import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.MessaggioDocument;
-import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.PostEmissioneDocument;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -21,11 +16,17 @@ import org.springframework.util.Assert;
 
 import com.google.gson.Gson;
 
-//@Component
-public class ServiceFacadeElasticSearch {
+import it.gov.mef.noipa.postemissione.elasticsearch.client.SearchClientServiceImpl;
+import it.gov.mef.noipa.postemissione.elasticsearch.model.cedolino.Ced;
+import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.CudDocument;
+import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.MessaggioDocument;
+import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.PostEmissioneDocument;
 
-	//@Autowired
-	//@Qualifier(value = "searchClientServiceImpl")
+@Component
+public class ServiceFacadeElasticSearch implements IServiceFacadeElasticSearch {
+
+	@Autowired
+	@Qualifier(value = "searchClientServiceImpl")
 	private SearchClientServiceImpl searchClientService;
 
 	private static final Logger LOG = Logger.getLogger(ServiceFacadeElasticSearch.class);
@@ -117,6 +118,19 @@ public class ServiceFacadeElasticSearch {
 		LOG.info("##### Response after delete ced:" + responseDeleteCed.status());
 	}
 
+	public void deleteCu(String anno, String filename, int idPostemissione) {
+
+		DeleteByQueryResponse responseDeleteCed = searchClientService.getClient()
+				.prepareDeleteByQuery("cu." + anno)
+				.setQuery(QueryBuilders.boolQuery()
+						.must(QueryBuilders
+								.termQuery("nomeFile", filename))
+						.must(QueryBuilders
+								.termQuery("idPostemissione", idPostemissione))
+				).execute().actionGet();
+		LOG.info("##### Response after delete cu:" + responseDeleteCed.status());
+	}
+	
 	public void deleteMessaggio(String anno, String filename, int idPostemissione) {
 
 		DeleteByQueryResponse responseDeleteMsg = searchClientService.getClient()

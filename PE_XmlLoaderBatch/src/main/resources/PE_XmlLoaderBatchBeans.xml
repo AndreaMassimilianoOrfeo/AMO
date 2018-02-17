@@ -92,6 +92,18 @@
         </property>
     </bean>
   
+  	<bean id="readerCu" class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.cu.Reader" scope="step">
+        <property name="resource" value="#{stepExecutionContext['inputFilePath']}" />
+	</bean>
+  
+    <bean id="writerCu" class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.cu.WriterCuFile"  scope="step">
+   		<property name="resource" value="#{stepExecutionContext[inputFilePath]}" /> 
+ 		<property name="idPostemissione" value="${param.id.postemissione}"/>
+ 		<property name="caricaArtefattiOracle" value="${param.carica.artefatti.oracle}"/>
+ 		<property name="mappaTipoEmissioni" value="#{stepExecutionContext[mappaTipoEmissioni]}" /> 
+ 		<property name="tipoPostemissione" value="${param.tipo.postemissione}"/>
+   </bean>
+    
     <bean id="readerFile" scope="step" autowire-candidate="false" class="org.springframework.batch.item.xml.StaxEventItemReader">
         <property name="resource" value="#{stepExecutionContext[inputFilePath]}" /> 
 	    <property name="unmarshaller"  >

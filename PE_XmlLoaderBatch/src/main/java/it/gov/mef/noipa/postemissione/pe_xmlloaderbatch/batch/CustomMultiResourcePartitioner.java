@@ -1,12 +1,5 @@
 package it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch;
 
-import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.ComboBean;
-import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.Constants;
-import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.PostEmissioneDocument;
-import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.servicefacade.ServiceFacadeElasticSearch;
-import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.servicefacade.ServiceFacadeElasticSearchStorico;
-import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.servicefacade.ServiceFacadeJDBC;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,6 +13,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.util.Assert;
 
+import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.ComboBean;
+import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.Constants;
+import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.bean.PostEmissioneDocument;
+import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.servicefacade.ServiceFacadeElasticFactory;
+import it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.servicefacade.ServiceFacadeJDBC;
+
 public class CustomMultiResourcePartitioner implements Partitioner {
 
 	private static final Logger LOGGER = Logger.getLogger(CustomMultiResourcePartitioner.class);
@@ -30,6 +29,9 @@ public class CustomMultiResourcePartitioner implements Partitioner {
 
 	@Autowired
 	private ServiceFacadeJDBC serviceFacadeJDBC;
+	
+	@Autowired
+	ServiceFacadeElasticFactory serviceFacadeElasticFactory;
 
 	//@Autowired
 	//private ServiceFacadeElasticSearch serviceFacadeElasticSearch;
@@ -100,9 +102,9 @@ public class CustomMultiResourcePartitioner implements Partitioner {
 			}
 		}
 
-		//serviceFacadeElasticSearch.insertPostemissione(idPostemissione, postEmissioneDocument, postEmissioneDocument.getTypeDocumento());
+		serviceFacadeElasticFactory.getServiceFacadeElasticInstance().insertPostemissione(idPostemissione, postEmissioneDocument, postEmissioneDocument.getTypeDocumento());
 		postEmissioneDocument.setPubblicato(true);
-		//serviceFacadeElasticSearchStorico.insertPostemissione(idPostemissione, postEmissioneDocument, postEmissioneDocument.getTypeDocumento());
+		serviceFacadeElasticFactory.getServiceFacadeElasticStoricoInstance().insertPostemissione(idPostemissione, postEmissioneDocument, postEmissioneDocument.getTypeDocumento());
 		postEmissioneDocument.setPubblicato(false);
 
 		return map;

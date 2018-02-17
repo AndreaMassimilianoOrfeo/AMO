@@ -26,7 +26,7 @@
         <configuration>
           <mainClass>org.springframework.batch.core.launch.support.CommandLineJobRunner</mainClass>
           <arguments>
-            <argument>classpath:/PE_XmlLoaderBatchJob.xml</argument>
+            <argument>classpath:/PE_CU_XmlLoaderBatchJob.xml</argument>
             <argument>PE_XmlLoaderBatchJob</argument>
             <argument>carica.artefatti.oracle=false</argument>
             <argument>input.dir=C:/NoiPA/POSTEMISSIONE/postemissione_file/cedolinoxml/daelaborare</argument>
@@ -34,7 +34,7 @@
             <argument>land.dir=C:/NoiPA/POSTEMISSIONE/postemissione_file/cedolinoxml/land</argument>
             <argument>id.postemissione=1844</argument>
             <argument>tipo.postemissione=N</argument>
-            <argument>id.test=13</argument>
+            <argument>id.test=19</argument>
           </arguments>
           <systemProperties>
             <systemProperty>

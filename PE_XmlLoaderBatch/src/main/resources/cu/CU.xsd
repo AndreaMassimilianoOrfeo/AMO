@@ -1,276 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  elementFormDefault="unqualified" attributeFormDefault="unqualified">
 	<xs:element name="cedolini">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="cu" maxOccurs="10000">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="LINGUA" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="AREA" type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="SOTTOAREA" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="ISCRIZIONE" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="UFFICIO_RESPONSABILE" type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="UFFICIO_SERVIZIO" type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="CODICE_FISCALE" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="VERSIONE" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="DATORELAV1" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="DATORELAV2" type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="DATORELAV4-9" type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A1" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A2" type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A3" type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A4" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A5" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A6" type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A7" type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A8" type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A9" type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A10" type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A20-22" type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A23" type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A24-26" type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A27" type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A41" type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A42" type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="A44" type="STRINGA5_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B1" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B2" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B4" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B5" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B6" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B21" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B22" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B26" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B27" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B29" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B30" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B121" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B122" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B124" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B126" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B127" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B131" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B132" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B321" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B322" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B324" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B326" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B327" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B331" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B332" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B341" type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B342" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B361" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B362" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B363" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B365" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B367" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B368" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B369" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B371" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B373" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B391" type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B392" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B393" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B411" type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B412" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B413" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B414" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B431" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B432" type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B433" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B434" type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B435" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B436" type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B437" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B441" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B444" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B457" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B458" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B466" type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B467" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B468" type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B469" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B473" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B475" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B476" type="STRINGA5_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B477" type="STRINGA5_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B481" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B482" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B483" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B511" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B513" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="B514" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="LINGUA"					type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="AREA" 					type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="SOTTOAREA"				type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="ISCRIZIONE"				type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="UFFICIO_RESPONSABILE"		type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="UFFICIO_SERVIZIO" 		type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="CODICE_FISCALE"			type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="VERSIONE" 				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="BARCODE" 					type="STRINGA30_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="DATORELAV1"				type="STRINGA80_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="DATORELAV2"				type="STRINGA80_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="DATORELAV4-9"				type="STRINGA80_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A1"						type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A2" 						type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A3"						type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A4"						type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A5G" 						type="INTERO2_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A5M" 						type="INTERO2_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A5A" 						type="INTERO4_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A6"						type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A7"						type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A8"						type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A9"						type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A10" 						type="STRINGA41_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A20-22"					type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A23" 						type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A24-26"					type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A27" 						type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A41"						type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A42" 						type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="A44"						type="STRINGA5_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B1"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B2"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B4" 						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B5"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B6"						type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B21"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B22"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B26" 						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B27"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B29"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B30" 						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B121"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B122"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B124" 					type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B126"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B127"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B131"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B132"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B321"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B322"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B324"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B326" 					type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B327"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B331"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B332"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B341" 					type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B342"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B361"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B362" 					type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B363"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B365" 					type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B367"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B368"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B369"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B371"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B373"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B391"						type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B392"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="B393"						type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
 							<xs:element name="NFAMCARICO" maxOccurs="5">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="B611" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B641" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B651" type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B612" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B632" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B642" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B652" type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B662" type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B672" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B682" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B613" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B623" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B633" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B643" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B653" type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B663" type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B673" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B683" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B614" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B624" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B634" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B644" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B654" type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B664" type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B674" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B684" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B615" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B625" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B635" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B645" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B655" type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B665" type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B675" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B685" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B616" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B626" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B636" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B646" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B656" type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B666" type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B676" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B686" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B617" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B627" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B637" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B647" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B657" type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B667" type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B677" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B687" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B618" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B628" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B638" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B648" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B658" type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B668" type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B678" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B688" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B619" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B629" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B639" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B649" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B659" type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B669" type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B679" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B689" type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B710" type="STRINGA_NUMERICA3_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B801" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B802" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B803" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B804" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B806" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B809" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B810" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B811" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="B920" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C1" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C2" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C3" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C4" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C6" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C7" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C801" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C802" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C803" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C804" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C805" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C806" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C807" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C808" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C809" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C810" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C811" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C812" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C9" type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C11" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C12" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C13" type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C14" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C15" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C17" type="STRINGA_NUMERICA4_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C18" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C19" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C21" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C22" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C24" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C25" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C26" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C27" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C29" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-										<xs:element name="C30" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B411"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B412" 			type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B413"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B414"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B431"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B432" 			type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B433"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B434"				type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B435"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B436"				type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B437" 			type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B441"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B444"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B457"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B458"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B466"				type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B467"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B468" 			type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B469"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B473"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B475"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B476"				type="STRINGA5_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B477" 			type="STRINGA5_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B481"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B482"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B483"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B511"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B513" 			type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B514"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B611" 			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B641"				type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B651"				type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B612"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B632"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B642" 			type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B652"				type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B662"				type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B672"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B682"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B613" 			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B623"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B633"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B643" 			type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B653"				type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B663"				type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B673"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B683"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B614" 			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B624"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B634"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B644"				type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B654"				type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B664" 			type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B674"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B684"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B615" 			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B625"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B635"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B645"				type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B655"				type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B665" 			type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B675"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B685"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B616"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B626"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B636" 			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B646"				type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B656"				type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B666" 			type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B676"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B686"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B617"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B627"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B637" 			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B647"				type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B657"				type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B667"				type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B677"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B687" 			type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B618"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B628"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B638" 			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B648"				type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B658"				type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B668"				type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B678"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B688" 			type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B619"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B629"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B639"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B649"				type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B659" 			type="STRINGA_NUMERICA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B669"				type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B679"				type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B689" 			type="STRINGA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B710"				type="STRINGA_NUMERICA3_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B801"				type="STRINGA20_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B802"				type="STRINGA20_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B803"				type="STRINGA20_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B804"				type="STRINGA20_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B806"				type="STRINGA20_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B809"				type="STRINGA20_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B810"				type="STRINGA20_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B811"				type="STRINGA20_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="B920"				type="STRINGA20_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C1"				type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C2"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C3"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C4"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C6"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C7"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C801"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C802"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C803"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C804"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C805"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C806"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C807"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C808"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C809"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C810"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C811"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C812"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C9"				type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C11"				type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C12"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C13"				type="STRINGA2_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C14"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C15"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C17"				type="STRINGA_NUMERICA4_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C18"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C19"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C21"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C22"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C24"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C25"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C26"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C27"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C29"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="C30"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
 									</xs:sequence>
-								</xs:complexType>
+								</xs:complexType>											
 							</xs:element>
-							<xs:element name="C41" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C42" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C43" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C44" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C45" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4601" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4602" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4603" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4604" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4605" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4606" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4607" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4608" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4609" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4610" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4611" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C4612" type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C52" type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C53" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C54" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C55" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C56" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C57" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="C58" type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N01" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N02" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N03" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N04" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N05" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N06" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N07" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N08" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N09" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N10" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N11" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N12" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N13" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="N14" type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D1" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D4" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D8" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D9" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D101" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D102" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D103" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D104" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D105" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D106" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D107" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="D108" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="F01" type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
-							<xs:element name="F02" type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C41"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C42"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C43"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C44"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C45"				type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4601"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4602"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4603"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4604"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4605"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4606"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4607"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4608"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4609"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4610"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4611"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C4612"			type="STRINGA1_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C52"				type="COD_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C53"				type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C54"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C55"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C56"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C57"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="C58"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N01"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N02"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N03"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N04"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N05"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N06"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N07"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N08"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N09"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N10"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N11"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N12"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N13"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="N14"				type="STRINGA110_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D1"				type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D4"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D8"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D9"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D101"				type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D102"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D103"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D104"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D105"				type="CODICE_FISCALE_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D106"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D107"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="D108"				type="STRINGA_NUMERICA14_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="F01" 				type="STRINGA10_TYPE" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="F02"				type="STRINGA50_TYPE" minOccurs="0" maxOccurs="1"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -278,6 +281,13 @@
 			<xs:attribute name="codice_sistema_emittente" type="xs:string" use="required"/>
 		</xs:complexType>
 	</xs:element>
+	
+	
+		
+		
+		
+
+	
 	<xs:simpleType name="STRINGA1_TYPE">
 		<xs:annotation>
 			<xs:documentation>stringa con un massimo di 1 carattere</xs:documentation>
@@ -398,6 +408,7 @@
 			<xs:maxLength value="110"/>
 		</xs:restriction>
 	</xs:simpleType>
+	
 	<xs:simpleType name="INTERO2_TYPE">
 		<xs:annotation>
 			<xs:documentation>numero intero con un massimo di 2 cifre (senza decimali)</xs:documentation>
@@ -406,6 +417,15 @@
 			<xs:totalDigits value="2"/>
 		</xs:restriction>
 	</xs:simpleType>
+	<xs:simpleType name="INTERO4_TYPE">
+		<xs:annotation>
+			<xs:documentation>numero intero con un massimo di 4 cifre (senza decimali)</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:totalDigits value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
 	<xs:simpleType name="INTERO5_TYPE">
 		<xs:annotation>
 			<xs:documentation>numero intero con un massimo di 5 cifre (senza decimali)</xs:documentation>
@@ -430,17 +450,21 @@
 			<xs:totalDigits value="11"/>
 		</xs:restriction>
 	</xs:simpleType>
+	
+	
 	<xs:simpleType name="CODICE_FISCALE_TYPE">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="([A-Z]{6}[0-9LMNPQRSTUV]{2}[A-Z]{1}[0-9LMNPQRSTUV]{2}[A-Z0-9]{4}[A-Z]{1}){0,1}"/>
+			<xs:pattern value="([A-Z]{6}[0-9LMNPQRSTUV]{2}[A-Z]{1}[0-9LMNPQRSTUV]{2}[A-Z0-9]{4}[A-Z]{1}){0,1}" />
 		</xs:restriction>
 	</xs:simpleType>
+	
+	
 	<xs:simpleType name="STRINGA_NUMERICA1_TYPE">
 		<xs:annotation>
 			<xs:documentation>stringa con un massimo di 1 cifre</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:pattern value="([0-9]{1}){0,1}"/>
+			<xs:pattern value="([0-9]{1}){0,1}" />
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="STRINGA_NUMERICA2_TYPE">
@@ -448,7 +472,7 @@
 			<xs:documentation>stringa con un massimo di 2 cifre</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:pattern value="([0-9]{0,2}){0,1}"/>
+			<xs:pattern value="([0-9]{0,2}){0,1}" />
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="STRINGA_NUMERICA3_TYPE">
@@ -456,7 +480,7 @@
 			<xs:documentation>stringa con un massimo di 3 cifre</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:pattern value="([0-9]{0,3}){0,1}"/>
+			<xs:pattern value="([0-9]{0,3}){0,1}" />
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="STRINGA_NUMERICA4_TYPE">
@@ -464,7 +488,7 @@
 			<xs:documentation>stringa con un massimo di 4 cifre</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:pattern value="([0-9]{4}){0,1}"/>
+			<xs:pattern value="([0-9]{4}){0,1}" />
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="STRINGA_NUMERICA5_TYPE">
@@ -472,7 +496,7 @@
 			<xs:documentation>stringa con un massimo di 5 cifre</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:pattern value="([0-9]{4,5}){0,1}"/>
+			<xs:pattern value="([0-9]{4,5}){0,1}" />
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="STRINGA_NUMERICA14_TYPE">
@@ -480,9 +504,10 @@
 			<xs:documentation>stringa con un massimo di 14 cifre compresa la virgola ove necessario</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[0-9 , \. \-]{0,14}"/>
+			<xs:pattern value="[0-9 , \. \-]{0,14}" />
 		</xs:restriction>
 	</xs:simpleType>
+	
 	<xs:simpleType name="COD_TYPE">
 		<xs:annotation>
 			<xs:documentation>codice di 4 caratteri</xs:documentation>

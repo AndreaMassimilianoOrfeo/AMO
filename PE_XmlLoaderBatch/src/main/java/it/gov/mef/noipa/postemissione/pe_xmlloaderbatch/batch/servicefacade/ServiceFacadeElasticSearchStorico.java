@@ -21,11 +21,11 @@ import org.springframework.util.Assert;
 
 import com.google.gson.Gson;
 
-//@Component
-public class ServiceFacadeElasticSearchStorico {
+@Component
+public class ServiceFacadeElasticSearchStorico implements IServiceFacadeElasticSearchStorico{
 
-	//@Autowired
-	//@Qualifier(value = "searchClientServiceStorico")
+	@Autowired
+	@Qualifier(value = "searchClientServiceStorico")
 	private SearchClientServiceImpl searchClientService;
 
 	private static final Logger LOG = Logger.getLogger(ServiceFacadeElasticSearchStorico.class);
@@ -117,6 +117,20 @@ public class ServiceFacadeElasticSearchStorico {
 		LOG.info("##### Response after delete ced:" + responseDeleteCed.status());
 	}
 
+	public void deleteCu(String anno, String filename, int idPostemissione) {
+
+		DeleteByQueryResponse responseDeleteCed = searchClientService.getClient()
+				.prepareDeleteByQuery("cu." + anno)
+				.setQuery(QueryBuilders.boolQuery()
+						.must(QueryBuilders
+								.termQuery("nomeFile", filename))
+						.must(QueryBuilders
+								.termQuery("idPostemissione", idPostemissione))
+				).execute().actionGet();
+		LOG.info("##### Response after delete cu:" + responseDeleteCed.status());
+	}
+
+	
 	public void deleteMessaggio(String anno, String filename, int idPostemissione) {
 
 		DeleteByQueryResponse responseDeleteMsg = searchClientService.getClient()
