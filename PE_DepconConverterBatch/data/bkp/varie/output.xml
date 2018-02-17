@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:cedolini xmlns:ns2="https://noipa.mef.gov.it/schema/Cedolino.xsd">
+	<cedolino>
+		<head lingua="I" ID_cedolino="082BB4BE">
+			<descr_rata>Gennaio 2015</descr_rata>
+			<anagrafica CodFiscaleAmministrato="MLNRTF57D42F965K">
+				<cognome>MOLINARI</cognome>
+				<nome>RENATA</nome>
+				<dataNascita>02/04/1957</dataNascita>
+				<domicilio_fiscale>NOVI LIGURE</domicilio_fiscale>
+				<matricola>
+					<iscrizione>00012981</iscrizione>
+				</matricola>
+			</anagrafica>
+			<ente_app>
+				<des_ente>AGENZIA DELLE ENTRATE</des_ente>
+				<des_uff_resp>RTS di ALESSANDRIA</des_uff_resp>
+				<cod_fisc_uff></cod_fisc_uff>
+				<des_uff_serv>106 - AGENZIA DELLE ENTRATE - UFFICIO DI NOVI LIGURE
+				</des_uff_serv>
+			</ente_app>
+		</head>
+		<ced1>
+			<pos_giur_eco>
+				<tipo_rapporto>Tempo indeterminato</tipo_rapporto>
+				<inquadramento>TERZA AREA F4 AG.FISCALI</inquadramento>
+				<qualifica>XAC3</qualifica>
+				<cassa_prev>INPDAP</cassa_prev>
+				<tipo_liquid>TFS</tipo_liquid>
+				<adesionePrevCompl>
+				</adesionePrevCompl>
+			</pos_giur_eco>
+			<dett_detrazioni>
+				<lav_dip>67,00</lav_dip>
+				<numero_figli>1</numero_figli>
+				<detr_figli>26,00</detr_figli>
+				<Totale>93,00</Totale>
+			</dett_detrazioni>
+			<estr_pagam>
+				<tipo_pagamento>Pagamento tramite accredito su CC bancario/postale
+				</tipo_pagamento>
+				<esigibilita>23 Gennaio 2015</esigibilita>
+				<descr_banca>UNICREDIT SPA</descr_banca>
+				<ind_banca> VIA DON MINZONI 21 15067 NOVI LIGURE</ind_banca>
+				<IBAN>IT58O0200848423000005293686</IBAN>
+			</estr_pagam>
+			<DR0 descrizione_tipo="Competenze fisse">
+				<DR1>
+					<descrizione_1_liv>Stipendio</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>2.211,79</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altri assegni</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>633,64</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Competenze accessorie">
+				<DR1>
+					<descrizione_1_liv>Assegni accessori</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>67,60</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Ritenute">
+				<DR1>
+					<descrizione_1_liv>Previdenziali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>323,47</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Fiscali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>577,34</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altre ritenute</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>13,66</importo_riten>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<totali>
+				<totale_ritenute>914,47</totale_ritenute>
+				<totale_competenze>2.913,03</totale_competenze>
+				<totale_netto>1.998,56</totale_netto>
+				<quinto_cedibile>393,43</quinto_cedibile>
+			</totali>
+			<progressivi>
+				<imponibile_AC>2.528,15</imponibile_AC>
+				<irpef_AC>560,97</irpef_AC>
+				<aliquota_max>38,00*</aliquota_max>
+				<imponibile_AP>61,41</imponibile_AP>
+				<irpef_AP>16,37</irpef_AP>
+				<aliquota_med>26,65*</aliquota_med>
+			</progressivi>
+			<rif_informazioni>
+				<ufficio>RTS di ALESSANDRIA</ufficio>
+				<barcode>0010010106000024100012981001A15F00012981A5501700 9001V
+				</barcode>
+			</rif_informazioni>
+		</ced1>
+	</cedolino>
+	<cedolino>
+		<head lingua="I" ID_cedolino="082BB2B1">
+			<descr_rata>Gennaio 2015</descr_rata>
+			<anagrafica CodFiscaleAmministrato="NCLMHL65S56D969N">
+				<cognome>NICOLINI</cognome>
+				<nome>MICHELA</nome>
+				<dataNascita>16/11/1965</dataNascita>
+				<domicilio_fiscale>NOVI LIGURE</domicilio_fiscale>
+				<matricola>
+					<iscrizione>01813712</iscrizione>
+				</matricola>
+			</anagrafica>
+			<ente_app>
+				<des_ente>AGENZIA DELLE ENTRATE</des_ente>
+				<des_uff_resp>RTS di ALESSANDRIA</des_uff_resp>
+				<cod_fisc_uff></cod_fisc_uff>
+				<des_uff_serv>106 - AGENZIA DELLE ENTRATE - UFFICIO DI NOVI LIGURE
+				</des_uff_serv>
+			</ente_app>
+		</head>
+		<ced1>
+			<pos_giur_eco>
+				<tipo_rapporto>Tempo indeterminato</tipo_rapporto>
+				<inquadramento>TERZA AREA F1 AG.FISCALI</inquadramento>
+				<qualifica>XAC1</qualifica>
+				<cassa_prev>INPDAP</cassa_prev>
+				<tipo_liquid>TFS</tipo_liquid>
+				<adesionePrevCompl>
+				</adesionePrevCompl>
+			</pos_giur_eco>
+			<dett_detrazioni>
+				<lav_dip>87,00</lav_dip>
+				<numero_figli>1</numero_figli>
+				<detr_figli>57,00</detr_figli>
+				<Totale>144,00</Totale>
+			</dett_detrazioni>
+			<estr_pagam>
+				<tipo_pagamento>Pagamento tramite accredito su CC bancario/postale
+				</tipo_pagamento>
+				<esigibilita>23 Gennaio 2015</esigibilita>
+				<descr_banca>INTESA SANPAOLO SPA</descr_banca>
+				<ind_banca> PIAZZA REPUBBLICA, 4 15067 NOVI LIGURE</ind_banca>
+				<IBAN>IT22M0306948420100000060443</IBAN>
+			</estr_pagam>
+			<DR0 descrizione_tipo="Competenze fisse">
+				<DR1>
+					<descrizione_1_liv>Stipendio</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>1.773,63</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altri assegni</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>505,13</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Competenze accessorie">
+				<DR1>
+					<descrizione_1_liv>Assegni accessori</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>164,00</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Ritenute">
+				<DR1>
+					<descrizione_1_liv>Previdenziali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>269,08</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Fiscali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>389,58</importo_riten>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<totali>
+				<totale_ritenute>658,66</totale_ritenute>
+				<totale_competenze>2.442,76</totale_competenze>
+				<totale_netto>1.784,10</totale_netto>
+				<quinto_cedibile>334,38</quinto_cedibile>
+			</totali>
+			<progressivi>
+				<imponibile_AC>2.024,68</imponibile_AC>
+				<irpef_AC>352,75</irpef_AC>
+				<aliquota_max>27,00*</aliquota_max>
+				<imponibile_AP>149,00</imponibile_AP>
+				<irpef_AP>36,83</irpef_AP>
+				<aliquota_med>24,72*</aliquota_med>
+			</progressivi>
+			<rif_informazioni>
+				<ufficio>RTS di ALESSANDRIA</ufficio>
+				<barcode>0010010106000024201813712001A15F01813712A5501700 9001V
+				</barcode>
+			</rif_informazioni>
+		</ced1>
+	</cedolino>
+	<cedolino>
+		<head lingua="I" ID_cedolino="082BAEC7">
+			<descr_rata>Gennaio 2015</descr_rata>
+			<anagrafica CodFiscaleAmministrato="PMRGPP56P60B870A">
+				<cognome>POMERO</cognome>
+				<nome>GIUSEPPINA MARIA</nome>
+				<dataNascita>20/09/1956</dataNascita>
+				<domicilio_fiscale>PASTURANA</domicilio_fiscale>
+				<matricola>
+					<iscrizione>00884699</iscrizione>
+				</matricola>
+			</anagrafica>
+			<ente_app>
+				<des_ente>AGENZIA DELLE ENTRATE</des_ente>
+				<des_uff_resp>RTS di ALESSANDRIA</des_uff_resp>
+				<cod_fisc_uff></cod_fisc_uff>
+				<des_uff_serv>106 - AGENZIA DELLE ENTRATE - UFFICIO DI NOVI LIGURE
+				</des_uff_serv>
+			</ente_app>
+		</head>
+		<ced1>
+			<pos_giur_eco>
+				<tipo_rapporto>Tempo indeterminato</tipo_rapporto>
+				<inquadramento>TERZA AREA F4 AG.FISCALI</inquadramento>
+				<qualifica>XAC3</qualifica>
+				<cassa_prev>INPDAP</cassa_prev>
+				<tipo_liquid>TFS</tipo_liquid>
+				<adesionePrevCompl>
+				</adesionePrevCompl>
+			</pos_giur_eco>
+			<dett_detrazioni>
+				<lav_dip>55,00</lav_dip>
+				<numero_figli>2</numero_figli>
+				<detr_figli>53,00</detr_figli>
+				<Totale>108,00</Totale>
+			</dett_detrazioni>
+			<estr_pagam>
+				<tipo_pagamento>Pagamento tramite accredito su CC bancario/postale
+				</tipo_pagamento>
+				<esigibilita>23 Gennaio 2015</esigibilita>
+				<descr_banca>INTESA SANPAOLO SPA</descr_banca>
+				<ind_banca> VIA ROMA 10 15062 BOSCO MARENGO</ind_banca>
+				<IBAN>IT65B0306948040100000002993</IBAN>
+			</estr_pagam>
+			<DR0 descrizione_tipo="Competenze fisse">
+				<DR1>
+					<descrizione_1_liv>Stipendio</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>2.272,39</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altri assegni</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>895,17</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Competenze accessorie">
+				<DR1>
+					<descrizione_1_liv>Assegni accessori</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>270,40</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Ritenute">
+				<DR1>
+					<descrizione_1_liv>Previdenziali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>372,72</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Fiscali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>725,29</importo_riten>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<totali>
+				<totale_ritenute>1.098,01</totale_ritenute>
+				<totale_competenze>3.437,96</totale_competenze>
+				<totale_netto>2.339,94</totale_netto>
+				<quinto_cedibile>432,53</quinto_cedibile>
+			</totali>
+			<progressivi>
+				<imponibile_AC>2.819,59</imponibile_AC>
+				<irpef_AC>656,93</irpef_AC>
+				<aliquota_max>38,00*</aliquota_max>
+				<imponibile_AP>245,65</imponibile_AP>
+				<irpef_AP>68,36</irpef_AP>
+				<aliquota_med>27,83*</aliquota_med>
+			</progressivi>
+			<rif_informazioni>
+				<ufficio>RTS di ALESSANDRIA</ufficio>
+				<barcode>0010010106000024300884699001A15F00884699A5501700 9001V
+				</barcode>
+			</rif_informazioni>
+		</ced1>
+	</cedolino>
+	<cedolino>
+		<head lingua="I" ID_cedolino="082BB6DD">
+			<descr_rata>Gennaio 2015</descr_rata>
+			<anagrafica CodFiscaleAmministrato="PNSPNN70M57F965W">
+				<cognome>PONASSI</cognome>
+				<nome>PAOLA ANNA</nome>
+				<dataNascita>17/08/1970</dataNascita>
+				<domicilio_fiscale>NOVI LIGURE</domicilio_fiscale>
+				<matricola>
+					<iscrizione>01256225</iscrizione>
+				</matricola>
+			</anagrafica>
+			<ente_app>
+				<des_ente>AGENZIA DELLE ENTRATE</des_ente>
+				<des_uff_resp>RTS di ALESSANDRIA</des_uff_resp>
+				<cod_fisc_uff></cod_fisc_uff>
+				<des_uff_serv>106 - AGENZIA DELLE ENTRATE - UFFICIO DI NOVI LIGURE
+				</des_uff_serv>
+			</ente_app>
+		</head>
+		<ced1>
+			<pos_giur_eco>
+				<tipo_rapporto>Tempo indeterminato</tipo_rapporto>
+				<inquadramento>TERZA AREA F2 AG.FISCALI</inquadramento>
+				<qualifica>XAC4</qualifica>
+				<cassa_prev>INPDAP</cassa_prev>
+				<tipo_liquid>TFS</tipo_liquid>
+				<adesionePrevCompl>
+				</adesionePrevCompl>
+			</pos_giur_eco>
+			<dett_detrazioni>
+				<lav_dip>84,00</lav_dip>
+				<numero_figli>1</numero_figli>
+				<detr_figli>56,00</detr_figli>
+				<Totale>140,00</Totale>
+			</dett_detrazioni>
+			<estr_pagam>
+				<tipo_pagamento>Pagamento tramite accredito su CC bancario/postale
+				</tipo_pagamento>
+				<esigibilita>23 Gennaio 2015</esigibilita>
+				<descr_banca>UNICREDIT SPA</descr_banca>
+				<ind_banca> VIA DON MINZONI 21 15067 NOVI LIGURE</ind_banca>
+				<IBAN>IT19G0200848423000004426826</IBAN>
+			</estr_pagam>
+			<DR0 descrizione_tipo="Competenze fisse">
+				<DR1>
+					<descrizione_1_liv>Stipendio</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>1.837,08</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altri assegni</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>529,48</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Assegno al nucleo familiare</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>25,99</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Competenze accessorie">
+				<DR1>
+					<descrizione_1_liv>Assegni accessori</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>87,36</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Ritenute">
+				<DR1>
+					<descrizione_1_liv>Previdenziali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>271,86</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Fiscali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>397,48</importo_riten>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<totali>
+				<totale_ritenute>669,34</totale_ritenute>
+				<totale_competenze>2.479,91</totale_competenze>
+				<totale_netto>1.810,57</totale_netto>
+				<quinto_cedibile>344,97</quinto_cedibile>
+			</totali>
+			<progressivi>
+				<imponibile_AC>2.102,70</imponibile_AC>
+				<irpef_AC>377,81</irpef_AC>
+				<aliquota_max>27,00*</aliquota_max>
+				<imponibile_AP>79,36</imponibile_AP>
+				<irpef_AP>19,67</irpef_AP>
+				<aliquota_med>24,78*</aliquota_med>
+			</progressivi>
+			<rif_informazioni>
+				<ufficio>RTS di ALESSANDRIA</ufficio>
+				<barcode>0010010106000024401256225001A15F01256225A5501700 9001V
+				</barcode>
+			</rif_informazioni>
+		</ced1>
+	</cedolino>
+	<cedolino>
+		<head lingua="I" ID_cedolino="082BB698">
+			<descr_rata>Gennaio 2015</descr_rata>
+			<anagrafica CodFiscaleAmministrato="RVRGRL56C08G197H">
+				<cognome>RAVERA</cognome>
+				<nome>GABRIELE</nome>
+				<dataNascita>08/03/1956</dataNascita>
+				<domicilio_fiscale>NOVI LIGURE</domicilio_fiscale>
+				<matricola>
+					<iscrizione>00843114</iscrizione>
+				</matricola>
+			</anagrafica>
+			<ente_app>
+				<des_ente>AGENZIA DELLE ENTRATE</des_ente>
+				<des_uff_resp>RTS di ALESSANDRIA</des_uff_resp>
+				<cod_fisc_uff></cod_fisc_uff>
+				<des_uff_serv>106 - AGENZIA DELLE ENTRATE - UFFICIO DI NOVI LIGURE
+				</des_uff_serv>
+			</ente_app>
+		</head>
+		<ced1>
+			<pos_giur_eco>
+				<tipo_rapporto>Tempo indeterminato</tipo_rapporto>
+				<inquadramento>TERZA AREA F2 AG.FISCALI</inquadramento>
+				<qualifica>XAC4</qualifica>
+				<cassa_prev>INPDAP</cassa_prev>
+				<tipo_liquid>TFS</tipo_liquid>
+				<adesionePrevCompl>
+				</adesionePrevCompl>
+			</pos_giur_eco>
+			<dett_detrazioni>
+				<lav_dip>80,00</lav_dip>
+				<numero_figli>1</numero_figli>
+				<detr_figli>28,00</detr_figli>
+				<Totale>108,00</Totale>
+			</dett_detrazioni>
+			<estr_pagam>
+				<tipo_pagamento>Pagamento tramite accredito su CC bancario/postale
+				</tipo_pagamento>
+				<esigibilita>23 Gennaio 2015</esigibilita>
+				<descr_banca>UNICREDIT SPA</descr_banca>
+				<ind_banca> VIA NICOLO' GIRARDENGO, 26 15067 NOVI LIGURE</ind_banca>
+				<IBAN>IT82J0200848420000004808432</IBAN>
+			</estr_pagam>
+			<DR0 descrizione_tipo="Competenze fisse">
+				<DR1>
+					<descrizione_1_liv>Stipendio</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>1.939,17</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altri assegni</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>541,39</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Competenze accessorie">
+				<DR1>
+					<descrizione_1_liv>Assegni accessori</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>131,00</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Ritenute">
+				<DR1>
+					<descrizione_1_liv>Previdenziali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>288,32</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Fiscali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>466,84</importo_riten>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<totali>
+				<totale_ritenute>755,16</totale_ritenute>
+				<totale_competenze>2.611,56</totale_competenze>
+				<totale_netto>1.856,40</totale_netto>
+				<quinto_cedibile>353,43</quinto_cedibile>
+			</totali>
+			<progressivi>
+				<imponibile_AC>2.204,23</imponibile_AC>
+				<irpef_AC>437,08</irpef_AC>
+				<aliquota_max>38,00*</aliquota_max>
+				<imponibile_AP>119,01</imponibile_AP>
+				<irpef_AP>29,76</irpef_AP>
+				<aliquota_med>25,01*</aliquota_med>
+			</progressivi>
+			<rif_informazioni>
+				<ufficio>RTS di ALESSANDRIA</ufficio>
+				<barcode>0010010106000024500843114001A15F00843114A5501700 9001V
+				</barcode>
+			</rif_informazioni>
+		</ced1>
+	</cedolino>
+	<cedolino>
+		<head lingua="I" ID_cedolino="082BB65C">
+			<descr_rata>Gennaio 2015</descr_rata>
+			<anagrafica CodFiscaleAmministrato="RSLMCM66L17F965R">
+				<cognome>ROSELLINI</cognome>
+				<nome>MARCO MARIA</nome>
+				<dataNascita>17/07/1966</dataNascita>
+				<domicilio_fiscale>NOVI LIGURE</domicilio_fiscale>
+				<matricola>
+					<iscrizione>01028595</iscrizione>
+				</matricola>
+			</anagrafica>
+			<ente_app>
+				<des_ente>AGENZIA DELLE ENTRATE</des_ente>
+				<des_uff_resp>RTS di ALESSANDRIA</des_uff_resp>
+				<cod_fisc_uff></cod_fisc_uff>
+				<des_uff_serv>106 - AGENZIA DELLE ENTRATE - UFFICIO DI NOVI LIGURE
+				</des_uff_serv>
+			</ente_app>
+		</head>
+		<ced1>
+			<pos_giur_eco>
+				<tipo_rapporto>Tempo indeterminato</tipo_rapporto>
+				<inquadramento>SECONDA AREA F3 AG.FISCALI</inquadramento>
+				<qualifica>XAB3</qualifica>
+				<cassa_prev>INPDAP</cassa_prev>
+				<tipo_liquid>TFS</tipo_liquid>
+				<adesionePrevCompl>
+				</adesionePrevCompl>
+			</pos_giur_eco>
+			<dett_detrazioni>
+				<lav_dip>96,00</lav_dip>
+				<Totale>96,00</Totale>
+			</dett_detrazioni>
+			<estr_pagam>
+				<tipo_pagamento>Pagamento tramite accredito su CC bancario/postale
+				</tipo_pagamento>
+				<esigibilita>23 Gennaio 2015</esigibilita>
+				<descr_banca>INTESA SANPAOLO SPA</descr_banca>
+				<ind_banca> PIAZZA REPUBBLICA, 4 15067 NOVI LIGURE</ind_banca>
+				<IBAN>IT49M0306948420100000101085</IBAN>
+			</estr_pagam>
+			<DR0 descrizione_tipo="Competenze fisse">
+				<DR1>
+					<descrizione_1_liv>Stipendio</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>1.626,95</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altri assegni</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>513,09</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Competenze accessorie">
+				<DR1>
+					<descrizione_1_liv>Assegni accessori</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>179,00</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Ritenute">
+				<DR1>
+					<descrizione_1_liv>Previdenziali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>247,25</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Fiscali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>390,64</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altre ritenute</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>10,12</importo_riten>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<totali>
+				<totale_ritenute>648,01</totale_ritenute>
+				<totale_competenze>2.319,04</totale_competenze>
+				<totale_netto>1.671,03</totale_netto>
+				<quinto_cedibile>311,67</quinto_cedibile>
+			</totali>
+			<progressivi>
+				<imponibile_AC>1.839,81</imponibile_AC>
+				<irpef_AC>350,80</irpef_AC>
+				<aliquota_max>27,00*</aliquota_max>
+				<imponibile_AP>162,62</imponibile_AP>
+				<irpef_AP>39,84</irpef_AP>
+				<aliquota_med>24,50*</aliquota_med>
+			</progressivi>
+			<rif_informazioni>
+				<ufficio>RTS di ALESSANDRIA</ufficio>
+				<barcode>0010010106000024601028595001A15F01028595A5501700 9001V
+				</barcode>
+			</rif_informazioni>
+		</ced1>
+	</cedolino>
+	<cedolino>
+		<head lingua="I" ID_cedolino="082BB803">
+			<descr_rata>Gennaio 2015</descr_rata>
+			<anagrafica CodFiscaleAmministrato="RCUMRC54H25H501N">
+				<cognome>RUECA</cognome>
+				<nome>MARCO</nome>
+				<dataNascita>25/06/1954</dataNascita>
+				<domicilio_fiscale>NOVI LIGURE</domicilio_fiscale>
+				<matricola>
+					<iscrizione>00768293</iscrizione>
+				</matricola>
+			</anagrafica>
+			<ente_app>
+				<des_ente>AGENZIA DELLE ENTRATE</des_ente>
+				<des_uff_resp>RTS di ALESSANDRIA</des_uff_resp>
+				<cod_fisc_uff></cod_fisc_uff>
+				<des_uff_serv>106 - AGENZIA DELLE ENTRATE - UFFICIO DI NOVI LIGURE
+				</des_uff_serv>
+			</ente_app>
+		</head>
+		<ced1>
+			<pos_giur_eco>
+				<tipo_rapporto>Tempo indeterminato</tipo_rapporto>
+				<inquadramento>SECONDA AREA F3 AG.FISCALI</inquadramento>
+				<qualifica>XAB3</qualifica>
+				<cassa_prev>INPDAP</cassa_prev>
+				<tipo_liquid>TFS</tipo_liquid>
+				<adesionePrevCompl>
+				</adesionePrevCompl>
+			</pos_giur_eco>
+			<dett_detrazioni>
+				<lav_dip>96,00</lav_dip>
+				<Totale>96,00</Totale>
+			</dett_detrazioni>
+			<estr_pagam>
+				<tipo_pagamento>Pagamento tramite accredito su CC bancario/postale
+				</tipo_pagamento>
+				<esigibilita>23 Gennaio 2015</esigibilita>
+				<descr_banca>BANCA NAZIONALE DEL LAVORO SPA</descr_banca>
+				<ind_banca> VIALE C.COLOMBO, 550 ANG. VIALE CIVILT 00144 ROMA
+				</ind_banca>
+				<IBAN>IT66H0100503218000000029573</IBAN>
+			</estr_pagam>
+			<DR0 descrizione_tipo="Competenze fisse">
+				<DR1>
+					<descrizione_1_liv>Stipendio</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>1.666,37</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altri assegni</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>514,97</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Arretrati a debito</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>12,01</importo_riten>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Ritenute">
+				<DR1>
+					<descrizione_1_liv>Previdenziali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>235,27</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Fiscali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>357,01</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altre ritenute</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>603,00</importo_riten>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<totali>
+				<totale_ritenute>1.207,29</totale_ritenute>
+				<totale_competenze>2.181,34</totale_competenze>
+				<totale_netto>974,05</totale_netto>
+				<quinto_cedibile>317,81</quinto_cedibile>
+			</totali>
+			<progressivi>
+				<imponibile_AC>1.862,82</imponibile_AC>
+				<irpef_AC>357,01</irpef_AC>
+				<aliquota_max>27,00*</aliquota_max>
+				<imponibile_AP>0,00</imponibile_AP>
+				<irpef_AP>0,00</irpef_AP>
+				<aliquota_med>24,50*</aliquota_med>
+			</progressivi>
+			<rif_informazioni>
+				<ufficio>RTS di ALESSANDRIA</ufficio>
+				<barcode>0010010106000024700768293001A15F00768293A5501700 9001V
+				</barcode>
+			</rif_informazioni>
+		</ced1>
+	</cedolino>
+	<cedolino>
+		<head lingua="I" ID_cedolino="082BB426">
+			<descr_rata>Gennaio 2015</descr_rata>
+			<anagrafica CodFiscaleAmministrato="SCTTND55H45G961Z">
+				<cognome>SCIUTTO</cognome>
+				<nome>TIZIANA</nome>
+				<dataNascita>05/06/1955</dataNascita>
+				<domicilio_fiscale>NOVI LIGURE</domicilio_fiscale>
+				<matricola>
+					<iscrizione>00008176</iscrizione>
+				</matricola>
+			</anagrafica>
+			<ente_app>
+				<des_ente>AGENZIA DELLE ENTRATE</des_ente>
+				<des_uff_resp>RTS di ALESSANDRIA</des_uff_resp>
+				<cod_fisc_uff></cod_fisc_uff>
+				<des_uff_serv>106 - AGENZIA DELLE ENTRATE - UFFICIO DI NOVI LIGURE
+				</des_uff_serv>
+			</ente_app>
+		</head>
+		<ced1>
+			<pos_giur_eco>
+				<tipo_rapporto>Tempo indeterminato</tipo_rapporto>
+				<inquadramento>TERZA AREA F2 AG.FISCALI</inquadramento>
+				<qualifica>XAC4</qualifica>
+				<cassa_prev>INPDAP</cassa_prev>
+				<tipo_liquid>TFS</tipo_liquid>
+				<adesionePrevCompl>
+				</adesionePrevCompl>
+			</pos_giur_eco>
+			<dett_detrazioni>
+				<lav_dip>89,00</lav_dip>
+				<numero_figli>1</numero_figli>
+				<detr_figli>29,00</detr_figli>
+				<Totale>118,00</Totale>
+			</dett_detrazioni>
+			<estr_pagam>
+				<tipo_pagamento>Pagamento tramite accredito su CC bancario/postale
+				</tipo_pagamento>
+				<esigibilita>23 Gennaio 2015</esigibilita>
+				<descr_banca>INTESA SANPAOLO SPA</descr_banca>
+				<ind_banca> PIAZZA REPUBBLICA, 4 15067 NOVI LIGURE</ind_banca>
+				<IBAN>IT74G0306948420100000017656</IBAN>
+			</estr_pagam>
+			<DR0 descrizione_tipo="Competenze fisse">
+				<DR1>
+					<descrizione_1_liv>Stipendio</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>1.939,17</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altri assegni</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>541,39</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Ritenute">
+				<DR1>
+					<descrizione_1_liv>Previdenziali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>276,33</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Fiscali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>372,54</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altre ritenute</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>202,47</importo_riten>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<totali>
+				<totale_ritenute>851,34</totale_ritenute>
+				<totale_competenze>2.480,56</totale_competenze>
+				<totale_netto>1.629,22</totale_netto>
+				<quinto_cedibile>366,33</quinto_cedibile>
+			</totali>
+			<progressivi>
+				<imponibile_AC>2.001,76</imponibile_AC>
+				<irpef_AC>372,54</irpef_AC>
+				<aliquota_max>27,00*</aliquota_max>
+				<imponibile_AP>0,00</imponibile_AP>
+				<irpef_AP>0,00</irpef_AP>
+				<aliquota_med>24,97*</aliquota_med>
+			</progressivi>
+			<rif_informazioni>
+				<ufficio>RTS di ALESSANDRIA</ufficio>
+				<barcode>0010010106000024800008176001A15F00008176A5501700 9001V
+				</barcode>
+			</rif_informazioni>
+		</ced1>
+	</cedolino>
+	<cedolino>
+		<head lingua="I" ID_cedolino="082BB35C">
+			<descr_rata>Gennaio 2015</descr_rata>
+			<anagrafica CodFiscaleAmministrato="SRCNLS54M67I657Q">
+				<cognome>SERICANO</cognome>
+				<nome>ANNALISA</nome>
+				<dataNascita>27/08/1954</dataNascita>
+				<domicilio_fiscale>GAVI</domicilio_fiscale>
+				<matricola>
+					<iscrizione>00011844</iscrizione>
+				</matricola>
+			</anagrafica>
+			<ente_app>
+				<des_ente>AGENZIA DELLE ENTRATE</des_ente>
+				<des_uff_resp>RTS di ALESSANDRIA</des_uff_resp>
+				<cod_fisc_uff></cod_fisc_uff>
+				<des_uff_serv>106 - AGENZIA DELLE ENTRATE - UFFICIO DI NOVI LIGURE
+				</des_uff_serv>
+			</ente_app>
+		</head>
+		<ced1>
+			<pos_giur_eco>
+				<tipo_rapporto>Tempo indeterminato</tipo_rapporto>
+				<inquadramento>TERZA AREA F5 AG.FISCALI</inquadramento>
+				<qualifica>XAC6</qualifica>
+				<cassa_prev>INPDAP</cassa_prev>
+				<tipo_liquid>TFS</tipo_liquid>
+				<adesionePrevCompl>
+				</adesionePrevCompl>
+			</pos_giur_eco>
+			<dett_detrazioni>
+				<lav_dip>54,00</lav_dip>
+				<numero_figli>1</numero_figli>
+				<detr_figli>24,00</detr_figli>
+				<Totale>78,00</Totale>
+			</dett_detrazioni>
+			<estr_pagam>
+				<tipo_pagamento>Pagamento tramite accredito su CC bancario/postale
+				</tipo_pagamento>
+				<esigibilita>23 Gennaio 2015</esigibilita>
+				<descr_banca>CASSA DI RISPARMIO DI ASTI SPA</descr_banca>
+				<ind_banca> PIAZZA INDIPENDENZA 5 15067 NOVI LIGURE</ind_banca>
+				<IBAN>IT58V0608548420000000022179</IBAN>
+			</estr_pagam>
+			<DR0 descrizione_tipo="Competenze fisse">
+				<DR1>
+					<descrizione_1_liv>Stipendio</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>2.366,38</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altri assegni</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>852,61</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Ritenute">
+				<DR1>
+					<descrizione_1_liv>Previdenziali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>355,08</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Fiscali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>703,65</importo_riten>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<totali>
+				<totale_ritenute>1.058,73</totale_ritenute>
+				<totale_competenze>3.218,99</totale_competenze>
+				<totale_netto>2.160,26</totale_netto>
+				<quinto_cedibile>432,05</quinto_cedibile>
+			</totali>
+			<progressivi>
+				<imponibile_AC>2.863,91</imponibile_AC>
+				<irpef_AC>703,65</irpef_AC>
+				<aliquota_max>38,00*</aliquota_max>
+				<imponibile_AP>0,00</imponibile_AP>
+				<irpef_AP>0,00</irpef_AP>
+				<aliquota_med>28,04*</aliquota_med>
+			</progressivi>
+			<rif_informazioni>
+				<ufficio>RTS di ALESSANDRIA</ufficio>
+				<barcode>0010010106000024900011844001A15F00011844A5501700 9001V
+				</barcode>
+			</rif_informazioni>
+		</ced1>
+	</cedolino>
+	<cedolino>
+		<head lingua="I" ID_cedolino="082BB338">
+			<descr_rata>Gennaio 2015</descr_rata>
+			<anagrafica CodFiscaleAmministrato="SROMSM67L19F965N">
+				<cognome>SORO</cognome>
+				<nome>MASSIMO</nome>
+				<dataNascita>19/07/1967</dataNascita>
+				<domicilio_fiscale>NOVI LIGURE</domicilio_fiscale>
+				<matricola>
+					<iscrizione>01029351</iscrizione>
+				</matricola>
+			</anagrafica>
+			<ente_app>
+				<des_ente>AGENZIA DELLE ENTRATE</des_ente>
+				<des_uff_resp>RTS di ALESSANDRIA</des_uff_resp>
+				<cod_fisc_uff></cod_fisc_uff>
+				<des_uff_serv>106 - AGENZIA DELLE ENTRATE - UFFICIO DI NOVI LIGURE
+				</des_uff_serv>
+			</ente_app>
+		</head>
+		<ced1>
+			<pos_giur_eco>
+				<tipo_rapporto>Tempo indeterminato</tipo_rapporto>
+				<inquadramento>TERZA AREA F1 AG.FISCALI</inquadramento>
+				<qualifica>XAC1</qualifica>
+				<cassa_prev>INPDAP</cassa_prev>
+				<tipo_liquid>TFS</tipo_liquid>
+				<adesionePrevCompl>
+				</adesionePrevCompl>
+			</pos_giur_eco>
+			<dett_detrazioni>
+				<lav_dip>88,00</lav_dip>
+				<numero_figli>2</numero_figli>
+				<detr_figli>60,00</detr_figli>
+				<Totale>148,00</Totale>
+			</dett_detrazioni>
+			<estr_pagam>
+				<tipo_pagamento>Pagamento tramite accredito su CC bancario/postale
+				</tipo_pagamento>
+				<esigibilita>23 Gennaio 2015</esigibilita>
+				<descr_banca>BANCA REGIONALE EUROPEA SPA</descr_banca>
+				<ind_banca> CORSO MARENCO, 141 15067 NOVI LIGURE</ind_banca>
+				<IBAN>IT10E0690648421000000004636</IBAN>
+			</estr_pagam>
+			<DR0 descrizione_tipo="Competenze fisse">
+				<DR1>
+					<descrizione_1_liv>Stipendio</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>1.773,63</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Altri assegni</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>505,13</importo_comp>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Assegno al nucleo familiare</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>70,56</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Competenze accessorie">
+				<DR1>
+					<descrizione_1_liv>Assegni accessori</descrizione_1_liv>
+					<dettaglio>
+						<importo_comp>75,12</importo_comp>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<DR0 descrizione_tipo="Ritenute">
+				<DR1>
+					<descrizione_1_liv>Previdenziali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>260,95</importo_riten>
+					</dettaglio>
+				</DR1>
+				<DR1>
+					<descrizione_1_liv>Fiscali</descrizione_1_liv>
+					<dettaglio>
+						<importo_riten>365,60</importo_riten>
+					</dettaglio>
+				</DR1>
+			</DR0>
+			<totali>
+				<totale_ritenute>626,55</totale_ritenute>
+				<totale_competenze>2.424,44</totale_competenze>
+				<totale_netto>1.797,89</totale_netto>
+				<quinto_cedibile>335,18</quinto_cedibile>
+			</totali>
+			<progressivi>
+				<imponibile_AC>2.024,68</imponibile_AC>
+				<irpef_AC>348,75</irpef_AC>
+				<aliquota_max>27,00*</aliquota_max>
+				<imponibile_AP>68,25</imponibile_AP>
+				<irpef_AP>16,85</irpef_AP>
+				<aliquota_med>24,69*</aliquota_med>
+			</progressivi>
+			<rif_informazioni>
+				<ufficio>RTS di ALESSANDRIA</ufficio>
+				<barcode>0010010106000025001029351001A15F01029351A5501700 9001V
+				</barcode>
+			</rif_informazioni>
+		</ced1>
+	</cedolino>
+</ns2:cedolini>

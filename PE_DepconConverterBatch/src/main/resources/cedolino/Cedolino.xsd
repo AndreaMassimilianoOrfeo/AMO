@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="https://noipa.mef.gov.it/schema/Cedolino.xsd" xmlns:dts="https://noipa.mef.gov.it/schema/definizioneTipiSemplici.xsd" targetNamespace="https://noipa.mef.gov.it/schema/Cedolino.xsd" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+	<xs:import namespace="https://noipa.mef.gov.it/schema/definizioneTipiSemplici.xsd" schemaLocation="definizioneTipiSemplici.xsd"/>
+	<xs:element name="cedolini">
+		<xs:annotation>
+			<xs:documentation>Elenco dei cedolini da elaborare/trasformare</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="cedolino" type="CedolinoType" maxOccurs="10000"/>
+			</xs:sequence>
+			<xs:attribute name="codice_sistema_emittente" type="xs:string" use="required"/>
+			<xs:attribute name="data_produzione" type="xs:dateTime" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<!-- Parte da inserire su un file xsd separato -->
+	<xs:complexType name="CedolinoType">
+		<xs:sequence>
+			<xs:element name="testata">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="rata" type="dts:RATA_TYPE"/>
+						<xs:element name="descr_rata" type="xs:string"/>
+						<xs:element name="barcode" type="xs:string" minOccurs="0"/>
+						<xs:element name="anagrafica" type="dts:AnagraficaType"/>
+						<xs:element name="ente_app">
+							<xs:complexType>
+								<xs:sequence>
+									<!-- Dati Ente -->
+									<xs:element name="cod_ente" type="xs:string"/>
+									<xs:element name="des_ente" type="xs:string"/>
+									<xs:element name="cod_fisc_ente" type="xs:string" minOccurs="0"/>
+									<!-- Dati Ufficio responsabile  -->
+									<xs:element name="cod_uff_resp" type="xs:string" minOccurs="0"/>
+									<xs:element name="des_uff_resp" type="xs:string" minOccurs="0"/>
+									<!-- Dati Ufficio / Sede Servizio  -->
+									<xs:element name="cod_sede_uff_servizio" type="xs:string" minOccurs="0"/>
+									<xs:element name="des_sede_uff_servizio" type="xs:string" minOccurs="0"/>
+									<!-- Dati UO  -->
+									<xs:element name="cod_unita_organizzativa" type="xs:string" minOccurs="0"/>
+									<xs:element name="des_unita_organizzativa" type="xs:string" minOccurs="0"/>
+									<!-- Dati CC  -->
+									<xs:element name="cod_centro_costo" type="xs:string" minOccurs="0"/>
+									<xs:element name="des_centro_costo" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="ID_cedolino" type="xs:string" use="required"/>
+					<xs:attribute name="lingua" type="dts:LINGUA_TYPE" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="per_conto_di" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="des_ente" type="xs:string" minOccurs="0"/>
+						<xs:element name="ind_ente" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="pos_giur_eco">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="cod_qualifica" type="xs:string" minOccurs="0"/>
+						<xs:element name="des_qualifica" type="xs:string" minOccurs="0"/>
+						<xs:element name="tipo_rapporto" type="xs:string" minOccurs="0"/>
+						<xs:element name="natura_rapporto" type="xs:string" minOccurs="0"/>
+						<xs:element name="inquadramento" type="xs:string" minOccurs="0"/>
+						<xs:element name="assoggettamento" type="xs:string" minOccurs="0"/>
+						<xs:element name="cod_contratto" type="xs:string" minOccurs="0"/>
+						<xs:element name="des_contratto" type="xs:string" minOccurs="0"/>
+						<xs:element name="cassa_prev" type="xs:string" minOccurs="0"/>
+						<xs:element name="scadenza" type="xs:string" minOccurs="0"/>
+						<xs:element name="tipo_liquid" type="xs:string" minOccurs="0"/>
+						<xs:element name="parametro" type="xs:string" minOccurs="0"/>
+						<xs:element name="fascia" type="xs:string" minOccurs="0"/>
+						<xs:element name="scatto" type="xs:string" minOccurs="0"/>
+						<xs:element name="livello" type="xs:string" minOccurs="0"/>
+						<xs:element name="adesionePrevCompl" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="dett_detrazioni" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="lav_dip" type="xs:string" minOccurs="0"/>
+						<xs:element name="coniuge" type="xs:string" minOccurs="0"/>
+						<xs:element name="numero_figli" type="xs:string" minOccurs="0"/>
+						<xs:element name="detr_figli" type="xs:string" minOccurs="0"/>
+						<xs:element name="min_3anni" type="xs:string" minOccurs="0"/>
+						<xs:element name="detr_min_3anni" type="xs:string" minOccurs="0"/>
+						<xs:element name="altri_fam" type="xs:string" minOccurs="0"/>
+						<xs:element name="detr_altr_fam" type="xs:string" minOccurs="0"/>
+						<xs:element name="totale" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="estr_pagam">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="tipo_pagamento" type="xs:string"/>
+						<xs:element name="esigibilita" type="xs:string"/>
+						<xs:element name="descr_banca" type="xs:string" minOccurs="0"/>
+						<xs:element name="ind_banca" type="xs:string" minOccurs="0"/>
+						<xs:element name="IBAN" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="riepilogo_retribuzione">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="dati_riepilogo_retribuzione" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="competenze" minOccurs="0" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="descrizione" type="xs:string"/>
+												<xs:element name="importo" type="xs:string"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="ritenute" minOccurs="0" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="descrizione" type="xs:string"/>
+												<xs:element name="importo" type="xs:string"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+								<xs:attribute name="descrizione_tipo" type="xs:string" use="required"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="dettaglio_retribuzione" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="gruppo_dettaglio_retribuzione" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="dati_dettaglio_retribuzione" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="dettaglio_competenze" minOccurs="0" maxOccurs="unbounded">
+													<xs:complexType>
+														<xs:sequence>
+															<xs:element name="importi" type="dts:DettaglioImporto" minOccurs="0" maxOccurs="unbounded"/>
+															<xs:element name="aliquote" type="dts:DettaglioAliquota" minOccurs="0" maxOccurs="unbounded"/>
+														</xs:sequence>
+													</xs:complexType>
+												</xs:element>
+												<xs:element name="dettaglio_ritenute" minOccurs="0" maxOccurs="unbounded">
+													<xs:complexType>
+														<xs:sequence>
+															<xs:element name="importi" type="dts:DettaglioImporto" minOccurs="0" maxOccurs="unbounded"/>
+															<xs:element name="aliquote" type="dts:DettaglioAliquota" minOccurs="0" maxOccurs="unbounded"/>
+														</xs:sequence>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+											<xs:attribute name="descrizione_tipo" type="xs:string" use="required"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+								<xs:attribute name="descrizione_gruppo" type="xs:string" use="required"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="totali">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="totale_ritenute" type="xs:string"/>
+						<xs:element name="totale_competenze" type="xs:string"/>
+						<xs:element name="totale_netto" type="xs:string"/>
+						<xs:element name="quinto_cedibile" type="xs:string" minOccurs="0"/>
+						<xs:element name="totale_netto_number" type="dts:IMPORTO15_2_TYPE" minOccurs="0"/>
+						<xs:element name="quinto_cedibile_number" type="dts:IMPORTO15_2_TYPE" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="progressivi">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="imponibile_AC" type="xs:string" minOccurs="0"/>
+						<xs:element name="irpef_AC" type="xs:string" minOccurs="0"/>
+						<xs:element name="aliquota_max" type="xs:string" minOccurs="0"/>
+						<xs:element name="imponibile_AP" type="xs:string" minOccurs="0"/>
+						<xs:element name="irpef_AP" type="xs:string" minOccurs="0"/>
+						<xs:element name="aliquota_med" type="xs:string" minOccurs="0"/>
+						<xs:element name="massimale_contrib" type="xs:string" minOccurs="0"/>
+						<xs:element name="imponibile_contrib" type="xs:string" minOccurs="0"/>
+						<xs:element name="imponibile_ME" type="xs:string" minOccurs="0"/>
+						<xs:element name="irpef_ME" type="xs:string" minOccurs="0"/>
+						<xs:element name="aliquota_ME" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="rif_informazioni" type="xs:string" minOccurs="0"/>
+			<xs:sequence>
+				<xs:element name="contratti_vigenti" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tipologia" type="xs:string"/>
+							<xs:element name="data_decorrenza" type="xs:string"/>
+							<xs:element name="data_scadenza" type="xs:string"/>
+							<xs:element name="ore_su_cattedra" type="xs:string"/>
+							<xs:element name="cod_SIDI" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:element name="tfr" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="contr_fondo_garanzia" type="xs:string"/>
+						<xs:element name="prev_complementare" type="xs:string"/>
+						<xs:element name="valore_accantonato" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="messaggi" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="messaggio" type="xs:string" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

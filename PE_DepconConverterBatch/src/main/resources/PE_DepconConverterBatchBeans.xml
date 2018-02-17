@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:batch="http://www.springframework.org/schema/batch"
+  xmlns:util="http://www.springframework.org/schema/util" 
+  xsi:schemaLocation="http://www.springframework.org/schema/batch
+    classpath:/org/springframework/batch/core/configuration/xml/spring-batch-3.0.xsd
+    http://www.springframework.org/schema/beans
+    classpath:/org/springframework/beans/factory/xml/spring-beans-4.1.xsd
+    http://www.springframework.org/schema/util 
+	classpath:/org/springframework/beans/factory/xml/spring-util-4.1.xsd ">
+    
+
+    <bean name="businessStep:master" class="org.springframework.batch.core.partition.support.PartitionStep">
+        <description>* concurrencyLimit matches count of read files to force multi-threading</description>
+        <property name="jobRepository" ref="jobRepository"/>
+        <property name="stepExecutionSplitter">
+            <bean class="org.springframework.batch.core.partition.support.SimpleStepExecutionSplitter">
+                <constructor-arg ref="jobRepository"/>
+                <constructor-arg ref="concreteBusinessStep"/>
+                <constructor-arg>
+                    <bean class="it.gov.mef.noipa.postemissione.pe_depconconverterbatch.batch.CustomMultiResourcePartitioner" scope="step">
+                        <property name="resources" value="file:${param.input.dir}/*${param.input.file.extension}"/>
+                        <property name="outputDir" value="${param.output.dir}"/>
+                        <property name="fileExtension" value="${param.input.file.extension}"/>
+                        <property name="origineDatiMap" value="#{jobExecutionContext['pe.depconconverter.originedati']}" />
+                        
+                        <property name="rataEmissione" value="${param.rataemissione}"/>
+                        <property name="progressivoEmissione" value="${param.progemissione}"/>
+                        <property name="mode" value="${param.mode}"/>
+                        
+                        <property name="seqIdOrigineDati" ref="seqIdOrigineDati" />
+                        <property name="seqIdPostemissione" ref="seqIdPostemissione" /> 
+   	                </bean>
+                </constructor-arg>
+            </bean>
+        </property> 
+        <property name="partitionHandler">
+            <bean class="org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler">
+                <property name="taskExecutor">
+                    <bean class="org.springframework.core.task.SimpleAsyncTaskExecutor">
+                        <property name="concurrencyLimit" value="6" />
+                    </bean>
+                </property>
+                <property name="step" ref="concreteBusinessStep"/>
+            </bean>
+        </property>
+    </bean>
+  
+    <bean id="reader" class="it.gov.mef.noipa.postemissione.pe_depconconverterbatch.batch.${param.mode}.Reader" scope="step">
+        <property name="resource" value="#{stepExecutionContext['inputFilePath']}" />
+	</bean>
+	
+    <bean id="processor" class="it.gov.mef.noipa.postemissione.pe_depconconverterbatch.batch.${param.mode}.Processor" scope="step">
+    	<property name="resource" value="#{stepExecutionContext['inputFilePath']}" />
+    	<property name="origineDatiMap" value="#{jobExecutionContext['pe.depconconverter.originedati']}" />
+    </bean>
+    
+    <bean id="writer" class="it.gov.mef.noipa.postemissione.pe_depconconverterbatch.batch.${param.mode}.Writer"  scope="step">
+        <property name="outputFile" value="#{stepExecutionContext['outputFileName']}" />
+        <property name="resource" value="#{stepExecutionContext['inputFilePath']}" />
+        <property name="moveDir" value="${param.move.dir}"/>
+        <property name="origineDatiMap" value="#{jobExecutionContext['pe.depconconverter.originedati']}" />
+        
+         <property name="validareXml" value="${param.flag.validarexml}"/>
+	</bean>
+	
+	 <bean id="jobListnerDepconConverter" class="it.gov.mef.noipa.postemissione.pe_depconconverterbatch.batch.listner.JobListnerDepconConverter">
+	</bean>
+	
+	<bean id="seqIdOrigineDati" class="org.springframework.jdbc.support.incrementer.OracleSequenceMaxValueIncrementer">
+    	<property name="dataSource" ref="dataSourcePemonitoraggio" />
+    	<property name="incrementerName" value="SEQ_ID_ORIGINE_DATI" />
+  	</bean>
+  	
+  	<bean id="seqIdPostemissione" class="org.springframework.jdbc.support.incrementer.OracleSequenceMaxValueIncrementer">
+    	<property name="dataSource" ref="dataSourcePemonitoraggio" />
+    	<property name="incrementerName" value="SEQ_ID_POSTEMISSIONE" />
+  	</bean>
+  	
+  	<bean id="stepListnerDepconConverter" class="it.gov.mef.noipa.postemissione.pe_depconconverterbatch.batch.listner.StepListnerDepconConverter"  scope="step">
+        <property name="outputFile" value="#{stepExecutionContext['outputFileName']}" />
+        <property name="resource" value="#{stepExecutionContext['inputFilePath']}" />
+        <property name="moveDir" value="${param.move.dir}"/>
+        <property name="origineDatiMap" value="#{jobExecutionContext['pe.depconconverter.originedati']}" />
+	</bean>
+
+<!--  
+	<bean id="multiResourceReader" class=" org.springframework.batch.core.partition.support.MultiResourcePartitioner">
+		<property name="resources" value="file:data/input/*.txt" />
+		<property name="delegate" ref="reader" />
+  	</bean> 
+
+	<bean id="writer2" class="org.springframework.batch.item.xml.StaxEventItemWriter"  scope="step"> 
+		<property name="resource" value="file:${param.output.pathFile}" />
+		<property name="marshaller" ref="jaxbMarshaller" />
+		<property name="rootTagName" value="Cedolini" />
+	</bean>
+
+	<bean id="jaxbMarshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+    	<property name="contextPath" value="it.gov.mef.noipa.postemissione.parser.autogenerated.cedolino"/>
+	</bean>
+-->
+</beans>

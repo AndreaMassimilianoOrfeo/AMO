@@ -1,0 +1,74 @@
+$CED1$
+ IDCI0819D0C5Gennaio   2015
+ BRC0010010D04001003908345905002A15F08345905A5002600 0002V
+ DACCESARE                                                      LUANA                                                       CSRLNU78H58A271E18/06/1978ANCONA                                  08345905
+ DEAMINISTERO DELL'ISTRUZIONE, UNIVERSITA' E RICERCA - EX  MPI             RTS di ANCONA                 D04 GALILEO FERRARIS
+ PGETEMP. DOC.EL./MAT.            KT0530/06/2015TFR             INPDAP    Tempo determinato
+ DDC   123,00          2    76,00            1             199,00
+ EP1Pagamento tramite accredito su CC bancario/postale                                                  Valuta/Esigibilita':               23 Gennaio 2015     Coord. IBAN:        IT53P0103002601000001305472BANCA MONTE DEI PASCHI DI SIENA S.P.A.
+ EP2 VIA RISMONDO, 10A 60100 ANCONA
+ DR0Competenze fisse
+ DR1    1.622,44PStipendio
+ DR1      244,00PAltri assegni
+ DR1       79,36PAssegno al nucleo familiare
+ DR0Ritenute
+ DR1      215,77NPrevidenziali
+ DR1      175,17NFiscali
+ DR1        7,85NAltre ritenute
+ TC0      398,79    1.945,80    1.547,01      295,10
+ IP1    1.570,67      175,17       27,00*
+ IP2        0,00        0,00       23,00*
+ RIFRiferimenti per informazioni:     RTS di ANCONA                 Per recapiti e orari consultare il sito http://www.rgs.mef.gov.it/VERSIONE-I/La-Ragione/Organigram/Ragionerie2/
+ NPT 2
+$CED2$
+ IDC$2
+ COV11/09/201430/06/201510/25     ANIC81700ETemporaneo
+ COV11/09/201430/06/201515/25     ANIC826009Temporaneo
+ DR0Competenze fisse
+ DR1STIPENDIO
+ DR2KT05          1.078,35PSTIPENDIO TABELLARE
+ DR2750/300         532,01PIIS CONGLOBATA KT05
+ DR2888/K56          12,08PIND.VACANZA CONTRATTUALE
+ DR1ALTRI ASSEGNI
+ DR2677/001         164,00PRETRIBUZIONE PROFESSIONALE DOCENTI
+ DR2                 80,00PCredito Art. 1 D.L. 66/2014
+ DR1ASSEGNO AL NUCLEO FAMILIARE
+ DR2560/BAS          79,36PASS.FAM. TABELLA: 11  NUCLEO:  4 REDDITO:   33.561
+ DR0Ritenute
+ DR1PREVIDENZIALI                           Imponibile  Aliquota    Importo
+ DR3  1.254,43 8,800 su 118     130,26INPDAP 118%
+ DR3  1.786,44 0,350 su 100       6,24FONDO CREDITO
+ DR3  1.622,44 2,500 su  80      32,45TFR art.1 c.3 DPCM 20/12/1999
+ DR3    532,01 8,800 su 100      46,82INPDAP
+ DR2                215,77NTotale ritenute previdenziali
+ DR1FISCALI                                 Imponibile  Aliquota    Importo
+ DR3                  27,000          IRPEF ad aliquota massima
+ DR3                  23,000          IRPEF ad aliquota media
+ DR3  1.570,67                  374,17IRPEF ad aliquota progressiva
+ DR3                            199,00Totale detrazioni
+ DR2                175,17NTotale ritenute fiscali al netto delle detrazioni
+ DR1ALTRE RITENUTE
+ DR2800/S8            7,85NRITENUTA SINDACALE
+$CED3$
+ IDC
+ ME0NORMATIVA SEPA: ONERI COMUNICATIVI A CARICO DEL BENEFICIARIO DI PAGAMENTI NOIPA
+ ME0Una delle principali novita' introdotte con il passaggio alla normativa SEPA e' quella
+ ME0che prevede il codice IBAN come unico identificativo del conto corrente del beneficiario,
+ ME0escludendo qualunque altro controllo da parte della banca destinataria del bonifico.
+ ME0Pertanto dopo l'entrata in vigore della sopracitata normativa e' fatto onere a ciascuna
+ ME0banca comunicare tempestivamente al proprio cliente l'IBAN corretto/variato, cosi' come
+ ME0sono totalmente a carico del beneficiario (dipendente, pensionato, ente creditore)
+ ME0l'onere e la responsabilita' nel comunicare tempestivamente il nuovo codice al sistema
+ ME0NoiPA, allo scopo di evitare storni delle somme spettanti da parte del circuito
+ ME0interbancario. La comunicazione della nuova coordinata bancaria al sistema NoiPA potra'
+ ME0avvenire mediante l'apposito self service Modalita' Di Riscossione disponibile sul
+ ME0portale NoiPA ovvero attraverso gli altri canali comunicativi normalmente utilizzati.
+ ME0La necessita' di una tempestiva comunicazione del nuovo IBAN da parte del beneficiario e'
+ ME0rafforzata anche dal fatto cha la Banca d'Italia, conseguentemente all'adozione della
+ ME0normativa comunitaria SEPA, ha comunicato la imminente dismissione del processo
+ ME0interbancario denominato Clessidra, posto in essere nel 2004 proprio per consentire un
+ ME0allineamento automatico delle coordinate bancarie (IBAN) a seguito di cessioni e/o fusioni
+ ME0da parte di istituti bancari. Processo interbancario, Clessidra, che in questi 10 anni
+ ME0ha consentito di limitare notevolmente gli storni di pagamenti motivati da codice IBAN
+ ME0errato.
+ ME0

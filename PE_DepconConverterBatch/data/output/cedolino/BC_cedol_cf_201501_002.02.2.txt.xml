@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:cedolini xmlns:ns2="https://noipa.mef.gov.it/schema/Cedolino.xsd"
+	data_produzione="2015-11-26T09:48:54.486+01:00"
+	codice_sistema_emittente="SPT">
+	<cedolino>
+		<testata lingua="I" ID_cedolino="0819D0C5">
+			<rata>201501</rata>
+			<descr_rata>Gennaio 2015</descr_rata>
+			<barcode>0010010D04001003908345905002A15F08345905A5002600 0002V
+			</barcode>
+			<anagrafica CodFiscaleAmministrato="CSRLNU78H58A271E">
+				<cognome>CESARE</cognome>
+				<nome>LUANA</nome>
+				<dataNascita>18/06/1978</dataNascita>
+				<domicilio_fiscale>ANCONA</domicilio_fiscale>
+				<matricola>
+					<iscrizione>08345905</iscrizione>
+				</matricola>
+			</anagrafica>
+			<ente_app>
+				<cod_ente>0026</cod_ente>
+				<des_ente>MINISTERO DELL'ISTRUZIONE, UNIVERSITA' E RICERCA - EX MPI
+				</des_ente>
+				<cod_fisc_ente></cod_fisc_ente>
+				<cod_uff_resp>002</cod_uff_resp>
+				<des_uff_resp>RTS di ANCONA</des_uff_resp>
+				<cod_sede_uff_servizio>0D04</cod_sede_uff_servizio>
+				<des_sede_uff_servizio>GALILEO FERRARIS</des_sede_uff_servizio>
+			</ente_app>
+		</testata>
+		<pos_giur_eco>
+			<cod_qualifica>KT05</cod_qualifica>
+			<tipo_rapporto>Tempo determinato</tipo_rapporto>
+			<inquadramento>TEMP. DOC.EL./MAT.</inquadramento>
+			<cassa_prev>INPDAP</cassa_prev>
+			<scadenza>30/06/2015</scadenza>
+			<tipo_liquid>TFR</tipo_liquid>
+			<adesionePrevCompl>
+			</adesionePrevCompl>
+		</pos_giur_eco>
+		<dett_detrazioni>
+			<lav_dip>123,00</lav_dip>
+			<numero_figli>2</numero_figli>
+			<detr_figli>76,00</detr_figli>
+			<min_3anni>1</min_3anni>
+			<totale>199,00</totale>
+		</dett_detrazioni>
+		<estr_pagam>
+			<tipo_pagamento>Pagamento tramite accredito su CC bancario/postale
+			</tipo_pagamento>
+			<esigibilita>23 Gennaio 2015</esigibilita>
+			<descr_banca>BANCA MONTE DEI PASCHI DI SIENA S.P.A.</descr_banca>
+			<ind_banca> VIA RISMONDO, 10A 60100 ANCONA</ind_banca>
+			<IBAN>IT53P0103002601000001305472</IBAN>
+		</estr_pagam>
+		<riepilogo_retribuzione>
+			<dati_riepilogo_retribuzione
+				descrizione_tipo="Competenze fisse">
+				<competenze>
+					<descrizione>Stipendio</descrizione>
+					<importo>1.622,44</importo>
+				</competenze>
+				<competenze>
+					<descrizione>Altri assegni</descrizione>
+					<importo>244,00</importo>
+				</competenze>
+				<competenze>
+					<descrizione>Assegno al nucleo familiare</descrizione>
+					<importo>79,36</importo>
+				</competenze>
+			</dati_riepilogo_retribuzione>
+			<dati_riepilogo_retribuzione
+				descrizione_tipo="Ritenute">
+				<ritenute>
+					<descrizione>Previdenziali</descrizione>
+					<importo>215,77</importo>
+				</ritenute>
+				<ritenute>
+					<descrizione>Fiscali</descrizione>
+					<importo>175,17</importo>
+				</ritenute>
+				<ritenute>
+					<descrizione>Altre ritenute</descrizione>
+					<importo>7,85</importo>
+				</ritenute>
+			</dati_riepilogo_retribuzione>
+		</riepilogo_retribuzione>
+		<dettaglio_retribuzione>
+			<gruppo_dettaglio_retribuzione
+				descrizione_gruppo="Competenze fisse">
+				<dati_dettaglio_retribuzione
+					descrizione_tipo="STIPENDIO">
+					<dettaglio_competenze>
+						<importi>
+							<descrizione>STIPENDIO TABELLARE</descrizione>
+							<importo>1.078,35</importo>
+							<codice>KT05</codice>
+						</importi>
+						<importi>
+							<descrizione>IIS CONGLOBATA KT05</descrizione>
+							<importo>532,01</importo>
+							<codice>750/300</codice>
+						</importi>
+						<importi>
+							<descrizione>IND.VACANZA CONTRATTUALE</descrizione>
+							<importo>12,08</importo>
+							<codice>888/K56</codice>
+						</importi>
+					</dettaglio_competenze>
+				</dati_dettaglio_retribuzione>
+				<dati_dettaglio_retribuzione
+					descrizione_tipo="ALTRI ASSEGNI">
+					<dettaglio_competenze>
+						<importi>
+							<descrizione>RETRIBUZIONE PROFESSIONALE DOCENTI</descrizione>
+							<importo>164,00</importo>
+							<codice>677/001</codice>
+						</importi>
+						<importi>
+							<descrizione>Credito Art. 1 D.L. 66/2014</descrizione>
+							<importo>80,00</importo>
+							<codice></codice>
+						</importi>
+					</dettaglio_competenze>
+				</dati_dettaglio_retribuzione>
+				<dati_dettaglio_retribuzione
+					descrizione_tipo="ASSEGNO AL NUCLEO FAMILIARE">
+					<dettaglio_competenze>
+						<importi>
+							<descrizione>ASS.FAM. TABELLA: 11 NUCLEO: 4 REDDITO: 33.561
+							</descrizione>
+							<importo>79,36</importo>
+							<codice>560/BAS</codice>
+						</importi>
+					</dettaglio_competenze>
+				</dati_dettaglio_retribuzione>
+			</gruppo_dettaglio_retribuzione>
+			<gruppo_dettaglio_retribuzione
+				descrizione_gruppo="Ritenute">
+				<dati_dettaglio_retribuzione
+					descrizione_tipo="PREVIDENZIALI                           Imponibile  Aliquota    Importo">
+					<dettaglio_ritenute>
+						<aliquote>
+							<descrizione>INPDAP 118%</descrizione>
+							<importo>130,26</importo>
+							<imponibile>1.254,43</imponibile>
+							<aliquota>8,800 su 118</aliquota>
+						</aliquote>
+						<aliquote>
+							<descrizione>FONDO CREDITO</descrizione>
+							<importo>6,24</importo>
+							<imponibile>1.786,44</imponibile>
+							<aliquota>0,350 su 100</aliquota>
+						</aliquote>
+						<aliquote>
+							<descrizione>TFR art.1 c.3 DPCM 20/12/1999</descrizione>
+							<importo>32,45</importo>
+							<imponibile>1.622,44</imponibile>
+							<aliquota>2,500 su 80</aliquota>
+						</aliquote>
+						<aliquote>
+							<descrizione>INPDAP</descrizione>
+							<importo>46,82</importo>
+							<imponibile>532,01</imponibile>
+							<aliquota>8,800 su 100</aliquota>
+						</aliquote>
+					</dettaglio_ritenute>
+					<dettaglio_ritenute>
+						<importi>
+							<descrizione>Totale ritenute previdenziali</descrizione>
+							<importo>215,77</importo>
+							<codice></codice>
+						</importi>
+					</dettaglio_ritenute>
+				</dati_dettaglio_retribuzione>
+				<dati_dettaglio_retribuzione
+					descrizione_tipo="FISCALI                                 Imponibile  Aliquota    Importo">
+					<dettaglio_ritenute>
+						<aliquote>
+							<descrizione>IRPEF ad aliquota massima</descrizione>
+							<importo></importo>
+							<imponibile></imponibile>
+							<aliquota>27,000</aliquota>
+						</aliquote>
+						<aliquote>
+							<descrizione>IRPEF ad aliquota media</descrizione>
+							<importo></importo>
+							<imponibile></imponibile>
+							<aliquota>23,000</aliquota>
+						</aliquote>
+						<aliquote>
+							<descrizione>IRPEF ad aliquota progressiva</descrizione>
+							<importo>374,17</importo>
+							<imponibile>1.570,67</imponibile>
+							<aliquota></aliquota>
+						</aliquote>
+						<aliquote>
+							<descrizione>Totale detrazioni</descrizione>
+							<importo>199,00</importo>
+							<imponibile></imponibile>
+							<aliquota></aliquota>
+						</aliquote>
+					</dettaglio_ritenute>
+					<dettaglio_ritenute>
+						<importi>
+							<descrizione>Totale ritenute fiscali al netto delle detrazioni
+							</descrizione>
+							<importo>175,17</importo>
+							<codice></codice>
+						</importi>
+					</dettaglio_ritenute>
+				</dati_dettaglio_retribuzione>
+				<dati_dettaglio_retribuzione
+					descrizione_tipo="ALTRE RITENUTE">
+					<dettaglio_ritenute>
+						<importi>
+							<descrizione>RITENUTA SINDACALE</descrizione>
+							<importo>7,85</importo>
+							<codice>800/S8</codice>
+						</importi>
+					</dettaglio_ritenute>
+				</dati_dettaglio_retribuzione>
+			</gruppo_dettaglio_retribuzione>
+		</dettaglio_retribuzione>
+		<totali>
+			<totale_ritenute>398,79</totale_ritenute>
+			<totale_competenze>1.945,80</totale_competenze>
+			<totale_netto>1.547,01</totale_netto>
+			<quinto_cedibile>295,10</quinto_cedibile>
+			<totale_netto_number>1547.01</totale_netto_number>
+			<quinto_cedibile_number>295.10</quinto_cedibile_number>
+		</totali>
+		<progressivi>
+			<imponibile_AC>1.570,67</imponibile_AC>
+			<irpef_AC>175,17</irpef_AC>
+			<aliquota_max>27,00</aliquota_max>
+			<imponibile_AP>0,00</imponibile_AP>
+			<irpef_AP>0,00</irpef_AP>
+			<aliquota_med>23,00</aliquota_med>
+		</progressivi>
+		<rif_informazioni>Riferimenti per informazioni: RTS di ANCONA Per
+			recapiti e orari consultare il sito
+			http://www.rgs.mef.gov.it/VERSIONE-I/La-Ragione/Organigram/Ragionerie2/
+		</rif_informazioni>
+		<contratti_vigenti>
+			<tipologia>Temporaneo</tipologia>
+			<data_decorrenza>11/09/2014</data_decorrenza>
+			<data_scadenza>30/06/2015</data_scadenza>
+			<ore_su_cattedra>10/25</ore_su_cattedra>
+			<cod_SIDI>ANIC81700E</cod_SIDI>
+		</contratti_vigenti>
+		<contratti_vigenti>
+			<tipologia>Temporaneo</tipologia>
+			<data_decorrenza>11/09/2014</data_decorrenza>
+			<data_scadenza>30/06/2015</data_scadenza>
+			<ore_su_cattedra>15/25</ore_su_cattedra>
+			<cod_SIDI>ANIC826009</cod_SIDI>
+		</contratti_vigenti>
+		<messaggi>
+			<messaggio>NORMATIVA SEPA: ONERI COMUNICATIVI A CARICO DEL
+				BENEFICIARIO DI PAGAMENTI NOIPA</messaggio>
+			<messaggio>Una delle principali novita' introdotte con il passaggio
+				alla normativa SEPA e' quella</messaggio>
+			<messaggio>che prevede il codice IBAN come unico identificativo del
+				conto corrente del beneficiario,</messaggio>
+			<messaggio>escludendo qualunque altro controllo da parte della banca
+				destinataria del bonifico.</messaggio>
+			<messaggio>Pertanto dopo l'entrata in vigore della sopracitata
+				normativa e' fatto onere a ciascuna</messaggio>
+			<messaggio>banca comunicare tempestivamente al proprio cliente l'IBAN
+				corretto/variato, cosi' come</messaggio>
+			<messaggio>sono totalmente a carico del beneficiario (dipendente,
+				pensionato, ente creditore)</messaggio>
+			<messaggio>l'onere e la responsabilita' nel comunicare
+				tempestivamente il nuovo codice al sistema</messaggio>
+			<messaggio>NoiPA, allo scopo di evitare storni delle somme spettanti
+				da parte del circuito</messaggio>
+			<messaggio>interbancario. La comunicazione della nuova coordinata
+				bancaria al sistema NoiPA potra'</messaggio>
+			<messaggio>avvenire mediante l'apposito self service Modalita' Di
+				Riscossione disponibile sul</messaggio>
+			<messaggio>portale NoiPA ovvero attraverso gli altri canali
+				comunicativi normalmente utilizzati.</messaggio>
+			<messaggio>La necessita' di una tempestiva comunicazione del nuovo
+				IBAN da parte del beneficiario e'</messaggio>
+			<messaggio>rafforzata anche dal fatto cha la Banca d'Italia,
+				conseguentemente all'adozione della</messaggio>
+			<messaggio>normativa comunitaria SEPA, ha comunicato la imminente
+				dismissione del processo</messaggio>
+			<messaggio>interbancario denominato Clessidra, posto in essere nel
+				2004 proprio per consentire un</messaggio>
+			<messaggio>allineamento automatico delle coordinate bancarie (IBAN) a
+				seguito di cessioni e/o fusioni</messaggio>
+			<messaggio>da parte di istituti bancari. Processo interbancario,
+				Clessidra, che in questi 10 anni</messaggio>
+			<messaggio>ha consentito di limitare notevolmente gli storni di
+				pagamenti motivati da codice IBAN</messaggio>
+			<messaggio>errato.</messaggio>
+			<messaggio></messaggio>
+		</messaggi>
+	</cedolino>
+</ns2:cedolini>

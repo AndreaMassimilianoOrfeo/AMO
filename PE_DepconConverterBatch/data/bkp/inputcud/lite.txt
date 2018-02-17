@@ -1,0 +1,242 @@
+$CUD1$
+ DG1BZ           00117086
+ DG2AGENZIA DOGANE E DEI MONOPOLI  (UFF. BZ  )                           97210890584
+ DG3AGENZIA DOGANE E DEI MONOPOLI (RM) 00143 VIA M. CARUCCI, 71
+ DG4BRTLND43A64A952UBORT                               IOLANDA
+ DG5F24/01/1943BOLZANO                                 BZ
+ DG6BOLZANO                                 BZA952
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ DFE
+ DFF
+ DFG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ DFO
+ TS1       190,27                     43,76
+ TS2
+ TS3
+ BRC088B35C00117086ST 4017 0100 0C
+$CUD2$
+ DC1
+ DC2
+ DC3 
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ DP1
+ DP2
+ DP3
+ DP497210890584BZ100  17003902014       209,00        69,12         0,00
+ DP5         0,00         0,00         0,00       209,00         0,73         0,00         0,00
+ CL1
+ CL2
+ CL3
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Conguagli non effettuati
+ FI010/04/2015TRIMALDI MAURIZIO
+ BRC088B35C00117086ST 4017 0100 0C
+$CUT1$
+ DG1BZ           00117086
+ DG2AGENZIA DOGANE E DEI MONOPOLI  (UFF. BZ  )                           97210890584
+ DG3AGENZIA DOGANE E DEI MONOPOLI (RM) 00143 VIA M. CARUCCI, 71
+ DG4BRTLND43A64A952UBORT                               IOLANDA
+ DG5F24/01/1943BOLZANO                                 BZ
+ DG6BOLZANO                                 BZA952
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ DFE
+ DFF
+ DFG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ DFO
+ TS1       190,27                     43,76
+ TS2
+ TS3
+ BRC088B35C00117086ST 4017 0100 0C
+$CUT2$
+ DC1
+ DC2
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ DP1
+ DP2
+ DP3
+ DP497210890584BZ100  17003902014       209,00        69,12         0,00
+ DP5         0,00         0,00         0,00       209,00         0,73         0,00         0,00
+ CL1
+ CL2
+ CL3
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Ausgleiche nicht durchgefuehrt
+ FI010/04/2015TRIMALDI MAURIZIO
+ BRC088B35C00117086ST 4017 0100 0C
+$5X1
+97210890584
+BRTLND43A64A952U
+BORT                                IOLANDA                              F
+24/01/1943 BOLZANO                         BZ
+$CUD1$
+ DG1BZ           00118102
+ DG2AGENZIA DOGANE E DEI MONOPOLI  (UFF. BZ  )                           97210890584
+ DG3AGENZIA DOGANE E DEI MONOPOLI (RM) 00143 VIA M. CARUCCI, 71
+ DG4KFMHMT48C04B397EKAUFMANN                           HELMUTH
+ DG5M04/03/1948CALDARO SULLA STRADA DEL VINO           BZ
+ DG6BRESSANONE                              BZB160
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ DFE
+ DFF
+ DFG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ DFO
+ TS1     1.038,96                    238,96
+ TS2
+ TS3
+ BRC088B35C00118102ST 4017 0100 0C
+$CUD2$
+ DC1
+ DC2X  KFMSMN86R08B160E12  050
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ DP1
+ DP2
+ DP3
+ DP497210890584BZ100  17003902014     1.144,00       377,39         0,00
+ DP5         0,00         0,00         0,00     1.144,00         4,01         0,00         0,00
+ CL1
+ CL2
+ CL3
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Conguagli non effettuati
+ FI010/04/2015TRIMALDI MAURIZIO
+ BRC088B35C00118102ST 4017 0100 0C
+$CUT1$
+ DG1BZ           00118102
+ DG2AGENZIA DOGANE E DEI MONOPOLI  (UFF. BZ  )                           97210890584
+ DG3AGENZIA DOGANE E DEI MONOPOLI (RM) 00143 VIA M. CARUCCI, 71
+ DG4KFMHMT48C04B397EKAUFMANN                           HELMUTH
+ DG5M04/03/1948CALDARO SULLA STRADA DEL VINO           BZ
+ DG6BRESSANONE                              BZB160
+ DF1
+ DF2
+ DF3
+ DF4
+ DF5
+ DF6
+ DF7
+ DF8
+ DF9
+ DFA
+ DFB
+ DFC
+ DFD
+ DFE
+ DFF
+ DFG
+ DFH
+ DFI
+ DFL
+ DFM
+ DFN
+ DFO
+ TS1     1.038,96                    238,96
+ TS2
+ TS3
+ BRC088B35C00118102ST 4017 0100 0C
+$CUT2$
+ DC1
+ DC2X  KFMSMN86R08B160E12  050
+ DC3
+ DC4
+ DC5
+ DC6
+ DC7
+ DC8
+ DC9
+ DCA
+ DP1
+ DP2
+ DP3
+ DP497210890584BZ100  17003902014     1.144,00       377,39         0,00
+ DP5         0,00         0,00         0,00     1.144,00         4,01         0,00         0,00
+ CL1
+ CL2
+ CL3
+ AN0In caso di utilizzo della dichiarazione precompilata predisposta dall'Agenzia delle Entrate verificare
+ AN0i dati forniti dalla presente Certificazione in quanto potrebbero differire dalla precompilata stessa
+ AN0a seguito di variazione della C.U.
+ AN0Ausgleiche nicht durchgefuehrt
+ FI010/04/2015TRIMALDI MAURIZIO
+ BRC088B35C00118102ST 4017 0100 0C
+$5X1
+97210890584
+KFMHMT48C04B397E
+KAUFMANN                            HELMUTH                              M
+04/03/1948 CALDARO SULLA STRADA DEL VINO   BZ

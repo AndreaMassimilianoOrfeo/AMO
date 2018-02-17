@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans 
+  xmlns="http://www.springframework.org/schema/batch http://www.springframework.org/schema/context"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:beans="http://www.springframework.org/schema/beans"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/batch
+    classpath:/org/springframework/batch/core/configuration/xml/spring-batch-3.0.xsd
+    http://www.springframework.org/schema/beans
+    classpath:/org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context 
+    classpath:org/springframework/context/config/spring-context-3.0.xsd">
+    
+    <context:component-scan base-package="it.gov.mef.noipa.postemissione" />
+    
+    <beans:import resource="PE_DepconConverterBatchIO.xml"/>
+    <beans:import resource="PE_DepconConverterBatchBeans.xml"/>
+    <beans:import resource="MemoryRepository.xml"/>
+
+ 	<job id="PE_CU_DepconConverterBatchJob" xmlns="http://www.springframework.org/schema/batch">        
+        <step id="businessStep" parent="businessStep:master" />
+        <listeners>
+        	<listener ref="jobListnerDepconConverter"/>
+        </listeners>
+    </job>
+
+    <step id="concreteBusinessStep" xmlns="http://www.springframework.org/schema/batch">
+        <tasklet transaction-manager="jobRepository-transactionManager-Pemonitoraggio">
+        	<chunk reader="reader" processor="processor" writer="writer" commit-interval="10001"/>
+		</tasklet>
+		<listeners>
+			<listener ref="stepListnerDepconConverter"/>
+		</listeners>
+    </step>
+    
+	<!-- <job id="PE_DepconConverterBatchJob_bkp" >
+		<step id="PE_DepconConverterBatchStep">
+			<tasklet transaction-manager="jobRepository-transactionManager">
+				<chunk reader="multiResourceReader" processor="processor" writer="writer" commit-interval="100000"/>
+			</tasklet>
+		</step>		
+	</job> -->
+
+</beans:beans>

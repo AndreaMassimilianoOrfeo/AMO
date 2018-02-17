@@ -1,0 +1,283 @@
+$CED1$
+ IDCI082BB835Gennaio   2015
+ BRC0010010102000000107229598001A15F07229598A5501700 9001V
+ DACARENA                                                       LUCA                                                        RNALCU73H01D969Q01/06/1973ACQUI TERME                             07229598
+ DEAAGENZIA DELLE ENTRATE                                                  RTS di ALESSANDRIA            102 AGENZIA DELLE ENTRATE - UFFICIO DI ACQUI TERME
+ PGETERZA AREA  F2 AG.FISCALI     XAC4          TFR             INPDAP    Tempo indeterminato
+ DDC    84,00          2   119,00                          203,00
+ EP1Pagamento tramite accredito su CC bancario/postale                                                  Valuta/Esigibilita':               23 Gennaio 2015     Coord. IBAN:        IT83U0760110400000044509644POSTE ITALIANE SPA
+ EP2
+ DR0Competenze fisse
+ DR1    1.837,08PStipendio
+ DR1      529,48PAltri assegni
+ DR1       67,98PAssegno al nucleo familiare
+ DR0Ritenute
+ DR1      263,86NPrevidenziali
+ DR1      314,81NFiscali
+ TC0      578,67    2.434,54    1.855,87      357,57
+ IP1    2.102,70      314,81       27,00*
+ IP2        0,00        0,00       24,78*
+ RIFRiferimenti per informazioni:     RTS di ALESSANDRIA            Per recapiti e orari consultare il sito http://www.rgs.mef.gov.it/VERSIONE-I/La-Ragione/Organigram/Ragionerie2/
+ NPT 2
+$CED2$
+ IDC
+ DR0Competenze fisse
+ DR1STIPENDIO
+ DR2XAC4          1.286,25PSTIPENDIO TABELLARE
+ DR2750/374         537,15PIIS CONGLOBATA XAC4
+ DR2888/F11          13,68PIND.VACANZA CONTRATTUALE
+ DR1ALTRI ASSEGNI
+ DR2697/CC4         529,48PIND. AMMINISTRAZIONE AGENZIE TERZA AREA F2
+ DR1ASSEGNO AL NUCLEO FAMILIARE
+ DR2560/BAS          67,98PASS.FAM. TABELLA: 11  NUCLEO:  4 REDDITO:   47.340
+ DR0Ritenute
+ DR1PREVIDENZIALI                           Imponibile  Aliquota    Importo
+ DR3  2.366,56 0,350 su 100       8,28FONDO CREDITO
+ DR3  2.366,56 2,500 su  80      47,33TFR art.1 c.3 DPCM 20/12/1999
+ DR3  2.366,56 8,800 su 100     208,25INPDAP
+ DR2                263,86NTotale ritenute previdenziali
+ DR1FISCALI                                 Imponibile  Aliquota    Importo
+ DR3                  27,000          IRPEF ad aliquota massima
+ DR3                  24,780          IRPEF ad aliquota media
+ DR3  2.102,70                  517,81IRPEF ad aliquota progressiva
+ DR3                            203,00Totale detrazioni
+ DR2                314,81NTotale ritenute fiscali al netto delle detrazioni
+$CED3$
+ IDC
+ ME0NORMATIVA SEPA: ONERI COMUNICATIVI A CARICO DEL BENEFICIARIO DI PAGAMENTI NOIPA
+ ME0Una delle principali novita' introdotte con il passaggio alla normativa SEPA e' quella
+ ME0che prevede il codice IBAN come unico identificativo del conto corrente del beneficiario,
+ ME0escludendo qualunque altro controllo da parte della banca destinataria del bonifico.
+ ME0Pertanto dopo l'entrata in vigore della sopracitata normativa e' fatto onere a ciascuna
+ ME0banca comunicare tempestivamente al proprio cliente l'IBAN corretto/variato, cosi' come
+ ME0sono totalmente a carico del beneficiario (dipendente, pensionato, ente creditore)
+ ME0l'onere e la responsabilita' nel comunicare tempestivamente il nuovo codice al sistema
+ ME0NoiPA, allo scopo di evitare storni delle somme spettanti da parte del circuito
+ ME0interbancario. La comunicazione della nuova coordinata bancaria al sistema NoiPA potra'
+ ME0avvenire mediante l'apposito self service Modalita' Di Riscossione disponibile sul
+ ME0portale NoiPA ovvero attraverso gli altri canali comunicativi normalmente utilizzati.
+ ME0La necessita' di una tempestiva comunicazione del nuovo IBAN da parte del beneficiario e'
+ ME0rafforzata anche dal fatto cha la Banca d'Italia, conseguentemente all'adozione della
+ ME0normativa comunitaria SEPA, ha comunicato la imminente dismissione del processo
+ ME0interbancario denominato Clessidra, posto in essere nel 2004 proprio per consentire un
+ ME0allineamento automatico delle coordinate bancarie (IBAN) a seguito di cessioni e/o fusioni
+ ME0da parte di istituti bancari. Processo interbancario, Clessidra, che in questi 10 anni
+ ME0ha consentito di limitare notevolmente gli storni di pagamenti motivati da codice IBAN
+ ME0errato.
+ ME0
+$CED1$
+ IDCI082BB383Gennaio   2015
+ BRC0010010102000000200008187001A15F00008187A5501700 9001V
+ DACBADINO                                                      ANNA ADELE                                                  BDNNDL53L67A052E27/07/1953OVADA                                   00008187
+ DEAAGENZIA DELLE ENTRATE                                                  RTS di ALESSANDRIA            102 AGENZIA DELLE ENTRATE - UFFICIO DI ACQUI TERME
+ PGETERZA AREA  F4 AG.FISCALI     XAC3          TFS             INPDAP    Tempo indeterminato
+ DDC    64,00                                               64,00
+ EP1Pagamento tramite accredito su CC bancario/postale                                                  Valuta/Esigibilita':               23 Gennaio 2015     Coord. IBAN:        IT08A0306948451100000004446INTESA SANPAOLO SPA
+ EP2 VIA CAIROLI 15076 OVADA
+ DR0Competenze fisse
+ DR1    2.272,39PStipendio
+ DR1      633,64PAltri assegni
+ DR0Ritenute
+ DR1      324,04NPrevidenziali
+ DR1      610,49NFiscali
+ TC0      934,53    2.906,03    1.971,50      394,30
+ IP1    2.581,99      610,49       38,00*
+ IP2        0,00        0,00       27,12*
+ RIFRiferimenti per informazioni:     RTS di ALESSANDRIA            Per recapiti e orari consultare il sito http://www.rgs.mef.gov.it/VERSIONE-I/La-Ragione/Organigram/Ragionerie2/
+ NPT 2
+$CED2$
+ IDC
+ DR0Competenze fisse
+ DR1STIPENDIO
+ DR2XAC3          1.562,25PSTIPENDIO TABELLARE
+ DR2650/001          97,78PRETRIBUZIONE INDIVIDUALE DI ANZIANITA'
+ DR2656/310          43,04PMAGGIORAZIONE R.I.A.
+ DR2750/376         553,45PIIS CONGLOBATA XAC3
+ DR2888/F10          15,87PIND.VACANZA CONTRATTUALE
+ DR1ALTRI ASSEGNI
+ DR2697/C09         633,64PIND. AMMINISTRAZIONE AGENZIE TERZA AREA F4
+ DR0Ritenute
+ DR1PREVIDENZIALI                           Imponibile  Aliquota    Importo
+ DR3  2.906,03 0,350 su 100      10,18FONDO CREDITO
+ DR3  2.906,03 2,500 su  80      58,13OPERA DI PREVIDENZA
+ DR3  2.906,03 8,800 su 100     255,73INPDAP
+ DR2                324,04NTotale ritenute previdenziali
+ DR1FISCALI                                 Imponibile  Aliquota    Importo
+ DR3                  38,000          IRPEF ad aliquota massima
+ DR3                  27,120          IRPEF ad aliquota media
+ DR3  2.581,99                  674,49IRPEF ad aliquota progressiva
+ DR3                             64,00Totale detrazioni
+ DR2                610,49NTotale ritenute fiscali al netto delle detrazioni
+$CED3$
+ IDC
+ ME0NORMATIVA SEPA: ONERI COMUNICATIVI A CARICO DEL BENEFICIARIO DI PAGAMENTI NOIPA
+ ME0Una delle principali novita' introdotte con il passaggio alla normativa SEPA e' quella
+ ME0che prevede il codice IBAN come unico identificativo del conto corrente del beneficiario,
+ ME0escludendo qualunque altro controllo da parte della banca destinataria del bonifico.
+ ME0Pertanto dopo l'entrata in vigore della sopracitata normativa e' fatto onere a ciascuna
+ ME0banca comunicare tempestivamente al proprio cliente l'IBAN corretto/variato, cosi' come
+ ME0sono totalmente a carico del beneficiario (dipendente, pensionato, ente creditore)
+ ME0l'onere e la responsabilita' nel comunicare tempestivamente il nuovo codice al sistema
+ ME0NoiPA, allo scopo di evitare storni delle somme spettanti da parte del circuito
+ ME0interbancario. La comunicazione della nuova coordinata bancaria al sistema NoiPA potra'
+ ME0avvenire mediante l'apposito self service Modalita' Di Riscossione disponibile sul
+ ME0portale NoiPA ovvero attraverso gli altri canali comunicativi normalmente utilizzati.
+ ME0La necessita' di una tempestiva comunicazione del nuovo IBAN da parte del beneficiario e'
+ ME0rafforzata anche dal fatto cha la Banca d'Italia, conseguentemente all'adozione della
+ ME0normativa comunitaria SEPA, ha comunicato la imminente dismissione del processo
+ ME0interbancario denominato Clessidra, posto in essere nel 2004 proprio per consentire un
+ ME0allineamento automatico delle coordinate bancarie (IBAN) a seguito di cessioni e/o fusioni
+ ME0da parte di istituti bancari. Processo interbancario, Clessidra, che in questi 10 anni
+ ME0ha consentito di limitare notevolmente gli storni di pagamenti motivati da codice IBAN
+ ME0errato.
+ ME0
+$CED1$
+ IDCI082BB53EGennaio   2015
+ BRC0010010102000000300013562001A15F00013562A5501700 9001V
+ DACBOCCACCIO                                                   GIULIANA                                                    BCCGLN54L60F404D20/07/1954MONTALDO BORMIDA                        00013562
+ DEAAGENZIA DELLE ENTRATE                                                  RTS di ALESSANDRIA            102 AGENZIA DELLE ENTRATE - UFFICIO DI ACQUI TERME
+ PGESECONDA AREA  F4 AG.FISCALI   XAB6          TFS             INPDAP    Tempo indeterminato
+ DDC    87,00                                               87,00
+ EP1Pagamento tramite accredito su CC bancario/postale                                                  Valuta/Esigibilita':               23 Gennaio 2015     Coord. IBAN:        IT71M0608547940000000021823CASSA DI RISPARMIO DI ASTI SPA
+ EP2 PIAZZA MATTEOTTI, 35 15011 ACQUI TERME
+ DR0Competenze fisse
+ DR1    1.839,11PStipendio
+ DR1      461,29PAltri assegni
+ DR0Ritenute
+ DR1      256,50NPrevidenziali
+ DR1      414,88NFiscali
+ DR1       10,93NAltre ritenute
+ TC0      682,31    2.300,40    1.618,09      325,80
+ IP1    2.043,90      414,88       27,00*
+ IP2        0,00        0,00       24,75*
+ RIFRiferimenti per informazioni:     RTS di ALESSANDRIA            Per recapiti e orari consultare il sito http://www.rgs.mef.gov.it/VERSIONE-I/La-Ragione/Organigram/Ragionerie2/
+ NPT 2
+$CED2$
+ IDC
+ DR0Competenze fisse
+ DR1STIPENDIO
+ DR2XAB6          1.179,33PSTIPENDIO TABELLARE
+ DR2650/001          81,60PRETRIBUZIONE INDIVIDUALE DI ANZIANITA'
+ DR2656/210          34,43PMAGGIORAZIONE R.I.A.
+ DR2750/372         530,92PIIS CONGLOBATA XAB6
+ DR2888/F05          12,83PIND.VACANZA CONTRATTUALE
+ DR1ALTRI ASSEGNI
+ DR2697/CB6         461,29PIND. AMMINISTRAZIONE AGENZIE SECONDA AREA F4
+ DR0Ritenute
+ DR1PREVIDENZIALI                           Imponibile  Aliquota    Importo
+ DR3  2.300,40 0,350 su 100       8,05FONDO CREDITO
+ DR3  2.300,40 2,500 su  80      46,02OPERA DI PREVIDENZA
+ DR3  2.300,40 8,800 su 100     202,43INPDAP
+ DR2                256,50NTotale ritenute previdenziali
+ DR1FISCALI                                 Imponibile  Aliquota    Importo
+ DR3                  27,000          IRPEF ad aliquota massima
+ DR3                  24,750          IRPEF ad aliquota media
+ DR3  2.043,90                  501,88IRPEF ad aliquota progressiva
+ DR3                             87,00Totale detrazioni
+ DR2                414,88NTotale ritenute fiscali al netto delle detrazioni
+ DR1ALTRE RITENUTE
+ DR2800/S1           10,93NRITENUTA SINDACALE
+$CED3$
+ IDC
+ ME0NORMATIVA SEPA: ONERI COMUNICATIVI A CARICO DEL BENEFICIARIO DI PAGAMENTI NOIPA
+ ME0Una delle principali novita' introdotte con il passaggio alla normativa SEPA e' quella
+ ME0che prevede il codice IBAN come unico identificativo del conto corrente del beneficiario,
+ ME0escludendo qualunque altro controllo da parte della banca destinataria del bonifico.
+ ME0Pertanto dopo l'entrata in vigore della sopracitata normativa e' fatto onere a ciascuna
+ ME0banca comunicare tempestivamente al proprio cliente l'IBAN corretto/variato, cosi' come
+ ME0sono totalmente a carico del beneficiario (dipendente, pensionato, ente creditore)
+ ME0l'onere e la responsabilita' nel comunicare tempestivamente il nuovo codice al sistema
+ ME0NoiPA, allo scopo di evitare storni delle somme spettanti da parte del circuito
+ ME0interbancario. La comunicazione della nuova coordinata bancaria al sistema NoiPA potra'
+ ME0avvenire mediante l'apposito self service Modalita' Di Riscossione disponibile sul
+ ME0portale NoiPA ovvero attraverso gli altri canali comunicativi normalmente utilizzati.
+ ME0La necessita' di una tempestiva comunicazione del nuovo IBAN da parte del beneficiario e'
+ ME0rafforzata anche dal fatto cha la Banca d'Italia, conseguentemente all'adozione della
+ ME0normativa comunitaria SEPA, ha comunicato la imminente dismissione del processo
+ ME0interbancario denominato Clessidra, posto in essere nel 2004 proprio per consentire un
+ ME0allineamento automatico delle coordinate bancarie (IBAN) a seguito di cessioni e/o fusioni
+ ME0da parte di istituti bancari. Processo interbancario, Clessidra, che in questi 10 anni
+ ME0ha consentito di limitare notevolmente gli storni di pagamenti motivati da codice IBAN
+ ME0errato.
+ ME0
+$CED1$
+ IDCI082BB03AGennaio   2015
+ BRC0010010102000000401029072001A15F01029072A5501700 9001V
+ DACBODRATO                                                     ROBERTO                                                     BDRRRT67C09G197F09/03/1967OVADA                                   01029072
+ DEAAGENZIA DELLE ENTRATE                                                  RTS di ALESSANDRIA            102 AGENZIA DELLE ENTRATE - UFFICIO DI ACQUI TERME
+ PGETERZA AREA  F1 AG.FISCALI     XAC1          TFS             INPDAP    Tempo indeterminato
+ DDC    91,00          1    58,00                          149,00
+ EP1Pagamento tramite accredito su CC bancario/postale                                                  Valuta/Esigibilita':               23 Gennaio 2015     Coord. IBAN:        IT21V0326848450001233389980BANCA SELLA SPA
+ EP2 PIAZZA GARIBALDI,8 15076 OVADA
+ DR0Competenze fisse
+ DR1    1.773,63PStipendio
+ DR1      531,13PAltri assegni
+ DR1       22,35PAssegno al nucleo familiare
+ DR1       74,81NArretrati a debito
+ DR0Competenze accessorie
+ DR2                   94,00Assegni accessori
+ DR0Ritenute
+ DR1      262,68NPrevidenziali
+ DR1      348,56NFiscali
+ TC0      686,05    2.421,11    1.735,06      344,63
+ IP1    1.949,87      327,50       27,00*
+ IP2       85,40       21,06       24,66*
+ RIFRiferimenti per informazioni:     RTS di ALESSANDRIA            Per recapiti e orari consultare il sito http://www.rgs.mef.gov.it/VERSIONE-I/La-Ragione/Organigram/Ragionerie2/
+ NPT 2
+$CED2$
+ IDC
+ DR0Competenze fisse
+ DR1STIPENDIO
+ DR2XAC1          1.223,28PSTIPENDIO TABELLARE
+ DR2750/373         537,15PIIS CONGLOBATA XAC1
+ DR2888/F08          13,20PIND.VACANZA CONTRATTUALE
+ DR1ALTRI ASSEGNI
+ DR2697/C07         505,13PIND. AMMINISTRAZIONE AGENZIE TERZA AREA F1
+ DR2                 26,00PCredito Art. 1 D.L. 66/2014
+ DR1ASSEGNO AL NUCLEO FAMILIARE
+ DR2560/BAS          22,35PASS.FAM. TABELLA: 11  NUCLEO:  3 REDDITO:   57.461
+ DR1ARRETRATI A DEBITO
+ DR2800/203          74,81NDIFFERENZE  ANNI PRECEDENTI                              scad. 01/2015
+ DR0Competenze accessorie
+ DR1Assegni accessori
+ DR2AA04/0072        94,00PINDENNITA DI FRONT OFFICE - dal 02/2014 al 02/2014
+ DR0Ritenute
+ DR1PREVIDENZIALI                           Imponibile  Aliquota    Importo
+ DR3  2.372,76 0,350 su 100       8,31FONDO CREDITO
+ DR3  2.278,76 2,500 su  80      45,57OPERA DI PREVIDENZA
+ DR3  2.372,76 8,800 su 100     208,80INPDAP
+ DR2                262,68NTotale ritenute previdenziali
+ DR1FISCALI                                 Imponibile  Aliquota    Importo
+ DR3                  27,000          IRPEF ad aliquota massima
+ DR3     85,40        24,660     21,06IRPEF ad aliquota media
+ DR3  1.949,87                  476,50IRPEF ad aliquota progressiva
+ DR3                            149,00Totale detrazioni
+ DR2                348,56NTotale ritenute fiscali al netto delle detrazioni
+$CED3$
+ IDC
+ ME0NORMATIVA SEPA: ONERI COMUNICATIVI A CARICO DEL BENEFICIARIO DI PAGAMENTI NOIPA
+ ME0Una delle principali novita' introdotte con il passaggio alla normativa SEPA e' quella
+ ME0che prevede il codice IBAN come unico identificativo del conto corrente del beneficiario,
+ ME0escludendo qualunque altro controllo da parte della banca destinataria del bonifico.
+ ME0Pertanto dopo l'entrata in vigore della sopracitata normativa e' fatto onere a ciascuna
+ ME0banca comunicare tempestivamente al proprio cliente l'IBAN corretto/variato, cosi' come
+ ME0sono totalmente a carico del beneficiario (dipendente, pensionato, ente creditore)
+ ME0l'onere e la responsabilita' nel comunicare tempestivamente il nuovo codice al sistema
+ ME0NoiPA, allo scopo di evitare storni delle somme spettanti da parte del circuito
+ ME0interbancario. La comunicazione della nuova coordinata bancaria al sistema NoiPA potra'
+ ME0avvenire mediante l'apposito self service Modalita' Di Riscossione disponibile sul
+ ME0portale NoiPA ovvero attraverso gli altri canali comunicativi normalmente utilizzati.
+ ME0La necessita' di una tempestiva comunicazione del nuovo IBAN da parte del beneficiario e'
+ ME0rafforzata anche dal fatto cha la Banca d'Italia, conseguentemente all'adozione della
+ ME0normativa comunitaria SEPA, ha comunicato la imminente dismissione del processo
+ ME0interbancario denominato Clessidra, posto in essere nel 2004 proprio per consentire un
+ ME0allineamento automatico delle coordinate bancarie (IBAN) a seguito di cessioni e/o fusioni
+ ME0da parte di istituti bancari. Processo interbancario, Clessidra, che in questi 10 anni
+ ME0ha consentito di limitare notevolmente gli storni di pagamenti motivati da codice IBAN
+ ME0errato.
+ ME0
+ ME0
+ ME0  AVVISO DEBITO: Si informa che la ritenuta identificata con il codice 800/103-203
+ ME0                 si riferisce al debito accertato per i seguenti periodi di assenza:
+ ME0 Dal 18/08/2014 al 22/08/2014 per MALATTIA DL112/08
+ ME0  Si informa la S.V. che il debito verra' recuperato con ritenuta mensile fino al 01/2015.
