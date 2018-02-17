@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:batch="http://www.springframework.org/schema/batch"
+  xmlns:util="http://www.springframework.org/schema/util" 
+   xsi:schemaLocation="http://www.springframework.org/schema/batch
+    classpath:/org/springframework/batch/core/configuration/xml/spring-batch-3.0.xsd
+    http://www.springframework.org/schema/beans
+    classpath:/org/springframework/beans/factory/xml/spring-beans-4.1.xsd
+    http://www.springframework.org/schema/util 
+	classpath:/org/springframework/beans/factory/xml/spring-util-4.1.xsd ">
+    
+	<bean id="batchLauncher" class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.Launcher" scope="step">
+	  <property name="jobLauncher" ref="jobLauncher"/>
+	  <property name="job" ref="PE_XmlLoaderBatchJob"/>
+ 		<property name="idPostemissione" value="${param.id.postemissione}"/>
+ 		<property name="caricaArtefattiOracle" value="${param.carica.artefatti.oracle}"/>
+ 		<property name="tipoPostemissione" value="${param.tipo.postemissione}"/>
+ 		<property name="inputDir" value="${param.input.dir}"/>
+ 		<property name="fileLavoratiDir" value="${param.file.lavorati.dir}"/>
+ 		<property name="landDir" value="${param.land.dir}"/>
+ 		<property name="time" value="${param.time}"/>
+	</bean>
+	
+	<bean id="batchLauncherCedLoader" class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.LauncherCedLoader" scope="step">
+	  <property name="jobLauncher" ref="jobLauncher"/>
+	  <property name="job" ref="PE_XmlCedolinoLoaderBatchJob"/>
+ 		<property name="idPostemissione" value="${param.id.postemissione}"/>
+ 		<property name="caricaArtefattiOracle" value="${param.carica.artefatti.oracle}"/>
+ 		<property name="tipoPostemissione" value="${param.tipo.postemissione}"/>
+ 		<property name="inputDir" value="${param.input.dir}"/>
+ 		<property name="fileLavoratiDir" value="${param.file.lavorati.dir}"/>
+ 		<property name="landDir" value="${param.land.dir}"/>
+ 		<property name="time" value="${param.time}"/>
+	</bean>
+     
+    <bean name="businessStep:master" class="org.springframework.batch.core.partition.support.PartitionStep">
+        <description>
+            * concurrencyLimit matches count of read files to force multi-threading
+        </description>
+        <property name="jobRepository" ref="jobRepository"/>
+        <property name="stepExecutionSplitter">
+            <bean class="org.springframework.batch.core.partition.support.SimpleStepExecutionSplitter">
+                <constructor-arg ref="jobRepository"/>
+                <constructor-arg ref="concreteBusinessStep"/>
+                <constructor-arg>
+                    <bean class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.CustomMultiResourcePartitioner" scope="step">
+                        <property name="resources" value="file:${param.input.dir}/*.xml"/>
+                        <property name="idPostemissione" value="${param.id.postemissione}"/>
+                    </bean>
+                </constructor-arg>
+            </bean>
+        </property> 
+        <property name="partitionHandler">
+            <bean class="org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler">
+                <property name="taskExecutor">
+                    <bean class="org.springframework.core.task.SimpleAsyncTaskExecutor">
+                        <property name="concurrencyLimit" value="4" />
+                    </bean>
+                </property>
+                <property name="step" ref="concreteBusinessStep"/>
+            </bean>
+        </property>
+    </bean>
+    
+     <bean name="businessStepCedLoader:master" class="org.springframework.batch.core.partition.support.PartitionStep">
+        <description>
+            * concurrencyLimit matches count of read files to force multi-threading
+        </description>
+        <property name="jobRepository" ref="jobRepository"/>
+        <property name="stepExecutionSplitter">
+            <bean class="org.springframework.batch.core.partition.support.SimpleStepExecutionSplitter">
+                <constructor-arg ref="jobRepository"/>
+                <constructor-arg ref="concreteBusinessStepCedLoader"/>
+                <constructor-arg>
+                    <bean class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.CustomMultiResourcePartitionerCedLoader" scope="step">
+                        <property name="resources" value="file:${param.input.dir}/*.xml"/>
+                        <property name="idPostemissione" value="${param.id.postemissione}"/>
+                    </bean>
+                </constructor-arg>
+            </bean>
+        </property> 
+        <property name="partitionHandler">
+            <bean class="org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler">
+                <property name="taskExecutor">
+                    <bean class="org.springframework.core.task.SimpleAsyncTaskExecutor">
+                        <property name="concurrencyLimit" value="1" />
+                    </bean>
+                </property>
+                <property name="step" ref="concreteBusinessStepCedLoader"/>
+            </bean>
+        </property>
+    </bean>
+  
+    <bean id="readerFile" scope="step" autowire-candidate="false" class="org.springframework.batch.item.xml.StaxEventItemReader">
+        <property name="resource" value="#{stepExecutionContext[inputFilePath]}" /> 
+	    <property name="unmarshaller"  >
+	    	<bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+		        <property name="classesToBeBound" value="#{stepExecutionContext[pathRootElement]}" /> 
+		        <property name="schema" value="classpath:#{stepExecutionContext[schemaLocation]}"/>
+	    	</bean> 
+	    </property>
+	    <property name="fragmentRootElementName" value="#{stepExecutionContext[rootElement]}" />  
+    </bean>  
+    
+   <bean id="writerFile" class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.WriterFile"  scope="step">
+   		<property name="resource" value="#{stepExecutionContext[inputFilePath]}" /> 
+ 		<property name="idPostemissione" value="${param.id.postemissione}"/>
+ 		<property name="caricaArtefattiOracle" value="${param.carica.artefatti.oracle}"/>
+ 		<property name="mappaTipoEmissioni" value="#{stepExecutionContext[mappaTipoEmissioni]}" /> 
+ 		<property name="tipoPostemissione" value="${param.tipo.postemissione}"/>
+   </bean>
+   
+   <bean id="writerFileCedLoader" class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.WriterFileCedLoader"  scope="step">
+   		<property name="resource" value="#{stepExecutionContext[inputFilePath]}" /> 
+ 		<property name="idPostemissione" value="${param.id.postemissione}"/>
+ 		<property name="caricaArtefattiOracle" value="${param.carica.artefatti.oracle}"/>
+ 		<property name="mappaTipoEmissioni" value="#{stepExecutionContext[mappaTipoEmissioni]}" /> 
+ 		<property name="tipoPostemissione" value="${param.tipo.postemissione}"/>
+ 		<property name="filePDFDir" value="${param.filePDF.dir}"/>
+   </bean>
+   
+   	 <bean id="stepListner" class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.listner.StepListner"  scope="step">
+         <property name="resource" value="#{stepExecutionContext['inputFilePath']}" />
+         <property name="fileLavoratiDir" value="${param.file.lavorati.dir}"/>
+         <property name="landDir" value="${param.land.dir}"/>
+         <property name="idPostemissione" value="${param.id.postemissione}"/>
+         <property name="tipoPostemissione" value="${param.tipo.postemissione}"/>
+	</bean>
+	
+	 <bean id="stepListnerCedLoader" class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.listner.StepListnerCedLoader" scope="step">
+         <property name="resource" value="#{stepExecutionContext['inputFilePath']}" />
+         <property name="fileLavoratiDir" value="${param.file.lavorati.dir}"/>
+         <property name="landDir" value="${param.land.dir}"/>
+         <property name="idPostemissione" value="${param.id.postemissione}"/>
+         <property name="tipoPostemissione" value="${param.tipo.postemissione}"/>
+	</bean>
+	
+	<bean id="jobListnerXmlLoader" class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.listner.JobListnerXmlLoader">
+	</bean>
+	
+	<bean id="jobListnerXmlCedolinoLoader" class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.listner.JobListnerXmlCedolinoLoader">
+	</bean>
+	
+</beans>

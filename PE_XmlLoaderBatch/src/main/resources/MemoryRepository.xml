@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						 classpath:/org/springframework/beans/factory/xml/spring-beans-4.1.xsd "> 
+ 
+	<bean id="jobLauncher" class="org.springframework.batch.core.launch.support.SimpleJobLauncher" >  
+		<property name="jobRepository" ref="jobRepository"/>		
+	</bean>
+	
+	<bean id="noTransactionManager" class="it.gov.mef.noipa.postemissione.pe_xmlloaderbatch.batch.NoTransaction">
+	</bean>
+	
+	<bean id="jobRepository" class="org.springframework.batch.core.repository.support.JobRepositoryFactoryBean" >
+        <property name="databaseType" value="oracle"/>
+        <property name="dataSource" ref="dataSource"/>
+        <property name="incrementerFactory" ref="incrementerFactory"/>
+        <property name="transactionManager" ref="jobRepository-transactionManager"/>
+        <property name="isolationLevelForCreate" value="ISOLATION_DEFAULT"/>
+        <property name="lobHandler" ref="lobHandler"/>
+	</bean>
+	
+	<bean id="jobRepository-transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+	
+	<bean id="incrementerFactory" class="org.springframework.batch.item.database.support.DefaultDataFieldMaxValueIncrementerFactory">
+	        <constructor-arg ref="dataSource"/>
+	</bean>
+		
+	<bean id="jobRepository-transactionManager-Pemonitoraggio" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSourcePemonitoraggio"/>
+	</bean>
+	
+	<bean id="jobRepository-transactionManager-Ucedolino" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSourceUcedolino"/>
+	</bean>
+	
+	
+	<bean id="lobHandler" class="org.springframework.jdbc.support.lob.OracleLobHandler">
+ 		<property name="nativeJdbcExtractor">
+ 			<bean class="org.springframework.jdbc.support.nativejdbc.OracleJdbc4NativeJdbcExtractor" /> 
+ 		</property>
+ 	</bean>
+ 	
+
+</beans>

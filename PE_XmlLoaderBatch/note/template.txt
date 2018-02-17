@@ -1,0 +1,23 @@
+/_template/template_messaggio    PUT
+
+{
+  "template": "messaggio.*",
+  "order": 1,
+  "mappings": {
+    "_default_": {
+      "_all": {
+        "enabled": false
+      },
+      "properties": {
+        "contenutoMessaggio": {
+          "type": "string",
+          "index": "no"
+        }
+      }
+    }
+  },
+  "aliases": {
+    "messaggio": {}
+  }
+}
+

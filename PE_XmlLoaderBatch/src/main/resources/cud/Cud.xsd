@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="https://noipa.mef.gov.it/schema/Cud.xsd" xmlns:dts="https://noipa.mef.gov.it/schema/definizioneTipiSemplici.xsd" targetNamespace="https://noipa.mef.gov.it/schema/Cud.xsd" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+	<xs:import namespace="https://noipa.mef.gov.it/schema/definizioneTipiSemplici.xsd" schemaLocation="definizioneTipiSemplici.xsd"/>
+	<xs:element name="cud">
+		<xs:annotation>
+			<xs:documentation>Elenco dei cud da elaborare/trasformare</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="cud" type="CudType" minOccurs="1" maxOccurs="10000"/>
+			</xs:sequence>
+			<xs:attribute name="codice_sistema_emittente" type="xs:string" use="required"/>
+			<xs:attribute name="data_produzione" type="xs:dateTime" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<!-- Parte da inserire su un file xsd separato -->
+	<xs:complexType name="CudType">
+		<xs:sequence>
+			<!-- TESTATA -->
+			<xs:element name="testata">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="rata" type="dts:RATA_TYPE"/>
+						<xs:element name="descr_rata" type="xs:string"/>
+						<xs:element name="barcode" type="xs:string" minOccurs="0"/>
+						<xs:element name="anagrafica" type="dts:AnagraficaType"/>
+						<xs:element name="ente_app">
+							<xs:complexType>
+								<xs:sequence>
+									<!-- Dati Ente -->
+									<xs:element name="cod_ente" type="xs:string"/>
+									<xs:element name="des_ente" type="xs:string"/>
+									<xs:element name="cod_fisc_ente" type="xs:string" minOccurs="0"/>
+									<!-- Dati Ufficio responsabile  -->
+									<xs:element name="cod_uff_resp" type="xs:string" minOccurs="0"/>
+									<xs:element name="des_uff_resp" type="xs:string" minOccurs="0"/>
+									<!-- Dati Ufficio / Sede Servizio  -->
+									<xs:element name="cod_sede_uff_servizio" type="xs:string" minOccurs="0"/>
+									<xs:element name="des_sede_uff_servizio" type="xs:string" minOccurs="0"/>
+									<!-- Dati UO  -->
+									<xs:element name="cod_unita_organizzativa" type="xs:string" minOccurs="0"/>
+									<xs:element name="des_unita_organizzativa" type="xs:string" minOccurs="0"/>
+									<!-- Dati CC  -->
+									<xs:element name="cod_centro_costo" type="xs:string" minOccurs="0"/>
+									<xs:element name="des_centro_costo" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="ID_cedolino" type="xs:string" use="required"/>
+					<xs:attribute name="lingua" type="dts:LINGUA_TYPE" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		<!-- DATI GENERALI -->
+			<xs:element name="dati_generali">
+				<xs:complexType>
+					<xs:sequence>
+					
+						<xs:element name="dpt" type="xs:string"/>
+						<xs:element name="R1" type="xs:string" minOccurs="0" />
+						<xs:element name="R2" type="xs:string"/>
+						<xs:element name="ufficio_servizio" type="xs:string"/>
+						<xs:element name="iscrizione" type="dts:MatricolaType"/>
+						<xs:element name="sede_MAE" type="xs:string" minOccurs="0"/>
+						<xs:element name="des_MAE" type="xs:string"  minOccurs="0"/>
+						<xs:element name="barcode" type="xs:string" minOccurs="0"/>
+						
+						<!-- DATORE DI LAVORO -->
+						<xs:element name="datore_lavoro">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="des_ente" type="xs:string"/>
+									<xs:element name="cod_fisc_ente" type="xs:string"/>
+									<xs:element name="indirizzo_ente" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+						<!-- ANAGRAFICA DIPENDENTE -->
+						<xs:element name="anagrafica_dipendente">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="anagrafica" type="dts:AnagraficaType"/>
+									<xs:element name="sesso" type="dts:SESSO_TYPE" minOccurs="0"/>
+									<xs:element name="comune_nascita" type="xs:string" minOccurs="0"/>
+									<xs:element name="sigla_prov_nascita" type="dts:PROVINCIA_TYPE" minOccurs="0"/>
+									<xs:element name="eventi_eccezionali" type="xs:string" minOccurs="0"/>
+									<xs:element name="dom_fisc_AP" type="dts:DomicilioFiscale" minOccurs="0"/>
+									<xs:element name="dom_fisc_AA" type="dts:DomicilioFiscale" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+			<!-- DATI FISCALI -->
+			<xs:element name="dati_fiscali">
+				<xs:complexType>
+					<xs:sequence>
+						
+						<!-- REDDITI -->
+						<xs:element name="redditi">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="redditi_lav_dipendente" type="xs:string" minOccurs="0"/>
+									<xs:element name="flag_deter_indeter" type="xs:string" minOccurs="0"/>
+									<xs:element name="altri_redditi" type="xs:string" minOccurs="0"/>
+									<xs:element name="giorni_detr_lav_dip" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+						<!-- RITENUTE -->
+						<xs:element name="ritenute">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="riten_IRPEF_sopese" type="xs:string" minOccurs="0"/>
+									<xs:element name="riten_IRPEF" type="xs:string" minOccurs="0"/>
+									<xs:element name="add_reg_IRPEF" type="xs:string" minOccurs="0"/>
+									<xs:element name="add_com_Irpef_AccontoAP" type="xs:string" minOccurs="0"/>
+									<xs:element name="add_com_Irpef_SaldoAP" type="xs:string" minOccurs="0"/>
+									<xs:element name="add_com_Irpef_AccontoAA" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+						<!-- ACCONTI -->
+						<xs:element name="acconti">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="accontiAP_dichiarante" type="dts:AccontiAP" minOccurs="0"/>
+									<xs:element name="accontiAP_coniuge" type="dts:AccontiAP" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+						<!-- DETRAZIONI E CREDITI -->
+						<xs:element name="detrazioni_crediti">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="imposta_lorda" type="xs:string" minOccurs="0"/>
+									<xs:element name="detr_carichi_famiglia" type="xs:string" minOccurs="0"/>
+									<xs:element name="detr_fam_numerose" type="xs:string" minOccurs="0"/>
+									<xs:element name="cred_nonric_fam_numerose" type="xs:string" minOccurs="0"/>
+									<xs:element name="detr_lav_dip." type="xs:string" minOccurs="0"/>
+									<xs:element name="detr_canoni_locazione" type="xs:string" minOccurs="0"/>
+									<xs:element name="credito_nonric_canoni_loc" type="xs:string" minOccurs="0"/>
+									<xs:element name="tot_detrazioni" type="xs:string" minOccurs="0"/>
+									
+									<xs:element name="bonus_IRPEF">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="cod_bonus" type="xs:string" minOccurs="0"/>
+												<xs:element name="bonus_erogato" type="xs:string" minOccurs="0"/>
+												<xs:element name="bonus_non_erogato" type="xs:string" minOccurs="0"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>	
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+						<!-- PREVIDENZA COMPLEMENTARE -->
+						<xs:element name="previdenza_complementare">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="previdenza_comp" type="xs:string" minOccurs="0"/>
+									<xs:element name="contrib_previdenza_comp" type="xs:string" minOccurs="0"/>
+									<xs:element name="contrib_prevComp_nonDedotti" type="xs:string" minOccurs="0"/>
+									<xs:element name="TFR_destinato_fondo" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+						<!-- ONERI DEDUCIBILI -->
+						<xs:element name="oneri_deducibili">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="tot_oneri_esclusi_red" type="xs:string" minOccurs="0"/>
+									<xs:element name="contrib_enti_fini_assistenziali" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+						<!-- ALTRI DATI -->
+						<xs:element name="altri_dati">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="IRPEF_daTrattenere" type="xs:string" minOccurs="0"/>
+									<xs:element name="IRPEF_daVersare" type="xs:string" minOccurs="0"/>
+									<xs:element name="maggiore_ritenuta" type="xs:string" minOccurs="0"/>
+									<xs:element name="casi_particolari" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+			<!-- TASSAZIONE SEPARATA -->
+			<xs:element name="tassazione_separata">
+				<xs:complexType>
+					<xs:sequence>
+						
+						<!-- COMPENSI ANNI PRECEDENTI -->
+						<xs:element name="compensi_anni_precedenti">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="tot_comp_arretrati" type="xs:string" minOccurs="0"/>
+									<xs:element name="tot_ritenute_operate_sospese" type="xs:string" minOccurs="0"/>
+									<xs:element name="tot_ritenute_operate" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+						<!-- TRATTAMENTO DI FINE RAPPORTO -->
+						<xs:element name="TFR">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="ind_acc_erogate" type="xs:string" minOccurs="0"/>
+									<xs:element name="acconti_AP" type="xs:string" minOccurs="0"/>
+									<xs:element name="detrazione" type="xs:string" minOccurs="0"/>
+									<xs:element name="ritenuta_operata" type="xs:string" minOccurs="0"/>
+									<xs:element name="filler1" type="xs:string" minOccurs="0"/>
+									<xs:element name="filler2" type="xs:string" minOccurs="0"/>
+									<xs:element name="ritenute_operate_AP" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+
+			<!-- CONIUGE E FAMILIARI A CARICO -->
+			<xs:element name="dettaglio_coniuge_familiari">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="coniuge_familiari" type="dts:ConiugeFamiliariCaricoType" minOccurs="0" maxOccurs="unbounded" />
+						<xs:element name="detr_fam_numerose" type="xs:string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+			<!-- DATI PREVIDENZIALI -->
+			<xs:element name="dati_previdenziali">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="matricola_azienda" type="xs:string" minOccurs="0"/>
+						<xs:element name="des_INPS" type="xs:string" minOccurs="0"/>
+						<xs:element name="altro" type="xs:string" minOccurs="0"/>
+						<xs:element name="imponibile_prev" type="xs:string" minOccurs="0"/>
+						<xs:element name="contrib_carico_lavTrattenuti" type="xs:string" minOccurs="0"/>
+						
+						<!-- INPS -->
+						<xs:element name="INPS">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="uniemens_subordinati" type="dts:DenunciaUniemens" minOccurs="0"/>
+									<xs:element name="uniemens_collaboratori" type="dts:DenunciaUniemens" minOccurs="0"/>
+									<xs:element name="comp_corrisposti" type="xs:string" minOccurs="0"/>
+									<xs:element name="comp_dovuti" type="xs:string" minOccurs="0"/>
+									<xs:element name="contrib_trattenuti" type="xs:string" minOccurs="0"/>
+									<xs:element name="contrib_versati" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+						<!-- EX INPDAP -->
+						<xs:element name="INPDAP">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="CF_amministrazione" type="xs:string" minOccurs="0"/>
+									<xs:element name="cod_id_SPT" type="xs:string" minOccurs="0"/>
+									<xs:element name="pens" type="xs:string" minOccurs="0"/>
+									<xs:element name="prev" type="xs:string" minOccurs="0"/>
+									<xs:element name="cred" type="xs:string" minOccurs="0"/>
+									<xs:element name="enpdep" type="xs:string" minOccurs="0"/>
+									<xs:element name="anno_rif" type="xs:string" minOccurs="0"/>
+									<xs:element name="totali_pensionistici" type="dts:TotaliINPDAP" minOccurs="0"/>
+									<xs:element name="totali_TFS" type="dts:TotaliINPDAP" minOccurs="0"/>
+									<xs:element name="totali_TFR" type="dts:TotaliINPDAP" minOccurs="0"/>
+									<xs:element name="tot_gestione_credito" type="dts:TotaliINPDAP" minOccurs="0"/>
+									<xs:element name="totali_ENPDEP" type="dts:TotaliINPDAP" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+			<!-- CERTIFICAZIONE LAVORO -->
+			<xs:element name="certificazione_lavoro">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="tipologia_reddituale" type="xs:string" minOccurs="0"/>
+						
+						<xs:element name="dati_certificazione">
+								<xs:complexType>
+										<xs:sequence>
+											<xs:element name="ammontare_lordo" type="xs:string" minOccurs="0"/>
+											<xs:element name="imponibile" type="xs:string" minOccurs="0"/>
+											<xs:element name="ritenute_tit_acconto" type="xs:string" minOccurs="0"/>
+										</xs:sequence>
+								</xs:complexType>
+						</xs:element>	
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+			<!-- ANNOTAZIONI -->
+			<xs:element name="testo_annotazioni">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="annotazione" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+			<!-- FIRMA -->
+			<xs:element name="firma">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="data" type="xs:string" minOccurs="0"/>
+						<xs:element name="firma_datore_lavoro" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+			<!-- SEZIONE 5/8X1000 -->
+			<xs:element name="sez_destinazione">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="cod_fiscale_ente" type="xs:string" minOccurs="0"/>
+						<xs:element name="anagrafica" type="dts:AnagraficaType"/>
+						<xs:element name="sesso" type="dts:SESSO_TYPE" minOccurs="0"/>
+						<xs:element name="comune_residenza" type="xs:string" minOccurs="0"/>
+						<xs:element name="provincia_residenza" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

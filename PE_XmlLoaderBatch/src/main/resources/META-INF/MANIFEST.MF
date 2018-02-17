@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: org.springframework.batch.core.launch.support.CommandLineJobRunner
+Class-Path: ${oracle.driver.path}/ojdbc14.jar ./lib/#{nomeProgetto}/com.springsource.org.aopalliance-1.0.0.jar ./lib/#{nomeProgetto}/com.springsource.org.apache.log4j-1.2.15.jar ./lib/#{nomeProgetto}/commons-logging-1.1.1.jar ./lib/#{nomeProgetto}/org.springframework.aop-2.5.6.A.jar ./lib/#{nomeProgetto}/spring-batch-core-2.1.8.RELEASE.jar ./lib/#{nomeProgetto}/spring-batch-infrastructure-2.1.8.RELEASE.jar ./lib/#{nomeProgetto}/spring-beans-2.5.6.jar ./lib/#{nomeProgetto}/spring-context-2.5.6.jar ./lib/#{nomeProgetto}/spring-core-2.5.6.jar ./lib/#{nomeProgetto}/spring-tx-2.5.6.jar

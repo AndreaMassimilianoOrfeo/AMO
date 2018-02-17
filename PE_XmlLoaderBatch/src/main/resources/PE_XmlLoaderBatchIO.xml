@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:batch="http://www.springframework.org/schema/batch"
+  xsi:schemaLocation="http://www.springframework.org/schema/batch
+    classpath:/org/springframework/batch/core/configuration/xml/spring-batch-3.0.xsd
+    http://www.springframework.org/schema/beans
+    classpath:/org/springframework/beans/factory/xml/spring-beans-4.1.xsd ">
+
+
+     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_FALLBACK"/>
+		<property name="locations">
+			<list>
+				<value>PE_XmlLoaderBatch.properties</value>
+			</list>
+		</property>
+		<property name="searchSystemEnvironment" value="true"/>
+	</bean>
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${batch.jdbc.driver}" />
+		<property name="url" value="${batch.jdbc.url}" />
+		<property name="username" value="${batch.jdbc.user}" />
+		<property name="password" value="${batch.jdbc.password}" />
+	</bean>
+
+	<bean id="dataSourcePemonitoraggio" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${batch.pemonitoraggio.jdbc.driver}" />
+		<property name="url" value="${batch.pemonitoraggio.jdbc.url}" />
+		<property name="username" value="${batch.pemonitoraggio.jdbc.user}" />
+		<property name="password" value="${batch.pemonitoraggio.jdbc.password}" />
+	</bean>
+
+	<bean id="dataSourceUcedolino" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${batch.ucedolino.jdbc.driver}" />
+		<property name="url" value="${batch.ucedolino.jdbc.url}" />
+		<property name="username" value="${batch.ucedolino.jdbc.user}" />
+		<property name="password" value="${batch.ucedolino.jdbc.password}" />
+	</bean>
+
+	<!-- 
+	<bean id="searchClientServiceImpl" class="it.gov.mef.noipa.postemissione.elasticsearch.client.SearchClientServiceImpl" >
+		<constructor-arg>
+              <bean class="it.gov.mef.noipa.postemissione.elasticsearch.util.ElasticSearchConfiguration" >
+				<property name="ips" value="${batch.pemonitoraggio.elasticsearch.ips}" />
+				<property name="port" value="${batch.pemonitoraggio.elasticsearch.port}" />
+				<property name="clustername" value="${batch.pemonitoraggio.elasticsearch.clustername}" />
+			</bean>
+         </constructor-arg>
+	</bean>
+
+	<bean id="searchClientServiceStorico" class="it.gov.mef.noipa.postemissione.elasticsearch.client.SearchClientServiceImpl" >
+		<constructor-arg>
+              <bean class="it.gov.mef.noipa.postemissione.elasticsearch.util.ElasticSearchConfiguration" >
+				<property name="ips" value="${batch.pemonitoraggio.elasticsearch.storico.ips}" />
+				<property name="port" value="${batch.pemonitoraggio.elasticsearch.storico.port}" />
+				<property name="clustername" value="${batch.pemonitoraggio.elasticsearch.storico.clustername}" />
+			</bean>
+         </constructor-arg>
+	</bean>
+ -->
+
+</beans>
