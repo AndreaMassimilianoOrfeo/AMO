@@ -37,7 +37,7 @@ public class DepconConverterService {
 				String cud = cuds[iCud];
 				logger.info("******************* CUD NUMERO ["+(iCud+1)+"]****************************************");
 				
-				String [] pagineCud = DepconCUfUtil.getPagineCud(cud);
+				String [] pagineCud = DepconCUfUtil.getPagineCud(cud,DepconCUfUtil.DELIMITER_PAGINA_SECONDA_I_ESCAPE);
 				logger.info("******************* PAGINE CU ["+pagineCud.length+"] ****************************************");
 				for(int i = 0 , j = pagineCud.length ; i < j ; i ++ ){
 					logger.info("******************* PAGINA NUMERO ["+(i+1)+"]****************************************");

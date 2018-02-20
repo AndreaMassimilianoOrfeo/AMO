@@ -17,6 +17,7 @@
 	<root>
 		<priority value="DEBUG" />
 		<appender-ref ref="logPE_DepconConverterBatch" />
+		<appender-ref ref="ConsoleAppender" />
 	</root>
  
 </log4j:configuration>

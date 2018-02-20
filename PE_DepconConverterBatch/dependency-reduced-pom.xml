@@ -32,7 +32,7 @@
             <argument>output.dir=C:/NoiPA/POSTEMISSIONE/postemissione_file/cedolinoxml/daelaborare</argument>
             <argument>bck.dir=C:/NoiPA/POSTEMISSIONE/postemissione_file/depcon/elaborati</argument>
             <argument>rataemissione=201501</argument>
-            <argument>progemissione=22</argument>
+            <argument>progemissione=28</argument>
             <argument>flag.validarexml=s</argument>
           </arguments>
           <systemProperties>

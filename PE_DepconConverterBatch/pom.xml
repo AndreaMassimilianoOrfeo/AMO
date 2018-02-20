@@ -178,7 +178,7 @@
 						<argument>output.dir=C:/NoiPA/POSTEMISSIONE/postemissione_file/cedolinoxml/daelaborare</argument>
 						<argument>bck.dir=C:/NoiPA/POSTEMISSIONE/postemissione_file/depcon/elaborati</argument>						 
 						<argument>rataemissione=201501</argument>
-						<argument>progemissione=26</argument>
+						<argument>progemissione=31</argument>
 						<argument>flag.validarexml=s</argument>
 						<!--<argument>param.count.test=${timestamp}</argument> -->
 					</arguments>

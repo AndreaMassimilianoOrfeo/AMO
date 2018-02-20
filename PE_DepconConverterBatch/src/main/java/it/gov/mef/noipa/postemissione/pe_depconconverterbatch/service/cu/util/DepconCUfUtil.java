@@ -25,8 +25,20 @@ public class DepconCUfUtil {
 	private static Logger logger = Logger.getLogger(DepconCUfUtil.class);
 	public static final int PRIMA_PAGINA = 1 ;
 	public static final int SECONDA_PAGINA = 2 ;
-	public static final String DELIMITER_PAGINA_PRIMA = "\\$CUD1\\$" ;
-	public static final String DELIMITER_PAGINA_SECONDA = "\\$CUD2\\$" ;
+	
+	public static final String DELIMITER_PAGINA_PRIMA_I_ESCAPE = "\\$CUD1\\$" ;
+	public static final String DELIMITER_PAGINA_SECONDA_I_ESCAPE = "\\$CUD2\\$" ;
+	public static final String DELIMITER_PAGINA_PRIMA_T_ESCAPE = "\\$CUT1\\$" ;
+	public static final String DELIMITER_PAGINA_SECONDA_T_ESCAPE = "\\$CUT2\\$" ;
+	
+	public static final String ITALIANO = "i" ;
+	public static final String TEDESCO = "t" ;
+
+	public static final String DELIMITER_PAGINA_PRIMA_I = "$CUD1$" ;
+	public static final String DELIMITER_PAGINA_SECONDA_I = "$CUD2$" ;
+	public static final String DELIMITER_PAGINA_PRIMA_T = "$CUT1$" ;
+	public static final String DELIMITER_PAGINA_SECONDA_T = "$CUT2$" ;
+	
 	
 	/**
 	 * 
@@ -36,19 +48,16 @@ public class DepconCUfUtil {
 	 */
 	public static String [] getListaCu (String depConFileContent) throws Exception
 	{
-    	String depConFileContentToTokenize = depConFileContent.replaceFirst(DELIMITER_PAGINA_PRIMA, "");
-		return depConFileContentToTokenize.split(DELIMITER_PAGINA_PRIMA);
+    	String depConFileContentToTokenize = depConFileContent.replaceFirst(DELIMITER_PAGINA_PRIMA_I_ESCAPE, "");
+		return depConFileContentToTokenize.split(DELIMITER_PAGINA_PRIMA_I_ESCAPE);
 	}
 	
 	/**
-	 * Restituisce la prima o la seconda pagina in funzione del numeroPagina in input , partendo dalla riga ( intera cu )
-	 * @param numeroPagina
-	 * @param rigaCu
-	 * @return
+	 * Restituisce le pagine splittando per il separatore di pagine in input 
 	 * @throws Exception
 	 */
-	public static String [] getPagineCud(String rigaCu) throws Exception {
-		return rigaCu.split(DELIMITER_PAGINA_SECONDA);
+	public static String [] getPagineCud(String rigaCu,String regex) throws Exception {
+		return rigaCu.split(regex);
 	}
 
 	/**
@@ -263,6 +272,17 @@ public class DepconCUfUtil {
 			simpleDelimiterRecord = lista.get(0);
 		
 		return simpleDelimiterRecord;
+	}
+	
+	public static String getLinguaBySeparator(String separatorInput) throws Exception {
+		
+		if ( ! DELIMITER_PAGINA_PRIMA_I.equals(separatorInput) && ! DELIMITER_PAGINA_PRIMA_T.equals(separatorInput) )
+			throw new Exception("Tracciato CU invalido , separatori non trovati.");
+		
+		if (DELIMITER_PAGINA_PRIMA_I.equals(separatorInput))
+			return ITALIANO ;
+		else
+			return TEDESCO ;
 	}
 	
 }

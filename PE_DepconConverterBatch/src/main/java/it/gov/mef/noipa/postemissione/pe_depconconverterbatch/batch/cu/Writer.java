@@ -86,8 +86,7 @@ public class Writer implements ItemWriter<Cedolini.Cu> {
 	        URL resourceFile = getClass().getResource("/cu/CU.xsd");
 		    Schema schema = sf.newSchema(resourceFile);
 		        
-		    //marshaller.setSchema(schema);
-		        
+		    marshaller.setSchema(schema);
 		    marshaller.marshal(fileXmlCu, os );        
 		        
 		    } catch (Exception e) {
