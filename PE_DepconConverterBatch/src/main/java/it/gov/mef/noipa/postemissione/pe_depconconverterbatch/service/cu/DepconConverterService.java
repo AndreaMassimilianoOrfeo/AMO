@@ -14,8 +14,10 @@ import it.gov.mef.noipa.postemissione.pe_depconconverterbatch.bean.cu.CudPrimaPa
 import it.gov.mef.noipa.postemissione.pe_depconconverterbatch.bean.cu.CudSecondaPagina;
 import it.gov.mef.noipa.postemissione.pe_depconconverterbatch.bean.cu.CudSecondaPaginaWrapper;
 import it.gov.mef.noipa.postemissione.pe_depconconverterbatch.bean.cu.DepconCudWrapper;
+import it.gov.mef.noipa.postemissione.pe_depconconverterbatch.bean.cu.multilingua.DepconCudMultiLinguaWrapper;
 import it.gov.mef.noipa.postemissione.pe_depconconverterbatch.serice.cu.validation.DepconCuValidator;
 import it.gov.mef.noipa.postemissione.pe_depconconverterbatch.service.cu.util.DepconCUfUtil;
+import it.gov.mef.noipa.postemissione.pe_depconconverterbatch.service.cu.util.DepconMultiLinguaCUUtil;
 import it.gov.mef.noipa.postemissione.pe_depconconverterbatch.service.cu.util.FileUtil;
 
 @Service
@@ -37,7 +39,7 @@ public class DepconConverterService {
 				String cud = cuds[iCud];
 				logger.info("******************* CUD NUMERO ["+(iCud+1)+"]****************************************");
 				
-				String [] pagineCud = DepconCUfUtil.getPagineCud(cud,DepconCUfUtil.DELIMITER_PAGINA_SECONDA_I_ESCAPE);
+				String [] pagineCud = DepconCUfUtil.getPagineCud(cud);
 				logger.info("******************* PAGINE CU ["+pagineCud.length+"] ****************************************");
 				for(int i = 0 , j = pagineCud.length ; i < j ; i ++ ){
 					logger.info("******************* PAGINA NUMERO ["+(i+1)+"]****************************************");
@@ -118,4 +120,79 @@ public class DepconConverterService {
 		}
 		return listaCu;
 	}
+	
+	public List<DepconCudMultiLinguaWrapper> convertCudDepconMultilingua ( Resource resource ) throws Exception{
+		List <DepconCudMultiLinguaWrapper> listaCu = new ArrayList<DepconCudMultiLinguaWrapper>();
+		try {
+			
+			//DepconCudMultiLinguaWrapper depconCudMultiLinguaWrapper = new DepconCudMultiLinguaWrapper();
+						
+			String depConFileContent = FileUtil.readFileByName(resource.getFile().getPath());
+			String [] cuds = DepconMultiLinguaCUUtil.getListaCu(depConFileContent);
+			
+			int numeroCuIta = cuds.length;
+			int numeroCuITe = 0;
+			
+			for (int iCud = 0 , jCud = cuds.length ; iCud <jCud ; iCud++) {
+				String cud = cuds[iCud];
+				logger.info("******************* CUD NUMERO ["+(iCud+1)+"]****************************************");
+				String [] pagineCud = DepconMultiLinguaCUUtil.getPagineCud(cud,DepconMultiLinguaCUUtil.DELIMITER_PAGINA_SECONDA_I_ESCAPE);
+				logger.info("******************* PAGINE CU ["+pagineCud.length+"] ****************************************");
+				for(int i = 0 , j = pagineCud.length ; i < j ; i ++ ){
+					logger.info("******************* PAGINA NUMERO ["+(i+1)+"]****************************************");
+					if (i==0) // caso prima pagina
+					{
+						String primaPaginaCud = pagineCud[0].replaceAll("\\n", "");
+						logger.debug("primaPaginaCud len["+primaPaginaCud.length()+"]");
+						logger.info("primaPaginaCud :\n"+primaPaginaCud);
+					}
+					else
+					{
+						String secondaPaginaCud = pagineCud[i].replaceAll("\\n", "");
+						logger.debug("secondaPaginaCud len["+secondaPaginaCud.length()+"]");
+						logger.info("secondaPaginaCud :\n"+secondaPaginaCud);
+						
+						// se nella seconda pagina si presenetano istanze di $CUT1$ vuol dire che esiste una cu in lingua tedesca
+						if (secondaPaginaCud.contains(DepconMultiLinguaCUUtil.DELIMITER_PAGINA_PRIMA_T))
+						{
+							numeroCuITe++;
+							logger.debug("trovata cu tedesca");
+							int startIndexCuTedesca = secondaPaginaCud.indexOf(DepconMultiLinguaCUUtil.DELIMITER_PAGINA_PRIMA_T);
+							logger.debug("startIndexCuTedesca :\n"+startIndexCuTedesca);
+							String cuTedesca = secondaPaginaCud.substring(startIndexCuTedesca, secondaPaginaCud.length());
+							cuTedesca = cuTedesca.replaceFirst(DepconMultiLinguaCUUtil.DELIMITER_PAGINA_PRIMA_T_ESCAPE, "");
+							logger.debug("cuTedesca :\n"+cuTedesca);
+							String [] pagineCuTedesco =  cuTedesca.split(DepconMultiLinguaCUUtil.DELIMITER_PAGINA_SECONDA_T_ESCAPE);
+							String primaPaginaCuTedesco = pagineCuTedesco[1];
+							String secondaPaginaCuTedesco = pagineCuTedesco[0];
+							logger.info("primaPaginaCuTedesco :\n"+primaPaginaCuTedesco);
+							logger.debug("primaPaginaCuTedesco len["+primaPaginaCuTedesco.length()+"]");
+							logger.info("secondaPaginaCuTedesco :\n"+secondaPaginaCuTedesco);
+							logger.debug("secondaPaginaCuTedesco len["+secondaPaginaCuTedesco.length()+"]");
+						}
+						
+						// una sola occorrenza di seconda pagina
+						if (secondaPaginaCud.contains("$5X1"))
+						{	
+							int totalLen = secondaPaginaCud.length();
+							String totalRecordToSplit = new String(secondaPaginaCud);
+							int indexOf5X1 = totalRecordToSplit.indexOf("$5X1");
+							secondaPaginaCud = totalRecordToSplit.substring(0, indexOf5X1);
+							String cudFooter = totalRecordToSplit.substring(indexOf5X1, totalLen);
+							logger.info("cudFooter :\n"+cudFooter);
+							logger.debug("cudFooter len["+cudFooter.length()+"]");
+						}
+					}
+				}
+			}
+			logger.info("convertCudDepcon numeroCuIta presenti :"+numeroCuIta);
+			logger.info("convertCudDepcon numeroCuITe presenti :"+numeroCuITe);
+		}
+		catch (Exception e) {
+			logger.fatal(e.getMessage(), e);
+			throw e;
+		}
+		return listaCu;
+	}
+	
 }
